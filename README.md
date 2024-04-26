@@ -41,20 +41,20 @@ sudo ./setup.sh
 ### Table of contents
 
 - [All tools and settings made](#all-tools-and-settings-made)
-  - [Packages installed](#packages-installed)
-  - [AUR packages installed](#aur-packages-installed)
-  - [PIPX packages installed](#pipx-packages-installed)
-  - [Configuration](#configuration)
-    - [Dual monitor setups and their arrangements](#dual-monitor-setups-and-their-arrangements)
-    - [Change pacman configurations](#change-pacman-configurations)
-    - [Installing YAY](#installing-yay)
-    - [Shell configurations](#shell-configurations)
-    - [Configure spaceships prompt theme](#configure-spaceships-prompt-theme)
-    - [Configure aliases](#configure-aliases)
-    - [Configure ASDF](#configure-asdf)
-    - [Configure GIT](#configure-git)
-    - [Configure Cloudflare DNS](#configure-cloudflare-dns)
-    - [Make directories needed](#make-directories-needed)
+    - [Packages installed](#packages-installed)
+    - [AUR packages installed](#aur-packages-installed)
+    - [PIPX packages installed](#pipx-packages-installed)
+    - [Configuration](#configuration)
+        - [Dual monitor setups and their arrangements](#dual-monitor-setups-and-their-arrangements)
+        - [Change pacman configurations](#change-pacman-configurations)
+        - [Installing YAY](#installing-yay)
+        - [Shell configurations](#shell-configurations)
+        - [Configure spaceships prompt theme](#configure-spaceships-prompt-theme)
+        - [Configure aliases](#configure-aliases)
+        - [Configure ASDF](#configure-asdf)
+        - [Configure GIT](#configure-git)
+        - [Configure Cloudflare DNS](#configure-cloudflare-dns)
+        - [Make directories needed](#make-directories-needed)
 
 ## All tools and settings made
 
@@ -103,6 +103,7 @@ sudo ./setup.sh
 | `jq`                             | Command-line JSON processor                                                             |
 | `jupyter-notebook`               | Web-based interactive computing                                                         |
 | `keepassxc`                      | Password manager                                                                        |
+| `knockd`                         | Port-knock server                                                                       |
 | `libreoffice-still`              | Office suite                                                                            |
 | `mesa-demos`                     | Mesa demos and tools                                                                    |
 | `mesa-utils`                     | Mesa utilities                                                                          |
@@ -325,10 +326,10 @@ alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /
 #### Configure ASDF:
 
 - `python`
-  - 3.11.9
-  - 3.12.3
+    - 3.11.9
+    - 3.12.3
 - `nodejs`
-  - latest
+    - latest
 
 #### Configure GIT:
 

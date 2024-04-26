@@ -45,6 +45,7 @@ EXTRAS=(
 	jq                             # Command-line JSON processor
 	jupyter-notebook               # Jupyter Notebook
 	keepassxc                      # Gerenciador de senhas
+	knockd                         # Port-knock server
 	libreoffice-still              # Suíte de escritório
 	mesa-demos                     # Mesa demos
 	mesa-utils                     # Mesa utilities
