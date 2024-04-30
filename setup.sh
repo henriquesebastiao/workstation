@@ -10,6 +10,7 @@
 CORE=(
 	base-devel # Basic tools to build Arch Linux packages
 	dosfstools # Utilitários para sistema de arquivos FAT
+	inetutils  # Utilitários de rede GNU (Telnet)
 	net-tools  # Ferramentas de rede
 	traceroute # Ferramenta para rastrear a rota de pacotes IP
 )
@@ -52,6 +53,7 @@ EXTRAS=(
 	ncdu                           # Utilitário para análise de uso de disco
 	neofetch                       # Exibe informações do sistema
 	network-manager-applet         # Applet para gerenciar conexões de rede
+	networkmanager-l2tp            # NetworkManager L2TP VPN plugin
 	nodejs                         # JavaScript runtime
 	noto-fonts                     # Noto TTF fonts
 	noto-fonts-extra               # Noto TTF fonts
