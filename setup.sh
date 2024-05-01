@@ -34,6 +34,7 @@ EXTRAS=(
 	firefox-dark-reader            # Extensão para modo escuro
 	flameshot                      # Ferramenta de captura de tela
 	fwupd                          # Simple daemon to allow session software to update firmware
+	gimp                           # Editor de imagens bitmap
 	git                            # Sistema de controle de versão
 	github-cli                     # GitHub CLI
 	gnome-browser-connector        # Browser integration for GNOME Shell
@@ -516,6 +517,7 @@ fi
 ## Configurando GIT
 git config --global user.name "Henrique Sebastião"
 git config --global user.email "contato@henriquesebastiao.com"
+git config --global core.editor "nano"
 git config --global init.defaultBranch main
 
 ## Configurando Reflector
