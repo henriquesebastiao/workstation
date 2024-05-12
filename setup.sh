@@ -69,6 +69,7 @@ EXTRAS=(
 	python-poetry                  # Gerenciador de dependências Python
 	qbittorrent                    # Cliente BitTorrent
 	reflector                      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+	ruby                           # Ruby
 	rust                           # Rust programming language
 	spyder                         # IDE científica para Python
 	shfmt                          # Format shell programs
@@ -110,15 +111,14 @@ AUR=(
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
+	jetbrains-toolbox               # Ferramenta para instalar e atualizar IDEs da JetBrains
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
 	postman-bin                     # Ferramenta para testar APIs
 	proton-vpn-gtk-app              # Cliente VPN
-	pycharm-professional            # PyCharm Professional IDE
 	stellarium-bin                  # Planetário
 	sublime-text-4                  # Sublime Text
 	torcheck                        # Verifica se está conectado à rede Tor
 	visual-studio-code-bin          # Visual Studio Code IDE
-	webstorm                        # WebStorm IDE
 	winbox                          # Ferramenta para gerenciar roteadores MikroTik
 	zoom
 )
@@ -128,6 +128,7 @@ FLATPAK=(
 	com.mardojai.ForgeSparks         # Notificador com suporte ao GitHub
 	com.github.ADBeveridge.Raider    # Ferramenta para exclusão segura de arquivos
 	com.github.finefindus.eyedropper # Color picker
+	com.rafaelmardojai.SharePreview  # Pre-visulização de imagens de compartilhamento de links
 	dev.bragefuglseth.Fretboard      # Acordes de violão
 	dev.geopjr.Collision             # Check hashes for your files.
 	fr.romainvigier.MetadataCleaner  # Limpeza de metadados de arquivos
