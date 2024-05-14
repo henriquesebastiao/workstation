@@ -89,6 +89,7 @@ EXTRAS=(
 	virtualbox-host-modules-arch   # VirtualBox Host kernel modules for Arch Linux
 	virtualbox                     # VirtualBox
 	vlc                            # Reprodutor de mídia
+	vpl-gpu-rt                     # VPL GPU Ray Tracing
 	wget                           # Ferramenta para baixar arquivos da internet
 	wireshark-qt                   # Analisador de protocolos de rede
 	xorg-xkill                     # Kill a client by its X resource
@@ -113,6 +114,7 @@ AUR=(
 	google-earth-pro                # Google Earth
 	jetbrains-toolbox               # Ferramenta para instalar e atualizar IDEs da JetBrains
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
+	obs-gstreamer                   # Plugin para OBS Studio
 	postman-bin                     # Ferramenta para testar APIs
 	proton-vpn-gtk-app              # Cliente VPN
 	stellarium-bin                  # Planetário
