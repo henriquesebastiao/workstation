@@ -76,6 +76,7 @@ EXTRAS=(
 	signal-desktop                 # Signal
 	speedtest-cli                  # Teste de velocidade da internet
 	spotify-launcher               # Spotify
+	supercollider                  # Plataforma de síntese de áudio em tempo real
 	syncthing                      # Sincronização de arquivos em rede local
 	thunderbird                    # Cliente de e-mail
 	tk                             # A windowing toolkit for use with tcl
