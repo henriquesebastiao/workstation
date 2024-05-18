@@ -41,6 +41,7 @@ EXTRAS=(
 	gnome-shell-extension-caffeine # Desativa o modo de suspensão
 	gnome-terminal                 # Terminal
 	gparted                        # Gerenciador de partições
+	hackrf                         # Driver for HackRF, allowing general purpose software defined radio (SDR).
 	htop                           # Monitor de recursos
 	inkscape                       # Editor de gráficos vetoriais
 	ipython                        # Shell interativo para Python
@@ -71,6 +72,7 @@ EXTRAS=(
 	reflector                      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 	ruby                           # Ruby
 	rust                           # Rust programming language
+	rtl-sdr                        # Driver for Realtek RTL2832U, allowing general purpose software defined radio (SDR)
 	spyder                         # IDE científica para Python
 	shfmt                          # Format shell programs
 	signal-desktop                 # Signal
@@ -118,6 +120,7 @@ AUR=(
 	obs-gstreamer                   # Plugin para OBS Studio
 	postman-bin                     # Ferramenta para testar APIs
 	proton-vpn-gtk-app              # Cliente VPN
+	sdrsharp                        # Software Defined Radio
 	stellarium-bin                  # Planetário
 	sublime-text-4                  # Sublime Text
 	torcheck                        # Verifica se está conectado à rede Tor
