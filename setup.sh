@@ -95,6 +95,7 @@ EXTRAS=(
 	ttf-fira-code                # Fonte Fira Code
 	ttf-jetbrains-mono           # Fonte JetBrains Mono
 	ttf-liberation               # Fonte Liberation (recomendado para Steam)
+	virtualbox-guest-iso         # The official VirtualBox Guest Additions ISO
 	virtualbox-host-modules-arch # VirtualBox Host kernel modules for Arch Linux
 	virtualbox                   # VirtualBox
 	vlc                          # Reprodutor de mídia
