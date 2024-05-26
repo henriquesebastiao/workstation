@@ -17,6 +17,7 @@ CORE=(
 
 EXTRAS=(
 	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
+	arduino-cli
 	audacity                       # Editor de áudio
 	awesome-terminal-fonts         # Fontes para o terminal
 	bat                            # Cat clone with syntax highlighting and git integration
@@ -113,8 +114,8 @@ MULTILIB=(
 )
 
 AUR=(
+  arduino-ide-bin                 # Arduino IDE v2
 	anki-bin                        # Aplicativo de flashcards
-	arduino-ide-bin                 # IDE para programação de microcontroladores
 	chromedriver                    # WebDriver for Chrome
 	flyctl-bin                      # Ferramenta para gerenciar deploys Fly.io
 	github-desktop                  # GitHub Desktop
