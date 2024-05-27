@@ -55,6 +55,7 @@ EXTRAS=(
 	keepassxc                    # Gerenciador de senhas
 	knockd                       # Port-knock server
 	libreoffice-still            # Suíte de escritório
+	libreoffice-still-pt-br      # Language pack for LibreOffice (pt-br)
 	mesa-demos                   # Mesa demos
 	mesa-utils                   # Mesa utilities
 	ncdu                         # Utilitário para análise de uso de disco
