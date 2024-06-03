@@ -44,6 +44,7 @@ EXTRAS=(
 	gnome-shell-extension-caffeine # Desativa o modo de suspensão
 	gnome-terminal                 # Terminal
 	gparted                        # Gerenciador de partições
+	gufw                           # Firewall
 	hackrf                         # Driver for HackRF, allowing general purpose software defined radio (SDR).
 	hashcat
 	hcxtools                     # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
@@ -70,6 +71,7 @@ EXTRAS=(
 	onionshare                   # Compartilhamento de arquivos de forma segura pela rede Tor
 	pacman-contrib               # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
 	p7zip                        # Gerenciador de arquivos compactados no formato 7z
+	prettier                     # Code formatter
 	pyenv                        # Python Version Management
 	python-devtools              # Dev tools for Python
 	python-pipx                  # Instalador de pacotes Python globalmente em ambientes virtuais isolados
@@ -87,6 +89,7 @@ EXTRAS=(
 	spotify-launcher             # Spotify
 	supercollider                # Plataforma de síntese de áudio em tempo real
 	syncthing                    # Sincronização de arquivos em rede local
+	telegram-desktop             # Telegram
 	thunderbird                  # Cliente de e-mail
 	tk                           # A windowing toolkit for use with tcl
 	tldr                         # Manual pages with practical examples
@@ -105,6 +108,7 @@ EXTRAS=(
 	wireshark-qt                 # Analisador de protocolos de rede
 	wine-mono                    # Wine Mono .NET support
 	xorg-xkill                   # Kill a client by its X resource
+	x11vnc                       # VNC server for real X displays
 	yarn                         # Fast, reliable, and secure dependency management
 	zsh                          # Shell
 )
