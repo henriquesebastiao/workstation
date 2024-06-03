@@ -16,7 +16,7 @@ CORE=(
 )
 
 EXTRAS=(
-	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
+	aircrack-ng # Ferramenta para testes de segurança em redes Wi-Fi
 	arduino-cli
 	audacity                       # Editor de áudio
 	awesome-terminal-fonts         # Fontes para o terminal
@@ -120,7 +120,7 @@ MULTILIB=(
 )
 
 AUR=(
-  arduino-ide-bin                 # Arduino IDE v2
+	arduino-ide-bin                 # Arduino IDE v2
 	anki-bin                        # Aplicativo de flashcards
 	chromedriver                    # WebDriver for Chrome
 	flyctl-bin                      # Ferramenta para gerenciar deploys Fly.io
@@ -304,6 +304,19 @@ if sudo mv 10-monitors.conf /etc/X11/xorg.conf.d/; then
 else
 	echo -e "${VERMELHO}[ERRO] - Falha ao adicionar configurações dos monitores.${SEM_COR}"
 	log "[ERRO] - Falha ao adicionar configurações dos monitores."
+fi
+
+## Adicionando regras para upload de firmware para dispositivos serial como ESP32
+cat <<EOF >99-usb-serial.rules
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="303a", ATTRS{idProduct}=="1001", GROUP="dialout", MODE="0666"
+EOF
+
+if sudo mv 99-usb-serial.rules /etc/udev/rules.d/; then
+	echo -e "[INFO] - Regras para dispositivos USB-Serial adicionadas."
+	log "[INFO] - Regras para dispositivos USB-Serial adicionadas."
+else
+	echo -e "${VERMELHO}[ERRO] - Falha ao adicionar regras para dispositivos USB-Serial.${SEM_COR}"
+	log "[ERRO] - Falha ao adicionar regras para dispositivos USB-Serial."
 fi
 
 ## Alterando configurações em /etc/pacman.conf
