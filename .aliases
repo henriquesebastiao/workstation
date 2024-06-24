@@ -1,0 +1,48 @@
+# ----------------------------- PIP ----------------------------- #
+
+alias pip-rm-all="pip freeze | xargs pip uninstall -y"
+alias activate="source venv/bin/activate"
+
+# ---------------------------- POETRY -------------------------- #
+
+alias pshell="poetry shell"
+alias pexport="poetry export --with dev --without-hashes --without-urls --output requirements.txt"
+alias pexport-production="poetry export -f requirements.txt --output requirements.txt --without-hashes --without dev"
+
+# ---------------------------- UTILS ---------------------------- #
+
+alias cl="clear"
+alias ls="exa -a"
+alias lt="exa -T"
+
+# ---------------------------- DOCKER --------------------------- #
+# remove all images
+alias dk-rmai="docker rmi $(docker images -a -q)"
+
+# --------------------------- ESPRESSIF ------------------------- #
+
+alias get_idf='. $HOME/esp/esp-idf/export.sh'
+
+# ------------------------- PORTAS SERIAIS ---------------------- #
+
+# Permitir todos os usuários acessarem as portas seriais
+alias serial='sudo chmod a+rw /dev/ttyACM0'
+
+# Listas as portas seriais existentes
+alias lss='ls /dev/ttyA*'
+
+# ---------------------------- SHARED --------------------------- #
+
+# Shred for file
+alias rmm='shred -n 10 -z -u -v'
+# Shred for disk
+alias rmmd='shred -n 2 -z -v'
+
+# -------------------------- IFCONFIG.ME ------------------------ #
+alias ipp='curl ifconfig.me'
+
+# ---------------------------- PACMAN --------------------------- #
+alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
+
+# -------------------------- REFLECTOR -------------------------- #
+alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
