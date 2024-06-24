@@ -11,13 +11,16 @@ CORE=(
 	base-devel # Basic tools to build Arch Linux packages
 	dosfstools # Utilitários para sistema de arquivos FAT
 	inetutils  # Utilitários de rede GNU (Telnet)
+	man-db     # Utilitário para visualizar manual
+	man-pages  # Páginas de manual
 	net-tools  # Ferramentas de rede
 	traceroute # Ferramenta para rastrear a rota de pacotes IP
+	zstd       # Compressor de arquivos (Dependência para compilar SDR++)
 )
 
 EXTRAS=(
-	aircrack-ng # Ferramenta para testes de segurança em redes Wi-Fi
-	arduino-cli
+	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
+	arduino-cli                    # Arduino CLI
 	audacity                       # Editor de áudio
 	awesome-terminal-fonts         # Fontes para o terminal
 	bat                            # Cat clone with syntax highlighting and git integration
@@ -25,12 +28,14 @@ EXTRAS=(
 	bind                           # A complete, highly portable implementation of the DNS protocol
 	blanket                        # Sons da natureza
 	btop                           # Monitor de recursos moderno
+	cmake                          # Ferramenta de compilação
 	dbeaver                        # Ferramenta de gerenciamento de banco de dados
 	discord                        # Discord
 	docker                         # Docker
 	docker-compose                 # Docker Compose
 	eza                            # Ferramenta para listar diretórios e arquivos em forma de árvore
 	esptool                        # Espressif ESP8266 and ESP32 serial bootloader utility
+	fftw                           # Uma biblioteca para calcular a transformada discreta de Fourier (DFT) (Depedência para compilar SDR++)
 	filezilla                      # Cliente FTP
 	firefox                        # Navegador Web
 	firefox-adblock-plus           # Extensão para bloquear anúncios
@@ -40,88 +45,94 @@ EXTRAS=(
 	gimp                           # Editor de imagens bitmap
 	git                            # Sistema de controle de versão
 	github-cli                     # GitHub CLI
+	glfw                           # Biblioteca multiplataforma para OpenGL, OpenGL ES e Vulkan (Depedência para compilar SDR++)
 	gnome-browser-connector        # Browser integration for GNOME Shell
 	gnome-shell-extension-caffeine # Desativa o modo de suspensão
 	gnome-terminal                 # Terminal
 	gparted                        # Gerenciador de partições
 	gufw                           # Firewall
 	hackrf                         # Driver for HackRF, allowing general purpose software defined radio (SDR).
-	hashcat
-	hcxtools                     # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
-	htop                         # Monitor de recursos
-	inkscape                     # Editor de gráficos vetoriais
-	ipython                      # Shell interativo para Python
-	jq                           # Command-line JSON processor
-	jupyter-notebook             # Jupyter Notebook
-	keepassxc                    # Gerenciador de senhas
-	knockd                       # Port-knock server
-	libreoffice-still            # Suíte de escritório
-	libreoffice-still-pt-br      # Language pack for LibreOffice (pt-br)
-	mesa-demos                   # Mesa demos
-	mesa-utils                   # Mesa utilities
-	ncdu                         # Utilitário para análise de uso de disco
-	neofetch                     # Exibe informações do sistema
-	network-manager-applet       # Applet para gerenciar conexões de rede
-	networkmanager-l2tp          # NetworkManager L2TP VPN plugin
-	nodejs                       # JavaScript runtime
-	noto-fonts                   # Noto TTF fonts
-	noto-fonts-extra             # Noto TTF fonts
-	npm                          # Gerenciador de pacotes para JavaScript
-	obs-studio                   # Gravação e streaming de vídeo
-	onionshare                   # Compartilhamento de arquivos de forma segura pela rede Tor
-	pacman-contrib               # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
-	p7zip                        # Gerenciador de arquivos compactados no formato 7z
-	prettier                     # Code formatter
-	pyenv                        # Python Version Management
-	python-devtools              # Dev tools for Python
-	python-pipx                  # Instalador de pacotes Python globalmente em ambientes virtuais isolados
-	python-poetry                # Gerenciador de dependências Python
-	qbittorrent                  # Cliente BitTorrent
-	reflector                    # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-	ruby                         # Ruby
-	rust                         # Rust programming language
-	rtl-sdr                      # Driver for Realtek RTL2832U, allowing general purpose software defined radio (SDR)
-	screen                       # Full-screen window manager that multiplexes a physical terminal
-	spyder                       # IDE científica para Python
-	shfmt                        # Format shell programs
-	signal-desktop               # Signal
-	speedtest-cli                # Teste de velocidade da internet
-	spotify-launcher             # Spotify
-	supercollider                # Plataforma de síntese de áudio em tempo real
-	syncthing                    # Sincronização de arquivos em rede local
-	telegram-desktop             # Telegram
-	thunderbird                  # Cliente de e-mail
-	tk                           # A windowing toolkit for use with tcl
-	tldr                         # Manual pages with practical examples
-	tmux                         # Terminal multiplexer
-	tor                          # Anonymizing overlay network for TCP (The Onion Router)
-	torbrowser-launcher          # Navegador Tor
-	ttf-fira-code                # Fonte Fira Code
-	ttf-jetbrains-mono           # Fonte JetBrains Mono
-	ttf-liberation               # Fonte Liberation (recomendado para Steam)
-	virtualbox-guest-iso         # The official VirtualBox Guest Additions ISO
-	virtualbox-host-modules-arch # VirtualBox Host kernel modules for Arch Linux
-	virtualbox                   # VirtualBox
-	vlc                          # Reprodutor de mídia
-	vpl-gpu-rt                   # VPL GPU Ray Tracing
-	wget                         # Ferramenta para baixar arquivos da internet
-	wireshark-qt                 # Analisador de protocolos de rede
-	wine-mono                    # Wine Mono .NET support
-	xorg-xkill                   # Kill a client by its X resource
-	x11vnc                       # VNC server for real X displays
-	yarn                         # Fast, reliable, and secure dependency management
-	zsh                          # Shell
+	hashcat                        # Advanced password recovery
+	hcxtools                       # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
+	htop                           # Monitor de recursos
+	inkscape                       # Editor de gráficos vetoriais
+	ipython                        # Shell interativo para Python
+	jq                             # Command-line JSON processor
+	jupyter-notebook               # Jupyter Notebook
+	keepassxc                      # Gerenciador de senhas
+	kiwix-desktop                  # Offline Wikipedia reader
+	knockd                         # Port-knock server
+	libreoffice-still              # Suíte de escritório
+	libreoffice-still-pt-br        # Language pack for LibreOffice (pt-br)
+	libvolk                        # Vector Optimized Library of Kernels (Depedência para compilar SDR++)
+	mesa-demos                     # Mesa demos
+	mesa-utils                     # Mesa utilities
+	ncdu                           # Utilitário para análise de uso de disco
+	neofetch                       # Exibe informações do sistema
+	network-manager-applet         # Applet para gerenciar conexões de rede
+	networkmanager-l2tp            # NetworkManager L2TP VPN plugin
+	nodejs                         # JavaScript runtime
+	noto-fonts                     # Noto TTF fonts
+	noto-fonts-extra               # Noto TTF fonts
+	npm                            # Gerenciador de pacotes para JavaScript
+	obs-studio                     # Gravação e streaming de vídeo
+	onionshare                     # Compartilhamento de arquivos de forma segura pela rede Tor
+	pacman-contrib                 # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
+	p7zip                          # Gerenciador de arquivos compactados no formato 7z
+	prettier                       # Code formatter
+	pyenv                          # Python Version Management
+	python-devtools                # Dev tools for Python
+	python-pipx                    # Instalador de pacotes Python globalmente em ambientes virtuais isolados
+	python-poetry                  # Gerenciador de dependências Python
+	qbittorrent                    # Cliente BitTorrent
+	reflector                      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+	ruby                           # Ruby
+	rust                           # Rust programming language
+	rtl-sdr                        # Driver for Realtek RTL2832U, allowing general purpose software defined radio (SDR)
+	screen                         # Full-screen window manager that multiplexes a physical terminal
+	spyder                         # IDE científica para Python
+	shfmt                          # Format shell programs
+	signal-desktop                 # Signal
+	speedtest-cli                  # Teste de velocidade da internet
+	spotify-launcher               # Spotify
+	supercollider                  # Plataforma de síntese de áudio em tempo real
+	syncthing                      # Sincronização de arquivos em rede local
+	telegram-desktop               # Telegram
+	thunderbird                    # Cliente de e-mail
+	tk                             # A windowing toolkit for use with tcl
+	tldr                           # Manual pages with practical examples
+	tmux                           # Terminal multiplexer
+	tor                            # Anonymizing overlay network for TCP (The Onion Router)
+	torbrowser-launcher            # Navegador Tor
+	ttf-fira-code                  # Fonte Fira Code
+	ttf-jetbrains-mono             # Fonte JetBrains Mono
+	ttf-liberation                 # Fonte Liberation (recomendado para Steam)
+	virtualbox-guest-iso           # The official VirtualBox Guest Additions ISO
+	virtualbox-host-modules-arch   # VirtualBox Host kernel modules for Arch Linux
+	virtualbox                     # VirtualBox
+	vlc                            # Reprodutor de mídia
+	vpl-gpu-rt                     # VPL GPU Ray Tracing
+	wget                           # Ferramenta para baixar arquivos da internet
+	wireshark-qt                   # Analisador de protocolos de rede
+	wine-mono                      # Wine Mono .NET support
+	xorg-xkill                     # Kill a client by its X resource
+	x11vnc                         # VNC server for real X displays
+	yarn                           # Fast, reliable, and secure dependency management
+	zsh                            # Shell
 )
 
 MULTILIB=(
 	lib32-vulkan-intel # Open-source Vulkan driver for Intel GPUs - 32-bit
 	steam              # Steam
 	wine               # Compatibility layer for running Windows applications
+	winetricks
 )
 
 AUR=(
+	arduino                         # Arduino IDE v1
 	arduino-ide-bin                 # Arduino IDE v2
 	anki-bin                        # Aplicativo de flashcards
+	chirp-next                      # Programa para programar rádios de comunicação
 	chromedriver                    # WebDriver for Chrome
 	flyctl-bin                      # Ferramenta para gerenciar deploys Fly.io
 	github-desktop                  # GitHub Desktop
@@ -130,9 +141,11 @@ AUR=(
 	google-earth-pro                # Google Earth
 	jetbrains-toolbox               # Ferramenta para instalar e atualizar IDEs da JetBrains
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
+	micronucleus-git                # Bootloader para ATtiny85
 	obs-gstreamer                   # Plugin para OBS Studio
 	postman-bin                     # Ferramenta para testar APIs
 	proton-vpn-gtk-app              # Cliente VPN
+	rtl_433-git                     # Software para decodificar sinais de rádio
 	sdrsharp                        # Software Defined Radio
 	stellarium-bin                  # Planetário
 	sublime-text-4                  # Sublime Text
@@ -280,6 +293,19 @@ change_line() {
 
 rm -f setup-log.txt # Removendo log anterior
 
+# ------------------------ CONFIGURANDO DIRECTÓRIOS ------------------------ #
+
+## Criando diretórios
+mkdir -p ~/git
+mkdir -p ~/.temp
+mkdir -p ~/apps
+
+## Adicionando atalhos ao Nautilus
+nautilus -q
+echo "file:///home/$USER/apps 📦 apps" >>~/.config/gtk-3.0/bookmarks
+echo "file:///home/$USER/git 💾 git" >>~/.config/gtk-3.0/bookmarks
+echo "file:///home/$USER/.temp 🕖 .temp" >>~/.config/gtk-3.0/bookmarks
+
 # ----------------------------- CONFIGURAÇÕES ----------------------------- #
 
 ## Adicionando configurações dos monitores em /etc/X11/xorg.conf.d/10-monitor.conf
@@ -381,6 +407,19 @@ else
 	echo -e "${VERMELHO}[ERRO] - pipx não instalado.${SEM_COR}"
 	log "[ERRO] - pipx não instalado."
 fi
+
+# --------------------------- COMPILAÇÃO DE PACOTES --------------------------- #
+
+## SDR++
+cd ~/apps || exit
+git clone https://github.com/AlexandreRouma/SDRPlusPlus.git
+cd SDRPlusPlus || exit
+mkdir build && cd build || exit
+cmake ..
+make -j 8
+chmod +x ../create_root.sh
+sh ../create_root.sh
+sudo make install
 
 # ----------------------------- CONFIGURAÇÕES ----------------------------- #
 
@@ -579,15 +618,6 @@ cat <<EOF >~/.config/sublime-text/Packages/User/Preferences.sublime-settings
 }
 EOF
 log "[INFO] - Sublime Text configurado."
-
-## Criando diretórios
-mkdir -p ~/git
-mkdir -p ~/.temp
-
-## Adicionando atalhos ao Nautilus
-nautilus -q
-echo "file:///home/$USER/git 💾 git" >>~/.config/gtk-3.0/bookmarks
-echo "file:///home/$USER/.temp 🕖 .temp" >>~/.config/gtk-3.0/bookmarks
 
 # ----------------------------- FINALIZAÇÃO ----------------------------- #
 
