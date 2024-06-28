@@ -78,8 +78,10 @@ EXTRAS=(
 	obs-studio                     # Gravação e streaming de vídeo
 	onionshare                     # Compartilhamento de arquivos de forma segura pela rede Tor
 	pacman-contrib                 # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
+	picocom                        # Terminal Emulator
 	p7zip                          # Gerenciador de arquivos compactados no formato 7z
 	prettier                       # Code formatter
+	putty                          # Cliente SSH
 	pyenv                          # Python Version Management
 	python-devtools                # Dev tools for Python
 	python-pipx                    # Instalador de pacotes Python globalmente em ambientes virtuais isolados
@@ -145,6 +147,7 @@ AUR=(
 	obs-gstreamer                   # Plugin para OBS Studio
 	postman-bin                     # Ferramenta para testar APIs
 	proton-vpn-gtk-app              # Cliente VPN
+	realvnc-vnc-viewer              # VNC Viewer
 	rtl_433-git                     # Software para decodificar sinais de rádio
 	sdrsharp                        # Software Defined Radio
 	stellarium-bin                  # Planetário

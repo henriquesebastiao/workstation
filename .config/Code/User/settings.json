@@ -7,6 +7,7 @@
     "explorer.confirmDelete": false,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
+    "git.autofetch": true,
     "window.titleBarStyle": "custom",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
@@ -48,6 +49,7 @@
         "scminput",
         "charliermarsh",
         "pylance",
+        "autofetch",
     ],
     "cSpell.userWords": [
         "arduino",
