@@ -619,6 +619,24 @@ cat <<EOF >~/.config/sublime-text/Packages/User/Preferences.sublime-settings
 EOF
 log "[INFO] - Sublime Text configurado."
 
+## Configurando VS Code
+cp .config/Code/User/settings.json ~/.config/Code/User/
+
+# Verifica se o arquivo vscode-extensions.txt existe
+if [ ! -f vscode-extensions.txt ]; then
+	log "[ERRO] - Arquivo vscode-extensions.txt não encontrado."
+fi
+
+# Lê o arquivo extensions.txt linha por linha e instala cada extensão
+while IFS= read -r extension; do
+	if [ ! -z "$extension" ]; then
+		echo "Instalando extensão: $extension"
+		code --install-extension "$extension"
+	fi
+done <extensions.txt
+
+echo "Todas as extensões foram instaladas."
+
 # ----------------------------- FINALIZAÇÃO ----------------------------- #
 
 echo -e "${VERMELHO}[INFO] - Log do script em setup-log.txt${SEM_COR}"

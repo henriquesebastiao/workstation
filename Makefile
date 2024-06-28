@@ -9,6 +9,8 @@ update:
 	cat ~/.zshrc > .zshrc
 	cat ~/.config/spaceship.zsh > .config/spaceship.zsh
 	cat ~/.config/pypoetry/config.toml > .config/pypoetry/config.toml
+	cat ~/.config/Code/User/settings.json > .config/Code/User/settings.json
+	code --list-extensions > vscode-extensions.txt
 
 .PHONY: lint
 .PHONY: update

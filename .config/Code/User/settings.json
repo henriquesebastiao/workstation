@@ -1,0 +1,81 @@
+{
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line-thin",
+    "editor.bracketPairColorization.enabled": true,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "window.titleBarStyle": "custom",
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 15,
+
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+        },
+    },
+
+    "arduino.useArduinoCli": true,
+    "arduino.additionalUrls": [
+        "https://m5stack.oss-cn-shenzhen.aliyuncs.com/resource/arduino/package_m5stack_index.json",
+        "https://raw.githubusercontent.com/ArminJo/DigistumpArduino/master/package_digistump_index.json",
+        "https://static-cdn.m5stack.com/resource/arduino/package_m5stack_index.json",
+    ],
+    "arduino.analyzeOnOpen": false,
+    "arduino.analyzeOnSettingChange": false,
+
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.guessTypes": true,
+
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.executorMap": {
+        "python": "python -u",
+    },
+
+    "cSpell.language": "en,pt-BR",
+    "cSpell.ignoreWords": [
+        "gitblame",
+        "commitado",
+        "scminput",
+        "charliermarsh",
+        "pylance",
+    ],
+    "cSpell.userWords": [
+        "arduino",
+        "isort",
+        "pyproject",
+        "pytest",
+    ],
+
+    "gitblame.statusBarMessageFormat": "${commit.summary, 64} - ${author.name} (${time.ago})",
+    "gitblame.statusBarMessageNoCommit": "Ainda Não Commitado",
+
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false,
+        "json": false,
+        "python": false
+    },
+
+    "isort.args":["--profile", "black"],
+
+    "python.defaultInterpreterPath": "python",
+    "python.languageServer": "Pylance",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+
+    "ruff.nativeServer": true,
+    "ruff.lint.run": "onType",
+    "ruff.configuration": "pyproject.toml",
+}
