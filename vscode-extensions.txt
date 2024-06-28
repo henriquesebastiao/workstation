@@ -3,6 +3,7 @@ batisteo.vscode-django
 charliermarsh.ruff
 davidanson.vscode-markdownlint
 donjayamanne.python-environment-manager
+esbenp.prettier-vscode
 formulahendry.code-runner
 github.copilot
 github.copilot-chat
@@ -15,6 +16,7 @@ ms-python.black-formatter
 ms-python.debugpy
 ms-python.isort
 ms-python.mypy-type-checker
+ms-python.pylint
 ms-python.python
 ms-python.vscode-pylance
 ms-vscode.cpptools

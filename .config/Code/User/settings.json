@@ -2,25 +2,51 @@
     "editor.fontFamily": "'Fira Code', 'monospace', monospace",
     "editor.fontLigatures": true,
     "editor.cursorStyle": "line-thin",
+    "editor.tabSize": 4,
     "editor.bracketPairColorization.enabled": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
+    "files.associations": {
+        "*.html": "html",
+        "**/templates/*.html": "django-html",
+        "**/templates/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+    },
     "git.autofetch": true,
     "window.titleBarStyle": "custom",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 15,
 
+    "[css]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
-        "editor.tabSize": 4,
         "editor.insertSpaces": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": "explicit",
         },
+    },
+
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
     },
 
     "arduino.useArduinoCli": true,
@@ -42,7 +68,7 @@
         "python": "python -u",
     },
 
-    "cSpell.language": "en,pt-BR",
+    "cSpell.language": "en,pt,pt_BR",
     "cSpell.ignoreWords": [
         "gitblame",
         "commitado",
@@ -50,12 +76,16 @@
         "charliermarsh",
         "pylance",
         "autofetch",
+        "pylint",
+        "esbenp",
     ],
     "cSpell.userWords": [
         "arduino",
         "isort",
         "pyproject",
         "pytest",
+        "sebastiao",
+        "django",
     ],
 
     "gitblame.statusBarMessageFormat": "${commit.summary, 64} - ${author.name} (${time.ago})",
@@ -67,15 +97,28 @@
         "markdown": true,
         "scminput": false,
         "json": false,
-        "python": false
+        "python": false,
+        "javascript": false,
+        "html": false,
+        "css": false,
     },
 
     "isort.args":["--profile", "black"],
+
+    "prettier.tabWidth": 4,
+    "prettier.useTabs": false,
+    "prettier.bracketSpacing": false,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
 
     "python.defaultInterpreterPath": "python",
     "python.languageServer": "Pylance",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
+
+    "pylint.args": [
+        "--load-plugins=pylint_django",
+    ],
 
     "ruff.nativeServer": true,
     "ruff.lint.run": "onType",
