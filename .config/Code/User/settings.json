@@ -6,6 +6,8 @@
     "editor.bracketPairColorization.enabled": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmPasteNative": false,
     "extensions.ignoreRecommendations": true,
     "files.autoSave": "afterDelay",
     "files.associations": {
@@ -15,10 +17,22 @@
         "**/requirements{/**,*}.{txt,in}": "pip-requirements",
     },
     "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.autofetchPeriod": 60,
     "window.titleBarStyle": "custom",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.tree.indent": 15,
+
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true,
+    },
+
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSave": true,
+    },
 
     "[css]": {
         "editor.formatOnSave": true,
@@ -61,32 +75,15 @@
     "autoDocstring.docstringFormat": "google",
     "autoDocstring.guessTypes": true,
 
+    "clang-format.language.c.style": "google",
+    "clang-format.language.cpp.style": "google",
+
     "code-runner.runInTerminal": true,
     "code-runner.clearPreviousOutput": true,
     "code-runner.ignoreSelection": true,
     "code-runner.executorMap": {
         "python": "python -u",
     },
-
-    "cSpell.language": "en,pt,pt_BR",
-    "cSpell.ignoreWords": [
-        "gitblame",
-        "commitado",
-        "scminput",
-        "charliermarsh",
-        "pylance",
-        "autofetch",
-        "pylint",
-        "esbenp",
-    ],
-    "cSpell.userWords": [
-        "arduino",
-        "isort",
-        "pyproject",
-        "pytest",
-        "sebastiao",
-        "django",
-    ],
 
     "gitblame.statusBarMessageFormat": "${commit.summary, 64} - ${author.name} (${time.ago})",
     "gitblame.statusBarMessageNoCommit": "Ainda Não Commitado",
@@ -100,10 +97,14 @@
         "python": false,
         "javascript": false,
         "html": false,
-        "css": false,
+        "css": false
     },
 
     "isort.args":["--profile", "black"],
+
+    "liveServer.settings.host": "127.0.0.1",
+    "liveServer.settings.port": 5000,
+    "liveServer.settings.useLocalIp": true,
 
     "prettier.tabWidth": 4,
     "prettier.useTabs": false,

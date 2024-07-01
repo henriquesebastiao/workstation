@@ -1,6 +1,7 @@
 alefragnani.bookmarks
 batisteo.vscode-django
 charliermarsh.ruff
+codezombiech.gitignore
 davidanson.vscode-markdownlint
 donjayamanne.python-environment-manager
 esbenp.prettier-vscode
@@ -24,9 +25,9 @@ ms-vscode.vscode-serial-monitor
 natqe.reload
 njpwerner.autodocstring
 pkief.material-icon-theme
+redhat.vscode-yaml
 ritwickdey.liveserver
-streetsidesoftware.code-spell-checker
-streetsidesoftware.code-spell-checker-portuguese-brazilian
 tamasfe.even-better-toml
 vsciot-vscode.vscode-arduino
 waderyan.gitblame
+xaver.clang-format

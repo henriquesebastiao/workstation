@@ -26,11 +26,14 @@ EXTRAS=(
 	bat                            # Cat clone with syntax highlighting and git integration
 	bitwarden                      # Gerenciador de senhas
 	bind                           # A complete, highly portable implementation of the DNS protocol
+	binwalk                        # Ferramenta para análise de firmware
 	blanket                        # Sons da natureza
 	btop                           # Monitor de recursos moderno
 	cmake                          # Ferramenta de compilação
 	dbeaver                        # Ferramenta de gerenciamento de banco de dados
 	discord                        # Discord
+	dkms                           # Dynamic Kernel Module Support Framework
+	dnsmasq                        # Um servidor de DNS e DHCP
 	docker                         # Docker
 	docker-compose                 # Docker Compose
 	eza                            # Ferramenta para listar diretórios e arquivos em forma de árvore
@@ -41,6 +44,7 @@ EXTRAS=(
 	firefox-adblock-plus           # Extensão para bloquear anúncios
 	firefox-dark-reader            # Extensão para modo escuro
 	flameshot                      # Ferramenta de captura de tela
+	flashrom                       # Programa para ler, gravar, apagar e verificar BIOS/ROM
 	fwupd                          # Simple daemon to allow session software to update firmware
 	gimp                           # Editor de imagens bitmap
 	git                            # Sistema de controle de versão
@@ -54,8 +58,10 @@ EXTRAS=(
 	hackrf                         # Driver for HackRF, allowing general purpose software defined radio (SDR).
 	hashcat                        # Advanced password recovery
 	hcxtools                       # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
+	hostapd                        # User space daemon for access point and authentication servers
 	htop                           # Monitor de recursos
 	inkscape                       # Editor de gráficos vetoriais
+	intel-compute-runtime          # Intel Compute Runtime
 	ipython                        # Shell interativo para Python
 	jq                             # Command-line JSON processor
 	jupyter-notebook               # Jupyter Notebook
@@ -149,6 +155,7 @@ AUR=(
 	proton-vpn-gtk-app              # Cliente VPN
 	realvnc-vnc-viewer              # VNC Viewer
 	rtl_433-git                     # Software para decodificar sinais de rádio
+	sasquatch-git                   # Ferramenta para extrair e injetar arquivos em imagens de firmware
 	sdrsharp                        # Software Defined Radio
 	stellarium-bin                  # Planetário
 	sublime-text-4                  # Sublime Text

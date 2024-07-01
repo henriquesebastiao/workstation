@@ -1,7 +1,7 @@
 SRC_DIR := .
 SHELL_SCRIPTS := $(wildcard $(SRC_DIR)/*.sh)
 
-lint:
+format:
 	shfmt -l -w $(SHELL_SCRIPTS)
 
 update:
@@ -12,5 +12,5 @@ update:
 	cat ~/.config/Code/User/settings.json > .config/Code/User/settings.json
 	code --list-extensions > vscode-extensions.txt
 
-.PHONY: lint
+.PHONY: format
 .PHONY: update
