@@ -11,6 +11,7 @@ CORE=(
 	base-devel # Basic tools to build Arch Linux packages
 	dosfstools # Utilitários para sistema de arquivos FAT
 	inetutils  # Utilitários de rede GNU (Telnet)
+	linux-lts  # Linux LTS kernel and modules
 	man-db     # Utilitário para visualizar manual
 	man-pages  # Páginas de manual
 	net-tools  # Ferramentas de rede
@@ -71,6 +72,7 @@ EXTRAS=(
 	libreoffice-still              # Suíte de escritório
 	libreoffice-still-pt-br        # Language pack for LibreOffice (pt-br)
 	libvolk                        # Vector Optimized Library of Kernels (Depedência para compilar SDR++)
+	linux-zen                      # The Linux ZEN kernel and modules
 	mesa-demos                     # Mesa demos
 	mesa-utils                     # Mesa utilities
 	ncdu                           # Utilitário para análise de uso de disco
@@ -630,7 +632,7 @@ EOF
 log "[INFO] - Sublime Text configurado."
 
 ## Configurando VS Code
-cp .config/Code/User/settings.json ~/.config/Code/User/
+cp home/.config/Code/User/settings.json ~/.config/Code/User/
 
 # Verifica se o arquivo vscode-extensions.txt existe
 if [ ! -f vscode-extensions.txt ]; then
