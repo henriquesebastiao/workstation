@@ -46,3 +46,4 @@ alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
 
 # -------------------------- REFLECTOR -------------------------- #
 alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
+

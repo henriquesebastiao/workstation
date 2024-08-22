@@ -1,9 +1,12 @@
 {
+    "editor.bracketPairColorization.enabled": true,
+    "editor.cursorBlinking": "phase",
+    // "editor.cursorSmoothCaretAnimation": "on", // Habilitar quando tiver uma tela com maior taxa de atualização
+    "editor.cursorStyle": "line-thin",
     "editor.fontFamily": "'Fira Code', 'monospace', monospace",
     "editor.fontLigatures": true,
-    "editor.cursorStyle": "line-thin",
+    "editor.minimap.autohide": true,
     "editor.tabSize": 4,
-    "editor.bracketPairColorization.enabled": true,
     "explorer.compactFolders": false,
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
@@ -16,13 +19,22 @@
         "**/templates/*": "django-txt",
         "**/requirements{/**,*}.{txt,in}": "pip-requirements",
     },
+    "files.exclude": {
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true,
+        "**/.pytest_cache": true,
+        "**/__pycache__": true,
+    },
     "git.autofetch": true,
     "git.confirmSync": false,
     "git.autofetchPeriod": 60,
+    "security.workspace.trust.untrustedFiles": "open",
     "window.titleBarStyle": "custom",
-    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "JetBrains New UI Dark Theme",
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "none",
     "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "none",
 
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format",
@@ -45,7 +57,6 @@
     },
 
     "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
         "editor.formatOnSave": true,
         "editor.insertSpaces": true,
         "editor.codeActionsOnSave": {
@@ -88,18 +99,6 @@
     "gitblame.statusBarMessageFormat": "${commit.summary, 64} - ${author.name} (${time.ago})",
     "gitblame.statusBarMessageNoCommit": "Ainda Não Commitado",
 
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": true,
-        "markdown": true,
-        "scminput": false,
-        "json": false,
-        "python": false,
-        "javascript": false,
-        "html": false,
-        "css": false
-    },
-
     "isort.args":["--profile", "black"],
 
     "liveServer.settings.host": "127.0.0.1",
@@ -116,12 +115,4 @@
     "python.languageServer": "Pylance",
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true,
-
-    "pylint.args": [
-        "--load-plugins=pylint_django",
-    ],
-
-    "ruff.nativeServer": true,
-    "ruff.lint.run": "onType",
-    "ruff.configuration": "pyproject.toml",
 }

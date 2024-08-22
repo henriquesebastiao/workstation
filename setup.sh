@@ -20,6 +20,7 @@ CORE=(
 )
 
 EXTRAS=(
+	act                            # Run your GitHub Actions locally
 	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
 	arduino-cli                    # Arduino CLI
 	audacity                       # Editor de áudio
@@ -44,6 +45,7 @@ EXTRAS=(
 	firefox                        # Navegador Web
 	firefox-adblock-plus           # Extensão para bloquear anúncios
 	firefox-dark-reader            # Extensão para modo escuro
+	firefox-developer-edition      # Firefox Developer
 	flameshot                      # Ferramenta de captura de tela
 	flashrom                       # Programa para ler, gravar, apagar e verificar BIOS/ROM
 	fwupd                          # Simple daemon to allow session software to update firmware
@@ -61,6 +63,7 @@ EXTRAS=(
 	hcxtools                       # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
 	hostapd                        # User space daemon for access point and authentication servers
 	htop                           # Monitor de recursos
+	httpie                         # human-friendly CLI HTTP client for the API era
 	inkscape                       # Editor de gráficos vetoriais
 	intel-compute-runtime          # Intel Compute Runtime
 	ipython                        # Shell interativo para Python

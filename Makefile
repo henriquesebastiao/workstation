@@ -7,9 +7,9 @@ format:
 update:
 	cat ~/.aliases > .aliases
 	cat ~/.zshrc > .zshrc
-	cat ~/.config/spaceship.zsh > .config/spaceship.zsh
-	cat ~/.config/pypoetry/config.toml > .config/pypoetry/config.toml
-	cat ~/.config/Code/User/settings.json > .config/Code/User/settings.json
+	cat ~/.config/spaceship.zsh > home/.config/spaceship.zsh
+	cat ~/.config/pypoetry/config.toml > home/.config/pypoetry/config.toml
+	cat ~/.config/Code/User/settings.json > home/.config/Code/User/settings.json
 	code --list-extensions > vscode-extensions.txt
 
 .PHONY: format
