@@ -110,8 +110,6 @@ autoload -Uz compinit
 zstyle ':completion:*' menu select
 fpath+=~/.zfunc
 
-. /opt/asdf-vm/asdf.sh
+export GPG_TTY=$(tty)
 
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
+. "$HOME/.cargo/env"

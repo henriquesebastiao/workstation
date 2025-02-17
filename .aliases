@@ -1,49 +1,57 @@
-# ----------------------------- PIP ----------------------------- #
-
+# Pip
 alias pip-rm-all="pip freeze | xargs pip uninstall -y"
-alias activate="source venv/bin/activate"
+alias activate="source .venv/bin/activate"
 
-# ---------------------------- POETRY -------------------------- #
-
+# Poetry
 alias pshell="poetry shell"
 alias pexport="poetry export --with dev --without-hashes --without-urls --output requirements.txt"
 alias pexport-production="poetry export -f requirements.txt --output requirements.txt --without-hashes --without dev"
 
-# ---------------------------- UTILS ---------------------------- #
-
+# Utils
 alias cl="clear"
-alias ls="exa -a"
 alias lt="exa -T"
+alias aliases="cat ~/.aliases"
 
-# ---------------------------- DOCKER --------------------------- #
-# remove all images
-alias dk-rmai="docker rmi $(docker images -a -q)"
+# Docker
+alias dsclean="docker system prune -a"
+alias diclean="docker image prune -a"
 
-# --------------------------- ESPRESSIF ------------------------- #
-
+# Espresif
 alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
-# ------------------------- PORTAS SERIAIS ---------------------- #
-
-# Permitir todos os usuários acessarem as portas seriais
+# Serial Ports
+# Allow all users to access the serial port
 alias serial='sudo chmod a+rw /dev/ttyACM0'
 
-# Listas as portas seriais existentes
+# List all serial ports
 alias lss='ls /dev/ttyA*'
 
-# ---------------------------- SHARED --------------------------- #
-
+# Shared
 # Shred for file
 alias rmm='shred -n 10 -z -u -v'
 # Shred for disk
 alias rmmd='shred -n 2 -z -v'
 
-# -------------------------- IFCONFIG.ME ------------------------ #
+# Ifconfig.me
+# Show my public IP
 alias ipp='curl ifconfig.me'
 
-# ---------------------------- PACMAN --------------------------- #
+# Pacman
+# Removes all orphaned packages and their unnecessary dependencies
 alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
 
-# -------------------------- REFLECTOR -------------------------- #
+# Reflector
 alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
+
+# Airmon-ng
+alias disable-wlan0mon="sudo airmon-ng stop wlan0mon"
+
+# Wireguard
+alias lswg="sudo ls /etc/wireguard/"
+
+# Comando para iniciar uma VPN:
+# wg-quick up wg0
+
+# Generate Wireguard Key Pair
+alias wgen="wg genkey | tee privatekey | wg pubkey > publickey"
 

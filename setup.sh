@@ -22,6 +22,7 @@ CORE=(
 EXTRAS=(
 	act                            # Run your GitHub Actions locally
 	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
+	android-tools                  # Ferramentas para plataforma Android
 	arduino-cli                    # Arduino CLI
 	audacity                       # Editor de áudio
 	awesome-terminal-fonts         # Fontes para o terminal
@@ -29,7 +30,7 @@ EXTRAS=(
 	bitwarden                      # Gerenciador de senhas
 	bind                           # A complete, highly portable implementation of the DNS protocol
 	binwalk                        # Ferramenta para análise de firmware
-	blanket                        # Sons da natureza
+	boost                          # Free peer-reviewed portable C++ source
 	btop                           # Monitor de recursos moderno
 	cmake                          # Ferramenta de compilação
 	dbeaver                        # Ferramenta de gerenciamento de banco de dados
@@ -145,6 +146,7 @@ AUR=(
 	arduino                         # Arduino IDE v1
 	arduino-ide-bin                 # Arduino IDE v2
 	anki-bin                        # Aplicativo de flashcards
+	anydesk-bin                     # Acesso remoto a dispositivos
 	chirp-next                      # Programa para programar rádios de comunicação
 	chromedriver                    # WebDriver for Chrome
 	flyctl-bin                      # Ferramenta para gerenciar deploys Fly.io
@@ -152,7 +154,6 @@ AUR=(
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
-	jetbrains-toolbox               # Ferramenta para instalar e atualizar IDEs da JetBrains
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
 	micronucleus-git                # Bootloader para ATtiny85
 	obs-gstreamer                   # Plugin para OBS Studio
