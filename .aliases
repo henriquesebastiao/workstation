@@ -36,9 +36,10 @@ alias rmmd='shred -n 2 -z -v'
 # Show my public IP
 alias ipp='curl ifconfig.me'
 
-# Pacman
+# Pacman and yay
 # Removes all orphaned packages and their unnecessary dependencies
 alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
+alias yclean='yay -Rs $(yay -Qdtq)'
 
 # Reflector
 alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
@@ -55,3 +56,5 @@ alias lswg="sudo ls /etc/wireguard/"
 # Generate Wireguard Key Pair
 alias wgen="wg genkey | tee privatekey | wg pubkey > publickey"
 
+# Git Tools
+alias turtle='turtle_cli'

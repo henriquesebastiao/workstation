@@ -16,128 +16,113 @@ CORE=(
 	man-pages  # Páginas de manual
 	net-tools  # Ferramentas de rede
 	traceroute # Ferramenta para rastrear a rota de pacotes IP
-	zstd       # Compressor de arquivos (Dependência para compilar SDR++)
 )
 
 EXTRAS=(
-	act                            # Run your GitHub Actions locally
-	aircrack-ng                    # Ferramenta para testes de segurança em redes Wi-Fi
-	android-tools                  # Ferramentas para plataforma Android
-	arduino-cli                    # Arduino CLI
-	audacity                       # Editor de áudio
-	awesome-terminal-fonts         # Fontes para o terminal
-	bat                            # Cat clone with syntax highlighting and git integration
-	bitwarden                      # Gerenciador de senhas
-	bind                           # A complete, highly portable implementation of the DNS protocol
-	binwalk                        # Ferramenta para análise de firmware
-	boost                          # Free peer-reviewed portable C++ source
-	btop                           # Monitor de recursos moderno
-	cmake                          # Ferramenta de compilação
-	dbeaver                        # Ferramenta de gerenciamento de banco de dados
-	discord                        # Discord
-	dkms                           # Dynamic Kernel Module Support Framework
-	dnsmasq                        # Um servidor de DNS e DHCP
-	docker                         # Docker
-	docker-compose                 # Docker Compose
-	eza                            # Ferramenta para listar diretórios e arquivos em forma de árvore
-	esptool                        # Espressif ESP8266 and ESP32 serial bootloader utility
-	fftw                           # Uma biblioteca para calcular a transformada discreta de Fourier (DFT) (Depedência para compilar SDR++)
-	filezilla                      # Cliente FTP
-	firefox                        # Navegador Web
-	firefox-adblock-plus           # Extensão para bloquear anúncios
-	firefox-dark-reader            # Extensão para modo escuro
-	firefox-developer-edition      # Firefox Developer
-	flameshot                      # Ferramenta de captura de tela
-	flashrom                       # Programa para ler, gravar, apagar e verificar BIOS/ROM
-	fwupd                          # Simple daemon to allow session software to update firmware
-	gimp                           # Editor de imagens bitmap
-	git                            # Sistema de controle de versão
-	github-cli                     # GitHub CLI
-	glfw                           # Biblioteca multiplataforma para OpenGL, OpenGL ES e Vulkan (Depedência para compilar SDR++)
-	gnome-browser-connector        # Browser integration for GNOME Shell
-	gnome-shell-extension-caffeine # Desativa o modo de suspensão
-	gnome-terminal                 # Terminal
-	gparted                        # Gerenciador de partições
-	gufw                           # Firewall
-	hackrf                         # Driver for HackRF, allowing general purpose software defined radio (SDR).
-	hashcat                        # Advanced password recovery
-	hcxtools                       # Portable solution for capturing wlan traffic and conversion to hashcat and John the Ripper formats
-	hostapd                        # User space daemon for access point and authentication servers
-	htop                           # Monitor de recursos
-	httpie                         # human-friendly CLI HTTP client for the API era
-	inkscape                       # Editor de gráficos vetoriais
-	intel-compute-runtime          # Intel Compute Runtime
-	ipython                        # Shell interativo para Python
-	jq                             # Command-line JSON processor
-	jupyter-notebook               # Jupyter Notebook
-	keepassxc                      # Gerenciador de senhas
-	kiwix-desktop                  # Offline Wikipedia reader
-	knockd                         # Port-knock server
-	libreoffice-still              # Suíte de escritório
-	libreoffice-still-pt-br        # Language pack for LibreOffice (pt-br)
-	libvolk                        # Vector Optimized Library of Kernels (Depedência para compilar SDR++)
-	linux-zen                      # The Linux ZEN kernel and modules
-	mesa-demos                     # Mesa demos
-	mesa-utils                     # Mesa utilities
-	ncdu                           # Utilitário para análise de uso de disco
-	neofetch                       # Exibe informações do sistema
-	network-manager-applet         # Applet para gerenciar conexões de rede
-	networkmanager-l2tp            # NetworkManager L2TP VPN plugin
-	nodejs                         # JavaScript runtime
-	noto-fonts                     # Noto TTF fonts
-	noto-fonts-extra               # Noto TTF fonts
-	npm                            # Gerenciador de pacotes para JavaScript
-	obs-studio                     # Gravação e streaming de vídeo
-	onionshare                     # Compartilhamento de arquivos de forma segura pela rede Tor
-	pacman-contrib                 # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
-	picocom                        # Terminal Emulator
-	p7zip                          # Gerenciador de arquivos compactados no formato 7z
-	prettier                       # Code formatter
-	putty                          # Cliente SSH
-	pyenv                          # Python Version Management
-	python-devtools                # Dev tools for Python
-	python-pipx                    # Instalador de pacotes Python globalmente em ambientes virtuais isolados
-	python-poetry                  # Gerenciador de dependências Python
-	qbittorrent                    # Cliente BitTorrent
-	reflector                      # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-	ruby                           # Ruby
-	rust                           # Rust programming language
-	rtl-sdr                        # Driver for Realtek RTL2832U, allowing general purpose software defined radio (SDR)
-	screen                         # Full-screen window manager that multiplexes a physical terminal
-	spyder                         # IDE científica para Python
-	shfmt                          # Format shell programs
-	signal-desktop                 # Signal
-	speedtest-cli                  # Teste de velocidade da internet
-	spotify-launcher               # Spotify
-	supercollider                  # Plataforma de síntese de áudio em tempo real
-	syncthing                      # Sincronização de arquivos em rede local
-	telegram-desktop               # Telegram
-	thunderbird                    # Cliente de e-mail
-	tk                             # A windowing toolkit for use with tcl
-	tldr                           # Manual pages with practical examples
-	tmux                           # Terminal multiplexer
-	tor                            # Anonymizing overlay network for TCP (The Onion Router)
-	torbrowser-launcher            # Navegador Tor
-	ttf-fira-code                  # Fonte Fira Code
-	ttf-jetbrains-mono             # Fonte JetBrains Mono
-	ttf-liberation                 # Fonte Liberation (recomendado para Steam)
-	virtualbox-guest-iso           # The official VirtualBox Guest Additions ISO
-	virtualbox-host-modules-arch   # VirtualBox Host kernel modules for Arch Linux
-	virtualbox                     # VirtualBox
-	vlc                            # Reprodutor de mídia
-	vpl-gpu-rt                     # VPL GPU Ray Tracing
-	wget                           # Ferramenta para baixar arquivos da internet
-	wireshark-qt                   # Analisador de protocolos de rede
-	wine-mono                      # Wine Mono .NET support
-	xorg-xkill                     # Kill a client by its X resource
-	x11vnc                         # VNC server for real X displays
-	yarn                           # Fast, reliable, and secure dependency management
-	zsh                            # Shell
+	act                          # Executa o GitHub Actions localmente para teste
+	aircrack-ng                  # Ferramenta para testes de segurança em redes Wi-Fi
+	android-tools                # Ferramentas para plataforma Android
+	apostrophe                   # Editor de Markdown simples e bonito
+	arduino-cli                  # Arduino CLI
+	awesome-terminal-fonts       # Fontes para o terminal
+	bat                          # Uma alternattiva ao comando cat com sintaxe highlight e numeros de linhas
+	bitwarden                    # Gerenciador de senhas
+	binwalk                      # Ferramenta para análise de firmware
+	brightnessctl                # Ferramenta para alterar brilho da tela
+	btop                         # Monitor de recursos moderno
+	clipmenu                     # Gerenciar área de transferência usando dmenu
+	cmake                        # Ferramenta de compilação
+	collision                    # Verificar hashes de arquivos
+	cppcheck                     # Linter de análise estática para C/C++
+	ctop                         # Alternativa ao top
+	cython                       # Extensões C para Python
+	dbeaver                      # Ferramenta de gerenciamento de banco de dados
+	discord                      # Discord
+	dnsmasq                      # Um servidor de DNS e DHCP
+	docker                       # Docker
+	docker-compose               # Docker Compose
+	eartag                       # Editor de metadados de músicas
+	emblem                       # Gerar avatares apartir de ícones simbólicos
+	esptool                      # Ferramenta para lidar com firmwares em microcontroladores Espressif -> https://docs.espressif.com/projects/esptool/en/latest/esp32/
+	eyedropper                   # Color Picker
+	eza                          # Alternativa ao comando ls
+	filezilla                    # Cliente FTP
+	firefox                      # Navegador Web
+	firefox-dark-reader          # Extensão para modo escuro
+	flameshot                    # Ferramenta de captura de tela com recursos adicionais
+	flashrom                     # Programa para ler, gravar, apagar e verificar BIOS/ROM (CH341A)
+	foremost                     # Ferramenta para recuperação de arquivos
+	gimp                         # Editor de imagens bitmap
+	git                          # Sistema de controle de versão
+	github-cli                   # GitHub CLI
+	gnome-browser-connector      # Browser integration for GNOME Shell
+	gparted                      # Gerenciador de discos
+	htop                         # Monitor de recursos
+	inkscape                     # Editor de gráficos vetoriais
+	intel-compute-runtime        # Intel Compute Runtime
+	ipython                      # Shell interativo para Python
+	jupyter-notebook             # Jupyter Notebook
+	knockd                       # Port-knock server
+	libreoffice-still            # Suíte de escritório
+	libreoffice-still-pt-br      # Language pack for LibreOffice (pt-br)
+	linux-zen                    # The Linux ZEN kernel and modules
+	mesa-demos                   # Mesa demos
+	mesa-utils                   # Mesa utilities
+	ncdu                         # Utilitário para análise de uso de disco
+	neofetch                     # Exibe informações do sistema
+	network-manager-applet       # Applet para gerenciar conexões de rede
+	nextcloud-client             # Cliente Nextcloud
+	noto-fonts                   # Noto TTF fonts
+	noto-fonts-extra             # Noto TTF fonts
+	nyx                          # Ferrameta para monitorar status do TOR
+	obs-studio                   # Gravação e streaming de vídeo
+	pacman-contrib               # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
+	paper-clip                   # Ferramenta para editar metadados de PDFs
+	picocom                      # Terminal Emulator
+	pypy                         # Python escrito em Python
+	python-devtools              # Dev tools for Python
+	python-pipx                  # Instalador de pacotes Python globalmente em ambientes virtuais isolados
+	python-poetry                # Gerenciador de dependências Pythonwoeusb-ng 0.2.12-3
+	qbittorrent                  # Cliente BitTorrent
+	raider                       # Ferramenta para excluir arquivos permanentemente
+	reflector                    # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
+	rust                         # Rust programming language
+	shfmt                        # Formatador de scripts shell
+	showtime                     # Reprodutor de vídeos para GNOME
+	speedtest-cli                # Teste de velocidade da internet
+	supercollider                # Plataforma de síntese de áudio em tempo real
+	syncthing                    # Sincronização de arquivos em rede local
+	telegram-desktop             # Telegram
+	testdisk                     # Ferramenta para recuperar arquivos
+	texlive-fontsextra           # Fontes extras para Tex Live
+	texlive-langportuguese       # Suporte do Tex Live para Português
+	texlive-latexextra           # Complementos para Tex Live
+	thunderbird                  # Cliente de e-mail
+	tk                           # A windowing toolkit for use with tcl
+	tldr                         # Manual pages with practical examples
+	tmux                         # Terminal multiplexer
+	tor                          # Anonymizing overlay network for TCP (The Onion Router)
+	torbrowser-launcher          # Navegador Tor
+	traceroute                   # Traceroute
+	ttf-fira-code                # Fonte Fira Code
+	ttf-jetbrains-mono           # Fonte JetBrains Mono
+	ttf-liberation               # Fonte Liberation (recomendado para Steam)
+	ttf-times-new-roman          # Fonte Times New Roman
+	virtualbox-guest-iso         # The official VirtualBox Guest Additions ISO
+	virtualbox-host-modules-arch # VirtualBox Host kernel modules for Arch Linux
+	virtualbox                   # VirtualBox
+	vpl-gpu-rt                   # VPL GPU Ray Tracing
+	wget                         # Ferramenta para baixar arquivos da internet
+	whois                        # Cliente WHOIS
+	wireguard-tools              # Wireguard support
+	wireshark-qt                 # Analisador de protocolos de rede
+	wine-mono                    # Wine Mono .NET support
+	xorg-xkill                   # Kill a client by its X resource
+	zsh                          # Shell
 )
 
 MULTILIB=(
 	lib32-vulkan-intel # Open-source Vulkan driver for Intel GPUs - 32-bit
-	steam              # Steam
 	wine               # Compatibility layer for running Windows applications
 	winetricks
 )
@@ -147,70 +132,33 @@ AUR=(
 	arduino-ide-bin                 # Arduino IDE v2
 	anki-bin                        # Aplicativo de flashcards
 	anydesk-bin                     # Acesso remoto a dispositivos
-	chirp-next                      # Programa para programar rádios de comunicação
-	chromedriver                    # WebDriver for Chrome
-	flyctl-bin                      # Ferramenta para gerenciar deploys Fly.io
-	github-desktop                  # GitHub Desktop
+	chirp-next                      # Programa para programar rádios amadores
+	chromedriver                    # WebDriver for Chrome -> https://chromedriver.chromium.org/
+	devtoolbox                      # Aplicativo com conjunto de ferramentas úteis para desenvolvedores
+	gearlever                       # Ferramentar para gerenciar AppImages
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
-	micronucleus-git                # Bootloader para ATtiny85
+	mini-text                       # Um editor de texto muito simples
+	nautilus-open-in-ptyxis         # Adiciona opção de abrir pasta no terminal ao menu de contexto
+	netdiscover                     # ARP Scanner
+	netinstall-gui                  # Mikrotik Net Install
+	noaa-apt                        # Para decodificação de imagens de sinais de rádio dos satélites NOAA
 	obs-gstreamer                   # Plugin para OBS Studio
-	postman-bin                     # Ferramenta para testar APIs
-	proton-vpn-gtk-app              # Cliente VPN
-	realvnc-vnc-viewer              # VNC Viewer
-	rtl_433-git                     # Software para decodificar sinais de rádio
-	sasquatch-git                   # Ferramenta para extrair e injetar arquivos em imagens de firmware
-	sdrsharp                        # Software Defined Radio
+	ptyxis                          # Terminal
 	stellarium-bin                  # Planetário
-	sublime-text-4                  # Sublime Text
+	tex-fmt                         # Formatador de arquivos LaTeX
+	textidote-bin                   # TODO: VERIFICAR USO
 	torcheck                        # Verifica se está conectado à rede Tor
-	visual-studio-code-bin          # Visual Studio Code IDE
-	winbox                          # Ferramenta para gerenciar roteadores MikroTik
-	zoom
-)
-
-FLATPAK=(
-	com.belmoussaoui.Decoder         # Leitor e gerador de códigos QR sofisticado, mas simples.
-	com.mardojai.ForgeSparks         # Notificador com suporte ao GitHub
-	com.github.ADBeveridge.Raider    # Ferramenta para exclusão segura de arquivos
-	com.github.finefindus.eyedropper # Color picker
-	com.rafaelmardojai.SharePreview  # Pre-visulização de imagens de compartilhamento de links
-	dev.bragefuglseth.Fretboard      # Acordes de violão
-	dev.geopjr.Collision             # Check hashes for your files.
-	fr.romainvigier.MetadataCleaner  # Limpeza de metadados de arquivos
-	io.github.fizzyizzy05.binary     # Conversor de bases numéricas
-	io.github.flattool.Warehouse     # App para gerenciar pacotes Flatpak
-	io.github.shiftey.Desktop        # GitHub Desktop
-	io.gitlab.adhami3310.Impression  # Criar pendrives bootáveis
-	io.gitlab.gregorni.Letterpress   # Criar artes ASCII
-	me.ppvan.psequel                 # Cliente simples para PostgreSQL
-	org.emilien.SpaceLaunch          # Quando o próximo foguete subirá aos céus?
-	org.gnome.design.Contrast        # Verifique a acessibilidade de cores
-	org.gnome.design.Lorem           # Gerador de texto Lorem Ipsum
-	org.gnome.Firmware               # Utilitário para atualização de firmware
-	org.nickvision.tubeconverter     # Download de vídeos e áudios do YouTube
-	re.sonny.Junction                # Utilitário para selecionar em qual browser abrir links
-	se.sjoerd.Graphs                 # Gerar gráficos matemáticos
+	turtle                          # Cliente git para visualizar log e extensão para Nautilus para ícones de status do git
+	vscodium-bin                    # VS Codium
+	winbox                          # Ferramenta para gerenciar roteadores MikroTik v4
+	winbox3                         # Ferramenta para gerenciar roteadores MikroTik v3
 )
 
 PIPX=(
-	blue  # Formatação de código Python
-	ignr  # Cria arquivos .gitignore
-	isort # Ordena imports Python
-	ruff  # Linter de código Python
-)
-
-EXTENSIONS=(
-	app-hider@lynith.dev                                     # Oculta aplicativos do menu
-	appindicatorsupport@rgcjonas.gmail.com                   # Habilita suporte a indicadores de aplicativos na tray do sistema
-	arch-update@RaphaelRochet                                # Arch Linux Updates Indicator
-	caffeine@patapon.info                                    # Desativa o modo de suspensão
-	just-perfection-desktop@just-perfection                  # Ajusta comportamentos do GNOME Shell
-	places-menu@gnome-shell-extensions.gcampax.github.com    # Menu de locais
-	system-monitor@gnome-shell-extensions.gcampax.github.com # Monitor de sistema
-	systemd-manager@hardpixel.eu                             # Gerenciador de serviços do systemd (GNOME 45)
+	ignr # Cria arquivos .gitignore
 )
 
 # -------------------------------- CORES ---------------------------------- #
@@ -252,35 +200,6 @@ install_yay() {
 		else
 			echo -e "${VERMELHO}[ERRO] - Falha ao instalar o pacote $package ${SEM_COR}"
 			log "[ERRO] - Falha ao instalar o pacote $package"
-		fi
-	done
-}
-
-install_flatpak() {
-	local packages=("$@") # Recebe o array de pacotes como parâmetro
-	for package in "${packages[@]}"; do
-		if ! flatpak list | tail -n +1 | grep -q "$package"; then # Só instala se já não estiver instalado
-			if flatpak install flathub "$package" --noninteractive; then
-				echo -e "${VERDE}[INSTALADO] - $package ${SEM_COR}"
-				log "[INSTALADO] - $package"
-			else
-				echo -e "${VERDE}[ERRO] - Falha ao instalar o pacote $package ${SEM_COR}"
-				log "[ERRO] - Falha ao instalar o pacote $package"
-			fi
-		else
-			echo -e "${AMARELO}[JÁ INSTALADO] - $package ${SEM_COR}"
-			log "[JÁ INSTALADO] - $package"
-		fi
-	done
-}
-
-install_extensions() {
-	local extensions=("$@") # Recebe o array de extensões como parâmetro
-	for extension in "${extensions[@]}"; do
-		EXTENSION_ID=$(curl -Lfs "https://extensions.gnome.org/extension-query/?search=$extension" | jq '.extensions[0] | .pk') # Encontra o ID da extensão
-		gnome-sheel-extension-installer "$EXTENSION_ID" --yes                                                                   # Instala a extensão sem perguntar
-		if gnome-extensions list | grep --quiet "${extension}"; then                                                            # Verifica se a extensão foi instalada
-			gnome-extensions enable "${EXTENSION_ID}"                                                                              # Habilita a extensão
 		fi
 	done
 }
@@ -399,8 +318,6 @@ install_pacman "${CORE[@]}"
 install_pacman "${EXTRAS[@]}"
 install_yay "${AUR[@]}"
 install_yay "${MULTILIB[@]}"
-install_flatpak "${FLATPAK[@]}"
-install_flatpak "${EXTENSIONS[@]}"
 
 ## Instalando pacotes Python globalmente com pipx
 if pipx --version; then
@@ -473,78 +390,12 @@ if pacman -Qe | grep -q zsh; then
 fi
 
 # Adicionando configurações do Spaceship Prompt em ~/.config/spaceship.zsh
-cat <<EOF >~/.config/spaceship.zsh
-# Display username always
-SPACESHIP_USER_SHOW=always
-
-# Docker
-SPACESHIP_DOCKER_SHOW=false
-SPACESHIP_DOCKER_COMPOSE_SHOW=false
-
-# Git
-SPACESHIP_GIT_STATUS_SHOW=false
-
-# Venvs
-SPACESHIP_VENV_GENERIC_NAMES=(venv .venv)
-
-# Package
-SPACESHIP_PACKAGE_SHOW=false
-EOF
+# TODO: Adicionar configuração do spaceship
 
 log "[INFO] - Configurações do Spaceship Prompt adicionadas."
 
 ## Adicionando aliases
-cat <<EOF >~/.aliases
-# ----------------------------- PIP ----------------------------- #
-
-alias pip-rm-all="pip freeze | xargs pip uninstall -y"
-alias activate="source venv/bin/activate"
-
-# ---------------------------- POETRY -------------------------- #
-
-alias pshell="poetry shell"
-alias pexport="poetry export --with dev --without-hashes --without-urls --output requirements.txt"
-alias pexport-production="poetry export -f requirements.txt --output requirements.txt --without-hashes --without dev"
-
-# ---------------------------- UTILS ---------------------------- #
-
-alias cl="clear"
-alias ls="exa -a"
-alias lt="exa tree"
-alias bar="bat --style=auto"
-
-# ---------------------------- DOCKER --------------------------- #
-# remove all images
-alias dk-rmai="docker rmi $(docker images -a -q)"
-
-# --------------------------- ESPRESSIF ------------------------- #
-
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
-
-# ------------------------- PORTAS SERIAIS ---------------------- #
-
-# Permitir todos os usuários acessarem as portas seriais
-alias serial='sudo chmod a+rw /dev/ttyACM0'
-
-# Listas as portas seriais existentes
-alias lss='ls /dev/ttyA*'
-
-# ---------------------------- SHARED --------------------------- #
-
-# Shred for file
-alias rmm='shred -n 10 -z -u -v'
-# Shred for disk
-alias rmmd='shred -n 2 -z -v'
-
-# -------------------------- IFCONFIG.ME ------------------------ #
-alias ipp='curl ifconfig.me'
-
-# ---------------------------- PACMAN --------------------------- #
-alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
-
-# -------------------------- REFLECTOR -------------------------- #
-alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
-EOF
+# TODO: Adicionar configuração de aliases
 
 log "[INFO] - Aliases adicionados."
 
@@ -587,21 +438,6 @@ if pacman -Qe | grep -q syncthing; then
 	log "[INFO] - Syncthing configurado."
 fi
 
-## Instalando e configurando asdf-vm
-if yay -Q | grep -q curl && yay -Q | grep -q git; then
-	git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.0
-	source "$HOME/.asdf/asdf.sh"
-	echo "# Load asdf-vm" >>~/.zshrc
-	echo "source ~/.asdf/asdf.sh" >>~/.zshrc
-	asdf plugin add python
-	asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-	#	asdf global python system
-	asdf install python 3.11.9
-	asdf install python 3.12.3
-	asdf global python 3.12.3
-	log "[INFO] - asdf-vm configurado."
-fi
-
 ## Configurando GIT
 git config --global user.name "Henrique Sebastião"
 git config --global user.email "contato@henriquesebastiao.com"
@@ -618,36 +454,19 @@ fi
 printf "nameserver 1.1.1.1\nnameserver 1.0.0.1\n" | sudo tee /etc/resolv.conf >/dev/null
 sudo chattr +i /etc/resolv.conf # Protegendo o arquivo contra alterações
 
-## Configurando Sublime Text
-wget https://raw.githubusercontent.com/daltonmenezes/aura-theme/main/packages/sublime-text/aura-theme.tmTheme
-mv aura-theme.tmTheme ~/.config/sublime-text/Packages/aura-theme/
-cat <<EOF >~/.config/sublime-text/Packages/User/Preferences.sublime-settings
-{
-    "theme": "Adaptive.sublime-theme",
-    "font_face": "JetBrains Mono",
-    "save_on_focus_lost": true,
-    "highlight_line": true,
-    "caret_style": "phase",
-    "color_scheme": "Packages/aura-theme/aura-theme.tmTheme",
-    "translate_tabs_to_spaces": true,
-    "trim_trailing_white_space_on_save": true
-}
-EOF
-log "[INFO] - Sublime Text configurado."
+## Configurando VS Codium
+cp home/.config/VSCodium/User/settings.json ~/.config/VSCodium/User/
 
-## Configurando VS Code
-cp home/.config/Code/User/settings.json ~/.config/Code/User/
-
-# Verifica se o arquivo vscode-extensions.txt existe
-if [ ! -f vscode-extensions.txt ]; then
-	log "[ERRO] - Arquivo vscode-extensions.txt não encontrado."
+# Verifica se o arquivo codium-extensions.txt existe
+if [ ! -f coium-extensions.txt ]; then
+	log "[ERRO] - Arquivo codium-extensions.txt não encontrado."
 fi
 
-# Lê o arquivo extensions.txt linha por linha e instala cada extensão
+# Lê o arquivo codium-extensions.txt linha por linha e instala cada extensão
 while IFS= read -r extension; do
 	if [ ! -z "$extension" ]; then
 		echo "Instalando extensão: $extension"
-		code --install-extension "$extension"
+		codium --install-extension "$extension"
 	fi
 done <extensions.txt
 
