@@ -21,6 +21,9 @@ CORE=(
 EXTRAS=(
 	act                          # Executa o GitHub Actions localmente para teste
 	aircrack-ng                  # Ferramenta para testes de segurança em redes Wi-Fi
+	alsa-firmware                # Firmware binário para carregar programas no alsa-tools
+	alsa-oss                     # Biblioteca de compatibilidade OSS
+	alsa-tools                   # Ferramentas avançadas para placas de som
 	android-tools                # Ferramentas para plataforma Android
 	apostrophe                   # Editor de Markdown simples e bonito
 	arduino-cli                  # Arduino CLI
@@ -52,6 +55,7 @@ EXTRAS=(
 	flameshot                    # Ferramenta de captura de tela com recursos adicionais
 	flashrom                     # Programa para ler, gravar, apagar e verificar BIOS/ROM (CH341A)
 	foremost                     # Ferramenta para recuperação de arquivos
+	gdm                          # Gerenciador de tela de login do Gnome
 	gimp                         # Editor de imagens bitmap
 	git                          # Sistema de controle de versão
 	github-cli                   # GitHub CLI
@@ -89,6 +93,7 @@ EXTRAS=(
 	rust                         # Rust programming language
 	shfmt                        # Formatador de scripts shell
 	showtime                     # Reprodutor de vídeos para GNOME
+	sof-firmware                 # Firmware aberto de som
 	speedtest-cli                # Teste de velocidade da internet
 	supercollider                # Plataforma de síntese de áudio em tempo real
 	syncthing                    # Sincronização de arquivos em rede local
