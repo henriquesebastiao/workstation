@@ -1,3 +1,4 @@
+adpyke.codesnap
 james-yu.latex-workshop
 mobalic.jetbrains-new-dark
 ms-azuretools.vscode-docker

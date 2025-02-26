@@ -24,6 +24,7 @@ EXTRAS=(
 	alsa-firmware                # Firmware binário para carregar programas no alsa-tools
 	alsa-oss                     # Biblioteca de compatibilidade OSS
 	alsa-tools                   # Ferramentas avançadas para placas de som
+	amberol                      # Um simples reprodutor de músicas para GNOME
 	android-tools                # Ferramentas para plataforma Android
 	apostrophe                   # Editor de Markdown simples e bonito
 	arduino-cli                  # Arduino CLI
@@ -75,12 +76,14 @@ EXTRAS=(
 	ncdu                         # Utilitário para análise de uso de disco
 	neofetch                     # Exibe informações do sistema
 	network-manager-applet       # Applet para gerenciar conexões de rede
+	newsflash                    # Leitor de feed RSS
 	nextcloud-client             # Cliente Nextcloud
 	noto-fonts                   # Noto TTF fonts
 	noto-fonts-extra             # Noto TTF fonts
 	nyx                          # Ferrameta para monitorar status do TOR
 	obs-studio                   # Gravação e streaming de vídeo
 	pacman-contrib               # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
+	palette                      # Um app de paleta de cores para GNOME
 	paper-clip                   # Ferramenta para editar metadados de PDFs
 	picocom                      # Terminal Emulator
 	pypy                         # Python escrito em Python
