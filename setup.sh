@@ -145,6 +145,7 @@ AUR=(
 	chirp-next                      # Programa para programar rádios amadores
 	chromedriver                    # WebDriver for Chrome -> https://chromedriver.chromium.org/
 	devtoolbox                      # Aplicativo com conjunto de ferramentas úteis para desenvolvedores
+	eloquent                        # App para revisão de ortografia
 	gearlever                       # Ferramentar para gerenciar AppImages
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium

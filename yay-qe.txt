@@ -43,6 +43,7 @@ docker-compose 2.33.1-1
 dosfstools 4.2-5
 eartag 0.6.4-1
 efibootmgr 18-3
+eloquent 1.2-1
 emblem 1.4.0-2
 epiphany 47.3.1-1
 esptool 4.8.1-2
@@ -110,6 +111,7 @@ intel-compute-runtime 24.52.32224.5-1
 intel-media-driver 24.4.4-2
 intel-ucode 20250211-1
 iwd 3.4-1
+jdk-openjdk 23.0.2.u7-1
 jdk17-openjdk 17.0.14.u7-1
 jupyter-matlab_kernel 0.17.1-1
 jupyter-notebook 7.3.2-1

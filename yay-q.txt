@@ -27,6 +27,7 @@ anydesk-bin 6.4.2-1
 aom 3.12.0-1
 apostrophe 3.2-3
 appstream 1.0.4-1
+appstream-glib 0.8.3-2
 archlinux-keyring 20250123-1
 arduino 1:1.8.19-2
 arduino-builder 1.6.1-3
@@ -140,6 +141,7 @@ efibootmgr 18-3
 efivar 39-1
 electron33 33.4.1-3
 ell 0.73-1
+eloquent 1.2-1
 emblem 1.4.0-2
 enchant 2.8.2-2
 epiphany 47.3.1-1
@@ -156,6 +158,9 @@ eza 0.20.22-1
 faac 1.30-5
 faad2 2.11.1-1
 fakeroot 1.37-1
+fasttext 0.9.2-4
+fasttext-debug 0.9.2-4
+fasttext-langid-models 0.0.1-4
 ffcall 2.4-3
 ffmpeg 2:7.1-6
 fftw 3.3.10-7
@@ -577,6 +582,7 @@ java-environment-common 3-6
 java-runtime-common 3-6
 jbig2dec 0.20-1
 jbigkit 2.1-8
+jdk-openjdk 23.0.2.u7-1
 jdk17-openjdk 17.0.14.u7-1
 jemalloc 1:5.3.0-5
 jre8-openjdk 8.442.u06-1
@@ -606,6 +612,7 @@ knockd 0.8-1
 krb5 1.21.3-1
 l-smash 2.14.5-4
 lame 3.100-5
+languagetool 6.5-1
 lapack 3.12.1-2
 lcms2 2.17-1
 ldb 2:4.21.4-1

@@ -16,9 +16,11 @@ update:
 	yay -Qe > yay-qe.txt
 	yay -Q > yay-q.txt
 	gnome-extensions list > gnome-extensions.txt
+	cat ~/.mozilla/firefox/*.default-release/bookmarks.html > .mozilla/firefox/z0gjscpl.default-release/bookmarks.html
+	python scripts/firefox-settings.py
 
 diff:
-	python diff-packages.py
+	python scripts/diff-packages.py
 
 old:
 	cat yay-qet.txt > yay-qet-old.txt
