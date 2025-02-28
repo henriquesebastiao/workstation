@@ -1,6 +1,10 @@
 SETTINGS = [
-    'browser.bookmarks.autoExportHTML',
-    'privacy.resistFingerprinting',
+    'browser.bookmarks.autoExportHTML',  # true
+    'browser.ctrlTab.sortByRecentlyUsed',  # true
+    'browser.toolbars.bookmarks.visibility',  # newtab
+    'browser.translations.automaticallyPopup',  # false
+    'privacy.clearOnShutdown_v2.cookiesAndStorage',  # false
+    'privacy.resistFingerprinting',  # false
 ]
 
 with open('/home/hick/.librewolf/3vz18q2q.default-default/prefs.js', encoding='utf-8') as file:
