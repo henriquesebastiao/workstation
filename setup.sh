@@ -150,6 +150,7 @@ AUR=(
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
+	librewolf-bin                   # Fork do Firefox focado em privacidade
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
 	mini-text                       # Um editor de texto muito simples
 	nautilus-open-in-ptyxis         # Adiciona opção de abrir pasta no terminal ao menu de contexto

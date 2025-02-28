@@ -76,6 +76,7 @@ jupyter-matlab_kernel 0.17.1-1
 jupyter-notebook 7.3.2-1
 knockd 0.8-1
 libreoffice-still-pt-br 24.8.5-1
+librewolf-bin 135.0.1-1
 libsecp256k1 1:0.5.1-1
 libvncserver 0.9.14-4
 linux-lts 6.12.16-1

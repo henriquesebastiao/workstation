@@ -886,6 +886,8 @@ libreoffice-still 24.8.5-1
 libreoffice-still-pt-br 24.8.5-1
 librest 0.9.1-2
 librevenge 0.0.5-3
+librewolf-bin 135.0.1-1
+librewolf-bin-debug 135.0.1-1
 librsvg 2:2.59.2-1
 libsamplerate 0.2.2-3
 libsasl 2.1.28-5

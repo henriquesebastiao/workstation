@@ -10,3 +10,4 @@
 // - set it within a user.js file in your profile.
 
 user_pref("browser.bookmarks.autoExportHTML", true);
+user_pref("privacy.resistFingerprinting", false);

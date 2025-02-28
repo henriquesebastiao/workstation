@@ -1,10 +1,11 @@
 SETTINGS = [
     'browser.bookmarks.autoExportHTML',
+    'privacy.resistFingerprinting',
 ]
 
-with open('/home/hick/.mozilla/firefox/z0gjscpl.default-release/prefs.js', encoding='utf-8') as file:
+with open('/home/hick/.librewolf/3vz18q2q.default-default/prefs.js', encoding='utf-8') as file:
     lines = file.readlines()
-    with open('.mozilla/firefox/z0gjscpl.default-release/prefs.js', encoding='utf-8', mode='w') as save_file:
+    with open('.librewolf/3vz18q2q.default-default/prefs.js', encoding='utf-8', mode='w') as save_file:
         save_file.write(
             """// Mozilla User Preferences
 

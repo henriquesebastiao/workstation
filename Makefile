@@ -16,7 +16,7 @@ update:
 	yay -Qe > yay-qe.txt
 	yay -Q > yay-q.txt
 	gnome-extensions list > gnome-extensions.txt
-	python scripts/firefox-settings.py
+	python scripts/librewolf-settings.py
 	python scripts/encode_bookmarks.py
 
 diff:
