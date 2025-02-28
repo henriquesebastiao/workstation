@@ -1,4 +1,5 @@
 adpyke.codesnap
+github.vscode-pull-request-github
 james-yu.latex-workshop
 mobalic.jetbrains-new-dark
 ms-azuretools.vscode-docker

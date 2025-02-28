@@ -62,6 +62,7 @@ EXTRAS=(
 	github-cli                   # GitHub CLI
 	gnome-browser-connector      # Browser integration for GNOME Shell
 	gparted                      # Gerenciador de discos
+	helvum                       # Um painel patch para PipeWire
 	htop                         # Monitor de recursos
 	inkscape                     # Editor de gráficos vetoriais
 	intel-compute-runtime        # Intel Compute Runtime
@@ -105,6 +106,7 @@ EXTRAS=(
 	texlive-fontsextra           # Fontes extras para Tex Live
 	texlive-langportuguese       # Suporte do Tex Live para Português
 	texlive-latexextra           # Complementos para Tex Live
+	texlive-publishers           # Estilos de publicação, teses, etc.
 	thunderbird                  # Cliente de e-mail
 	tk                           # A windowing toolkit for use with tcl
 	tldr                         # Manual pages with practical examples

@@ -25,11 +25,11 @@ bitwarden 2025.1.3-1
 brightnessctl 0.5.1-3
 btop 1.4.0-4
 chirp-next 20250221-1
-chromedriver 133.0.6943.126-1
+chromedriver 133.0.6943.141-1
 clang 19.1.7-1
 clipmenu 6.2.0-3
 collision 3.9.0-2
-cppcheck 2.16.0-2
+cppcheck 2.17.0-1
 ctop 0.7.7-3
 cython 3.0.12-1
 dbeaver 24.3.5-1
@@ -52,7 +52,7 @@ eyedropper 2.0.1-3
 eza 0.20.22-1
 filezilla 3.68.1-1
 firefox 135.0.1-1
-firefox-dark-reader 4.9.102-2
+firefox-dark-reader 4.9.103-1
 flameshot 12.1.0-5
 foremost 1.5.7-7
 fwupd 2.0.6-1
@@ -85,7 +85,7 @@ gnome-text-editor 47.3-1
 gnome-tweaks 46.1-2
 gnome-user-docs 47.2-1
 go 2:1.24.0-1
-google-chrome 133.0.6943.126-1
+google-chrome 133.0.6943.141-1
 google-earth-pro 7.3.6.10201-1
 gparted 1.7.0-1
 grilo-plugins 1:0.3.16-1
@@ -102,6 +102,7 @@ gvfs-nfs 1.56.1-3
 gvfs-smb 1.56.1-3
 hcxdumptool 6.3.5-1
 hdparm 9.65-2
+helvum 0.5.1-1
 htop 3.3.0-3
 inetutils 2.5-1
 inkscape 1.4-7
@@ -129,7 +130,7 @@ localsearch 3.8.2-2
 localsend-bin 1.16.1-1
 loupe 47.4-1
 man-db 2.13.0-1
-man-pages 6.11-1
+man-pages 6.12-1
 mesa-demos 9.0.0-5
 mesa-utils 9.0.0-5
 mini-text 1.0.0-1
@@ -207,6 +208,7 @@ texlive-fontsextra 2024.2-4
 texlive-fontsrecommended 2024.2-4
 texlive-langportuguese 2024.2-4
 texlive-latexextra 2024.2-4
+texlive-publishers 2024.2-4
 texlive-xetex 2024.2-4
 textidote-bin 0.8.3-5
 tk 8.6.16-1
@@ -239,7 +241,7 @@ wireguard-tools 1.0.20210914-2
 wireless_tools 30.pre9-4
 wireplumber 0.5.8-1
 wireplumber-docs 0.5.8-1
-wireshark-qt 4.4.4-1
+wireshark-qt 4.4.5-1
 woff2-cascadia-code 2407.24-2
 wxtoimg 2.10.11-2
 xcb-imdkit 1.0.9-1
@@ -251,7 +253,7 @@ xf86-video-amdgpu 23.0.0-2
 xf86-video-ati 1:22.0.0-2
 xf86-video-nouveau 1.0.18-1
 xf86-video-vmware 13.4.0-3
-xorg-server 21.1.15-1
+xorg-server 21.1.16-1
 xorg-xdm 1.1.16-1
 xorg-xhost 1.0.10-1
 xorg-xinit 1.4.3-1
