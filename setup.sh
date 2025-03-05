@@ -95,6 +95,7 @@ EXTRAS=(
 	raider                       # Ferramenta para excluir arquivos permanentemente
 	reflector                    # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
 	rust                         # Rust programming language
+	share-preview                # Visualizar e depurar tags de metadados de sites para compartilhamento em mídias sociais
 	shfmt                        # Formatador de scripts shell
 	showtime                     # Reprodutor de vídeos para GNOME
 	sof-firmware                 # Firmware aberto de som
@@ -147,9 +148,11 @@ AUR=(
 	devtoolbox                      # Aplicativo com conjunto de ferramentas úteis para desenvolvedores
 	eloquent                        # App para revisão de ortografia
 	gearlever                       # Ferramentar para gerenciar AppImages
+	github-desktop                  # GitHub Desktop
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
+	httpie-desktop-bin              # HTTPie para Desktop
 	librewolf-bin                   # Fork do Firefox focado em privacidade
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
 	mini-text                       # Um editor de texto muito simples

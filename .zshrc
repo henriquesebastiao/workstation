@@ -113,3 +113,6 @@ fpath+=~/.zfunc
 export GPG_TTY=$(tty)
 
 . "$HOME/.cargo/env"
+
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"

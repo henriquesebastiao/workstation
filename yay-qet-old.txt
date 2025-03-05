@@ -47,7 +47,7 @@ flameshot 12.1.0-5
 foremost 1.5.7-7
 gdm 47.0-2
 gearlever 2.3.2-1
-github-cli 2.67.0-1
+github-desktop 3.4.13-1
 gnome-backgrounds 47.0-1
 gnome-browser-connector 42.1-7
 gnome-calculator 47.1-1
@@ -69,6 +69,7 @@ hcxdumptool 6.3.5-1
 hdparm 9.65-2
 helvum 0.5.1-1
 htop 3.3.0-3
+httpie-desktop-bin 2024.1.2-2
 inetutils 2.5-1
 inkscape 1.4-7
 intel-ucode 20250211-1
@@ -120,11 +121,13 @@ python-seaborn 0.13.2-2
 python-xcffib 1.5.0-2
 python-xlib 0.33-4
 qbittorrent 5.0.4-3
+qemu-user-static 9.2.0-2
 raider 3.0.2-1
 reflector 2023-3
 rtaudio 6.0.1-2
 rust 1:1.85.0-1
 sasquatch-git r60.bd864a1-1
+share-preview 0.5.0-2
 shfmt 3.10.0-1
 showtime 47.0-3
 sof-firmware 2025.01-1
@@ -142,6 +145,7 @@ texlive-langportuguese 2024.2-4
 texlive-latexextra 2024.2-4
 texlive-publishers 2024.2-4
 textidote-bin 0.8.3-5
+thunderbird 128.7.1-1
 tldr 3.3.0-2
 torbrowser-launcher 0.3.7-3
 torcheck r1.266839a-1

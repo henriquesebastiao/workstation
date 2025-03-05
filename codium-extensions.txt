@@ -1,5 +1,6 @@
 adpyke.codesnap
 github.vscode-pull-request-github
+icrawl.discord-vscode
 james-yu.latex-workshop
 mobalic.jetbrains-new-dark
 ms-azuretools.vscode-docker
@@ -9,3 +10,4 @@ njpwerner.autodocstring
 redhat.vscode-yaml
 ritwickdey.liveserver
 tamasfe.even-better-toml
+waderyan.gitblame

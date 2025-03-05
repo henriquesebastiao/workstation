@@ -21,6 +21,7 @@
     "git.autofetch": true,
     "git.autofetchPeriod": 60,
     "git.confirmSync": false,
+    "git.mergeEditor": true,
     "security.workspace.trust.untrustedFiles": "open",
     "window.titleBarStyle": "custom",
     "workbench.colorTheme": "JetBrains New Dark",
@@ -32,7 +33,9 @@
     "autoDocstring.guessTypes": true,
     "liveServer.settings.useLocalIp": true,
     "python.testing.pytestEnabled": true,
-
+    "python.testing.pytestArgs": [
+        "--rootdir","${workspaceFolder}/tests"
+    ],
     "latex-workshop.latex.recipes": [
         {
             "name": "latexmk (xelatex)",
@@ -41,5 +44,5 @@
             ]
         },
     ],
-    "redhat.telemetry.enabled": true
+    "redhat.telemetry.enabled": true,
 }
