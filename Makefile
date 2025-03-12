@@ -18,6 +18,7 @@ update:
 	gnome-extensions list > gnome-extensions.txt
 	python scripts/librewolf-settings.py
 	python scripts/encode_bookmarks.py
+	pipx list --short > pipx.txt
 
 diff:
 	python scripts/diff-packages.py
