@@ -19,96 +19,96 @@ CORE=(
 )
 
 EXTRAS=(
-	act                          # Executa o GitHub Actions localmente para teste
-	aircrack-ng                  # Ferramenta para testes de segurança em redes Wi-Fi
-	alsa-firmware                # Firmware binário para carregar programas no alsa-tools
-	alsa-oss                     # Biblioteca de compatibilidade OSS
-	alsa-tools                   # Ferramentas avançadas para placas de som
-	amberol                      # Um simples reprodutor de músicas para GNOME
-	android-tools                # Ferramentas para plataforma Android
-	apostrophe                   # Editor de Markdown simples e bonito
-	arduino-cli                  # Arduino CLI
-	awesome-terminal-fonts       # Fontes para o terminal
-	bat                          # Uma alternattiva ao comando cat com sintaxe highlight e numeros de linhas
-	bitwarden                    # Gerenciador de senhas
-	binwalk                      # Ferramenta para análise de firmware
-	brightnessctl                # Ferramenta para alterar brilho da tela
-	btop                         # Monitor de recursos moderno
-	clipmenu                     # Gerenciar área de transferência usando dmenu
-	cmake                        # Ferramenta de compilação
-	collision                    # Verificar hashes de arquivos
-	cppcheck                     # Linter de análise estática para C/C++
-	ctop                         # Alternativa ao top
-	cython                       # Extensões C para Python
-	dbeaver                      # Ferramenta de gerenciamento de banco de dados
-	discord                      # Discord
-	dnsmasq                      # Um servidor de DNS e DHCP
-	docker                       # Docker
-	docker-compose               # Docker Compose
-	eartag                       # Editor de metadados de músicas
-	emblem                       # Gerar avatares apartir de ícones simbólicos
+	act                          # Executa o GitHub Actions localmente para teste -> https://github.com/nektos/act
+	aircrack-ng                  # Ferramenta para testes de segurança em redes Wi-Fi -> https://www.aircrack-ng.org
+	alsa-firmware                # Firmware binário para carregar programas no alsa-tools -> https://github.com/alsa-project/alsa-firmware
+	alsa-oss                     # Biblioteca de compatibilidade OSS -> https://github.com/alsa-project/alsa-oss
+	alsa-tools                   # Ferramentas avançadas para placas de som -> https://github.com/alsa-project/alsa-tools
+	amberol                      # Um simples reprodutor de músicas para GNOME -> https://gitlab.gnome.org/World/amberol
+	android-tools                # Ferramentas para plataforma Android -> https://archlinux.org/packages/extra/x86_64/android-tools
+	apostrophe                   # Editor de Markdown simples e bonito -> https://gitlab.gnome.org/World/apostrophe
+	arduino-cli                  # Arduino CLI -> https://github.com/arduino/arduino-cli
+	awesome-terminal-fonts       # Fontes para o terminal -> https://github.com/gabrielelana/awesome-terminal-fonts
+	bat                          # Uma alternattiva ao comando cat com sintaxe highlight e numeros de linhas -> https://github.com/sharkdp/bat
+	bitwarden                    # Gerenciador de senhas -> https://bitwarden.com
+	binwalk                      # Ferramenta para análise de firmware -> https://github.com/ReFirmLabs/binwalk
+	brightnessctl                # Ferramenta para alterar brilho da tela -> https://github.com/Hummer12007/brightnessctl
+	btop                         # Monitor de recursos moderno -> https://github.com/aristocratos/btop
+	clipmenu                     # Gerenciar área de transferência usando dmenu -> https://github.com/cdown/clipmenu
+	cmake                        # Ferramenta de compilação -> https://cmake.org
+	collision                    # Verificar hashes de arquivos -> https://github.com/GeopJr/Collision
+	cppcheck                     # Linter de análise estática para C/C++ -> https://github.com/danmar/cppcheck
+	ctop                         # Alternativa ao top -> https://github.com/bcicen/ctop
+	cython                       # Extensões C para Python -> https://github.com/cython/cython
+	dbeaver                      # Ferramenta de gerenciamento de banco de dados -> https://github.com/dbeaver/dbeaver
+	discord                      # Discord -> https://discord.com
+	dnsmasq                      # Um servidor de DNS e DHCP -> https://thekelleys.org.uk/dnsmasq/doc.html
+	docker                       # Docker -> https://www.docker.com
+	docker-compose               # Docker Compose -> https://docs.docker.com/compose
+	eartag                       # Editor de metadados de músicas -> https://gitlab.gnome.org/World/eartag
+	emblem                       # Gerar avatares apartir de ícones simbólicos -> https://gitlab.gnome.org/World/design/emblem/
 	esptool                      # Ferramenta para lidar com firmwares em microcontroladores Espressif -> https://docs.espressif.com/projects/esptool/en/latest/esp32/
-	eyedropper                   # Color Picker
-	eza                          # Alternativa ao comando ls
-	filezilla                    # Cliente FTP
+	eyedropper                   # Color Picker -> https://github.com/FineFindus/eyedropper
+	eza                          # Alternativa ao comando ls -> https://github.com/eza-community/eza
+	filezilla                    # Cliente FTP -> https://filezilla-project.org
 	firefox                      # Navegador Web
 	firefox-dark-reader          # Extensão para modo escuro
-	flameshot                    # Ferramenta de captura de tela com recursos adicionais
-	flashrom                     # Programa para ler, gravar, apagar e verificar BIOS/ROM (CH341A)
-	foremost                     # Ferramenta para recuperação de arquivos
-	gdm                          # Gerenciador de tela de login do Gnome
-	gimp                         # Editor de imagens bitmap
+	flameshot                    # Ferramenta de captura de tela com recursos adicionais -> https://github.com/flameshot-org/flameshot
+	flashrom                     # Programa para ler, gravar, apagar e verificar BIOS/ROM (CH341A) -> https://github.com/flashrom/flashrom
+	foremost                     # Ferramenta para recuperação de arquivos -> https://github.com/korczis/foremost
+	gdm                          # Gerenciador de tela de login do Gnome -> https://help.gnome.org/admin/gdm/
+	gimp                         # Editor de imagens bitmap -> https://www.gimp.org/
 	git                          # Sistema de controle de versão
-	github-cli                   # GitHub CLI
+	github-cli                   # GitHub CLI -> https://git-scm.com/
 	gnome-browser-connector      # Browser integration for GNOME Shell
-	gparted                      # Gerenciador de discos
-	helvum                       # Um painel patch para PipeWire
-	htop                         # Monitor de recursos
-	inkscape                     # Editor de gráficos vetoriais
+	gparted                      # Gerenciador de discos -> https://gparted.org/
+	helvum                       # Um painel patch para PipeWire -> https://github.com/relulz/helvum
+	htop                         # Monitor de recursos -> https://github.com/htop-dev/htop/
+	inkscape                     # Editor de gráficos vetoriais -> https://inkscape.org/
 	intel-compute-runtime        # Intel Compute Runtime
-	ipython                      # Shell interativo para Python
-	jupyter-notebook             # Jupyter Notebook
+	ipython                      # Shell interativo para Python -> https://github.com/i/nkscape/inkscape
+	jupyter-notebook             # Jupyter Notebook - https://jupyter.org/
 	knockd                       # Port-knock server
-	libreoffice-still            # Suíte de escritório
+	libreoffice-still            # Suíte de escritório -> https://pt-br.libreoffice.org/
 	libreoffice-still-pt-br      # Language pack for LibreOffice (pt-br)
 	linux-zen                    # The Linux ZEN kernel and modules
 	mesa-demos                   # Mesa demos
 	mesa-utils                   # Mesa utilities
 	ncdu                         # Utilitário para análise de uso de disco
-	neofetch                     # Exibe informações do sistema
+	neofetch                     # Exibe informações do sistema -> https://github.com/dylanaraps/neofetch
 	network-manager-applet       # Applet para gerenciar conexões de rede
-	newsflash                    # Leitor de feed RSS
+	newsflash                    # Leitor de feed RSS -> https://gitlab.com/news-flash/news_flash_gtk
 	nextcloud-client             # Cliente Nextcloud
 	noto-fonts                   # Noto TTF fonts
 	noto-fonts-extra             # Noto TTF fonts
 	nyx                          # Ferrameta para monitorar status do TOR
-	obs-studio                   # Gravação e streaming de vídeo
+	obs-studio                   # Gravação e streaming de vídeo -> https://obsproject.com/pt-br/download
 	pacman-contrib               # Utilitários para o pacman (dependência da extensão Arch Linux Updates Indicator)
-	palette                      # Um app de paleta de cores para GNOME
-	paper-clip                   # Ferramenta para editar metadados de PDFs
-	picocom                      # Terminal Emulator
-	pypy                         # Python escrito em Python
+	palette                      # Um app de paleta de cores para GNOME -> https://gitlab.gnome.org/World/design/palette
+	paper-clip                   # Ferramenta para editar metadados de PDFs -> https://github.com/Diego-Ivan/Paper-Clip
+	picocom                      # Terminal Emulator -> https://github.com/npat-efault/picocom
+	pypy                         # Python escrito em Python -> https://github.com/pypy/pypy
 	python-devtools              # Dev tools for Python
-	python-pipx                  # Instalador de pacotes Python globalmente em ambientes virtuais isolados
-	python-poetry                # Gerenciador de dependências Pythonwoeusb-ng 0.2.12-3
-	qbittorrent                  # Cliente BitTorrent
-	raider                       # Ferramenta para excluir arquivos permanentemente
+	python-pipx                  # Instalador de pacotes Python globalmente em ambientes virtuais isolados -> https://github.com/pypa/pipx
+	python-poetry                # Gerenciador de dependências Pythonwoeusb-ng 0.2.12-3 -> https://github.com/python-poetry/poetry
+	qbittorrent                  # Cliente BitTorrent -> https://www.qbittorrent.org/
+	raider                       # Ferramenta para excluir arquivos permanentemente -> https://github.com/ADBeveridge/raider
 	reflector                    # A Python 3 module and script to retrieve and filter the latest Pacman mirror list.
-	rust                         # Rust programming language
-	share-preview                # Visualizar e depurar tags de metadados de sites para compartilhamento em mídias sociais
+	rust                         # Rust programming language -> https://www.rust-lang.org/
+	share-preview                # Visualizar e depurar tags de metadados de sites para compartilhamento em mídias sociais -> https://github.com/rafaelmardojai/share-preview/
 	shfmt                        # Formatador de scripts shell
 	showtime                     # Reprodutor de vídeos para GNOME
 	sof-firmware                 # Firmware aberto de som
 	speedtest-cli                # Teste de velocidade da internet
-	supercollider                # Plataforma de síntese de áudio em tempo real
-	syncthing                    # Sincronização de arquivos em rede local
+	supercollider                # Plataforma de síntese de áudio em tempo real -> https://github.com/supercollider/supercollider
+	syncthing                    # Sincronização de arquivos em rede local -> https://github.com/syncthing/syncthing
 	telegram-desktop             # Telegram
 	testdisk                     # Ferramenta para recuperar arquivos
 	texlive-fontsextra           # Fontes extras para Tex Live
 	texlive-langportuguese       # Suporte do Tex Live para Português
 	texlive-latexextra           # Complementos para Tex Live
 	texlive-publishers           # Estilos de publicação, teses, etc.
-	thunderbird                  # Cliente de e-mail
+	thunderbird                  # Cliente de e-mail -> https://www.thunderbird.net/pt-BR/
 	tk                           # A windowing toolkit for use with tcl
 	tldr                         # Manual pages with practical examples
 	tmux                         # Terminal multiplexer
@@ -121,7 +121,7 @@ EXTRAS=(
 	ttf-times-new-roman          # Fonte Times New Roman
 	virtualbox-guest-iso         # The official VirtualBox Guest Additions ISO
 	virtualbox-host-modules-arch # VirtualBox Host kernel modules for Arch Linux
-	virtualbox                   # VirtualBox
+	virtualbox                   # VirtualBox -> https://www.virtualbox.org/
 	vpl-gpu-rt                   # VPL GPU Ray Tracing
 	wget                         # Ferramenta para baixar arquivos da internet
 	whois                        # Cliente WHOIS
@@ -129,7 +129,7 @@ EXTRAS=(
 	wireshark-qt                 # Analisador de protocolos de rede
 	wine-mono                    # Wine Mono .NET support
 	xorg-xkill                   # Kill a client by its X resource
-	zsh                          # Shell
+	zsh                          # Z Shell -> https://github.com/zsh-users/zsh
 )
 
 MULTILIB=(
@@ -140,40 +140,44 @@ MULTILIB=(
 
 AUR=(
 	arduino                         # Arduino IDE v1
-	arduino-ide-bin                 # Arduino IDE v2
-	anki-bin                        # Aplicativo de flashcards
-	anydesk-bin                     # Acesso remoto a dispositivos
-	chirp-next                      # Programa para programar rádios amadores
+	arduino-ide-bin                 # Arduino IDE v2 -> https://github.com/arduino/arduino-ide
+	anki-bin                        # Aplicativo de flashcards -> https://github.com/ankitects/anki
+	anydesk-bin                     # Acesso remoto a dispositivos -> https://anydesk.com
+	chirp-next                      # Programa para programar rádios amadores -> https://chirpmyradio.com/projects/chirp/wiki/Home
 	chromedriver                    # WebDriver for Chrome -> https://chromedriver.chromium.org/
-	devtoolbox                      # Aplicativo com conjunto de ferramentas úteis para desenvolvedores
-	eloquent                        # App para revisão de ortografia
-	gearlever                       # Ferramentar para gerenciar AppImages
+	devtoolbox                      # Aplicativo com conjunto de ferramentas úteis para desenvolvedores -> https://github.com/aleiepure/devtoolbox
+	eloquent                        # App para revisão de ortografia -> https://github.com/sonnyp/Eloquent
+	gearlever                       # Ferramentar para gerenciar AppImages -> https://github.com/mijorus/gearlever
 	github-desktop                  # GitHub Desktop
 	gnome-shell-extension-installer # Instalador de extensões do GNOME Shell
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
-	httpie-desktop-bin              # HTTPie para Desktop
-	librewolf-bin                   # Fork do Firefox focado em privacidade
-	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local
-	mini-text                       # Um editor de texto muito simples
+	httpie-desktop-bin              # HTTPie para Desktop -> https://github.com/httpie/desktop
+	librewolf-bin                   # Fork do Firefox focado em privacidade -> https://codeberg.org/librewolf/source
+	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local -> https://github.com/localsend/localsend
+	mini-text                       # Um editor de texto muito simples -> https://github.com/Nokse22/mini-text
 	nautilus-open-in-ptyxis         # Adiciona opção de abrir pasta no terminal ao menu de contexto
 	netdiscover                     # ARP Scanner
 	netinstall-gui                  # Mikrotik Net Install
-	noaa-apt                        # Para decodificação de imagens de sinais de rádio dos satélites NOAA
+	noaa-apt                        # Para decodificação de imagens de sinais de rádio dos satélites NOAA -> https://github.com/martinber/noaa-apt
 	obs-gstreamer                   # Plugin para OBS Studio
 	ptyxis                          # Terminal
-	stellarium-bin                  # Planetário
-	tex-fmt                         # Formatador de arquivos LaTeX
+	stellarium-bin                  # Planetário -> https://github.com/Stellarium/stellarium
+	tex-fmt                         # Formatador de arquivos LaTeX -> https://github.com/WGUNDERWOOD/tex-fmt
 	textidote-bin                   # TODO: VERIFICAR USO
 	torcheck                        # Verifica se está conectado à rede Tor
 	turtle                          # Cliente git para visualizar log e extensão para Nautilus para ícones de status do git
-	vscodium-bin                    # VS Codium
+	vscodium-bin                    # VS Codium -> https://github.com/VSCodium/vscodium
 	winbox                          # Ferramenta para gerenciar roteadores MikroTik v4
 	winbox3                         # Ferramenta para gerenciar roteadores MikroTik v3
 )
 
 PIPX=(
-	ignr # Cria arquivos .gitignore
+	ignr      # Cria arquivos .gitignore -> https://github.com/Antrikshy/ignr.py
+	mkx       #  Tool to exploit vulnerabilities in Mikrotik routers  -> https://github.com/henriquesebastiao/mkx
+	skyport   # CLI for obtaining information from astronomical objects -> https://github.com/henriquesebastiao/skyport-old
+	smokeshow # Coverage badge (Samuel Colvin) -> https://github.com/samuelcolvin/smokeshow
+	twine     # Utilities for interacting with PyPI -> https://github.com/pypa/twine
 )
 
 # -------------------------------- CORES ---------------------------------- #
