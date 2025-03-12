@@ -1,0 +1,53 @@
+# ~/.local/share
+cp -r ~/.local/share/backgrounds .local/share/
+cp -r ~/.local/share/fonts .local/share/
+cp -r ~/.local/share/icons .local/share/
+
+# ~/.fonts
+cp -r ~/.fonts .
+
+# ~/.config
+
+# GitHub CLI
+cp -r ~/.config/gh .config/
+
+# Poetry
+cp -r ~/.config/pypoetry .config/
+
+# Flameshot
+cp ~/.config/flameshot/flameshot.ini .config/flameshot/
+
+# btop
+cp ~/.config/btop/btop.conf .config/btop/
+cp -r ~/.config/btop/themes .config/btop/themes/
+
+# neofetch
+cp ~/.config/neofetch/config.conf .config/neofetch/
+
+# GNOME
+cp -r ~/.config/gtk-3.0 .config/
+
+# VS Codium
+cp ~/.config/VSCodium/User/settings.json .config/VSCodium/User/
+
+# OBS
+cp ~/.config/obs-studio/global.ini .config/obs-studio/
+cp ~/.config/obs-studio/user.ini .config/obs-studio/
+
+
+# spaceship
+cp ~/.config/spaceship.zsh .config/
+
+# System
+cp ~/.config/monitors.xml .config/
+cp ~/.config/user-dirs.dirs .config/
+cp ~/.config/user-dirs.locale .config/
+cp ~/.config/mimeapps.list .config/
+
+# ~/
+
+# ~/.spotdl
+cp ~/.spotdl/config.json .spotdl/
+
+cp ~/.aliases .
+cp ~/.zshrc  .

@@ -5,12 +5,6 @@ format:
 	shfmt -l -w $(SHELL_SCRIPTS)
 
 update:
-	cat ~/.aliases > .aliases
-	cat ~/.zshrc > .zshrc
-	cat ~/.config/spaceship.zsh > .config/spaceship.zsh
-	cat ~/.config/pypoetry/config.toml > .config/pypoetry/config.toml
-	cat ~/.config/VSCodium/User/settings.json > .config/VSCodium/User/settings.json
-	cat ~/.config/flameshot/flameshot.ini > .config/flameshot/flameshot.ini
 	codium --list-extensions > codium-extensions.txt
 	yay -Qet > yay-qet.txt
 	yay -Qe > yay-qe.txt
@@ -19,6 +13,8 @@ update:
 	python scripts/librewolf-settings.py
 	python scripts/encode_bookmarks.py
 	pipx list --short > pipx.txt
+	gem list --local > gem.txt
+	./scripts/save-config.sh
 
 diff:
 	python scripts/diff-packages.py
@@ -26,7 +22,7 @@ diff:
 old:
 	cat yay-qet.txt > yay-qet-old.txt
 
-.PHONY: format
-.PHONY: update
-.PHONY: diff
-.PHONY: old
+config:
+	./scripts/save-config.sh
+
+.PHONY: format update diff old config
