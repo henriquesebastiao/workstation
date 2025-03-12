@@ -52,7 +52,6 @@ EXTRAS=(
 	eza                          # Alternativa ao comando ls -> https://github.com/eza-community/eza
 	filezilla                    # Cliente FTP -> https://filezilla-project.org
 	firefox                      # Navegador Web
-	firefox-dark-reader          # Extensão para modo escuro
 	flameshot                    # Ferramenta de captura de tela com recursos adicionais -> https://github.com/flameshot-org/flameshot
 	flashrom                     # Programa para ler, gravar, apagar e verificar BIOS/ROM (CH341A) -> https://github.com/flashrom/flashrom
 	foremost                     # Ferramenta para recuperação de arquivos -> https://github.com/korczis/foremost
@@ -166,7 +165,6 @@ AUR=(
 	tex-fmt                         # Formatador de arquivos LaTeX -> https://github.com/WGUNDERWOOD/tex-fmt
 	textidote-bin                   # TODO: VERIFICAR USO
 	torcheck                        # Verifica se está conectado à rede Tor
-	turtle                          # Cliente git para visualizar log e extensão para Nautilus para ícones de status do git
 	vscodium-bin                    # VS Codium -> https://github.com/VSCodium/vscodium
 	winbox                          # Ferramenta para gerenciar roteadores MikroTik v4
 	winbox3                         # Ferramenta para gerenciar roteadores MikroTik v3
