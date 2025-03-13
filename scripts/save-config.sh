@@ -51,3 +51,6 @@ cp ~/.spotdl/config.json .spotdl/
 
 cp ~/.aliases .
 cp ~/.zshrc  .
+
+# Get GNOME settings
+gsettings list-recursively > gsettings.txt
