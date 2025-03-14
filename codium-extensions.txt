@@ -13,4 +13,3 @@ njpwerner.autodocstring
 redhat.vscode-yaml
 ritwickdey.liveserver
 tamasfe.even-better-toml
-waderyan.gitblame

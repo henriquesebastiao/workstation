@@ -41,7 +41,7 @@ esptool 4.8.1-2
 eyedropper 2.0.1-3
 eza 0.20.23-1
 filezilla 3.68.1-1
-firefox 136.0-1
+firefox 136.0.1-1
 flameshot 12.1.0-5
 foremost 1.5.7-7
 gdm 47.0-2
@@ -92,7 +92,7 @@ nautilus-open-in-ptyxis 1.0.0-1
 ncdu 2.7-1
 neofetch 7.1.0-2
 netdiscover 0.10-0
-netinstall-gui 7.18.1-1
+netinstall-gui 7.18.2-1
 network-manager-applet 1.36.0-1
 newsflash 3.3.5-1
 nextcloud-client 2:3.15.3-1
@@ -110,7 +110,7 @@ protoc-gen-go 1.36.5-1
 ptyxis 47.10-1
 pypy 7.3.18-2
 python-buildozer 1.4.0-1
-python-configparser 7.1.0-1
+python-configparser 7.2.0-1
 python-configupdater 3.2-2
 python-cpplint 2.0.0-1
 python-devtools 0.12.2-3
@@ -134,7 +134,7 @@ speedtest-cli 2.1.3-9
 supercollider 3.13.0-8
 sushi 46.0-2
 svxlink 24.02-1
-syncthing 1.29.2-1
+syncthing 1.29.3-1
 tailscale 1.80.3-1
 telegram-desktop 5.12.3-1
 testdisk 7.2-2
@@ -142,6 +142,7 @@ tex-fmt 0.5.2-1
 texlive-fontsextra 2025.0-1
 texlive-langportuguese 2025.0-1
 texlive-latexextra 2025.0-1
+texlive-plaingeneric 2025.0-1
 texlive-publishers 2025.0-1
 textidote-bin 0.8.3-5
 thunderbird 136.0-1
@@ -155,7 +156,7 @@ ttf-fira-code 6.2-2
 ttf-jetbrains-mono 2.304-2
 ttf-times-new-roman 2.0-3
 virtualbox 7.1.6-2
-vscodium-bin 1.98.0.25067-1
+vscodium-bin 1.98.1.25070-1
 wget 1.25.0-1
 whois 5.5.23-1
 winbox 4.0beta18-1

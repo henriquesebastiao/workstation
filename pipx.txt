@@ -1,5 +1,6 @@
 ignr 2.2
 mkx 0.1.0
+pre-commit 4.1.0
 skyport 0.1.0
 smokeshow 0.5.0
 twine 5.0.0

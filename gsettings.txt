@@ -335,13 +335,13 @@ org.gnome.Evince.Default dual-page false
 org.gnome.Evince.Default dual-page-odd-left true
 org.gnome.Evince.Default enable-spellchecking true
 org.gnome.Evince.Default fullscreen false
-org.gnome.Evince.Default inverted-colors true
+org.gnome.Evince.Default inverted-colors false
 org.gnome.Evince.Default show-sidebar true
 org.gnome.Evince.Default sidebar-page 'thumbnails'
 org.gnome.Evince.Default sidebar-size 148
 org.gnome.Evince.Default sizing-mode 'free'
-org.gnome.Evince.Default window-ratio (1.4218487394957984, 0.38717339667458434)
-org.gnome.Evince.Default zoom 0.67540870885972026
+org.gnome.Evince.Default window-ratio (1.4231580686351106, 0.3886967498281011)
+org.gnome.Evince.Default zoom 0.62793370627572043
 org.gnome.Evolution.DefaultSources default-address-book 'system'
 org.gnome.Evolution.DefaultSources default-calendar 'system'
 org.gnome.Evolution.DefaultSources default-mail-account 'system'

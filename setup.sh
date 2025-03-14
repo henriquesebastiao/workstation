@@ -106,6 +106,7 @@ EXTRAS=(
 	texlive-fontsextra           # Fontes extras para Tex Live
 	texlive-langportuguese       # Suporte do Tex Live para Português
 	texlive-latexextra           # Complementos para Tex Live
+	texlive-plaingeneric         # Pacotes extras para latex
 	texlive-publishers           # Estilos de publicação, teses, etc.
 	thunderbird                  # Cliente de e-mail -> https://www.thunderbird.net/pt-BR/
 	tk                           # A windowing toolkit for use with tcl
