@@ -54,3 +54,7 @@ cp ~/.zshrc  .
 
 # Get GNOME settings
 gsettings list-recursively > gsettings.txt
+
+cp -r /etc/X11/xorg.conf.d raiz/etc/X11/xorg.conf.d/
+
+cp /etc/pacman.conf raiz/etc/
