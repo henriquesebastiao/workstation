@@ -103,7 +103,6 @@ EXTRAS=(
 	syncthing                    # Sincronização de arquivos em rede local -> https://github.com/syncthing/syncthing
 	telegram-desktop             # Telegram
 	testdisk                     # Ferramenta para recuperar arquivos
-	texlive-fontsextra           # Fontes extras para Tex Live
 	texlive-langportuguese       # Suporte do Tex Live para Português
 	texlive-latexextra           # Complementos para Tex Live
 	texlive-plaingeneric         # Pacotes extras para latex

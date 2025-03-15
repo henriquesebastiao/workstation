@@ -340,8 +340,8 @@ org.gnome.Evince.Default show-sidebar true
 org.gnome.Evince.Default sidebar-page 'thumbnails'
 org.gnome.Evince.Default sidebar-size 148
 org.gnome.Evince.Default sizing-mode 'free'
-org.gnome.Evince.Default window-ratio (1.4231580686351106, 0.3886967498281011)
-org.gnome.Evince.Default zoom 0.62793370627572043
+org.gnome.Evince.Default window-ratio (1.4235613936790554, 0.38805553309863816)
+org.gnome.Evince.Default zoom 0.58414924366987053
 org.gnome.Evolution.DefaultSources default-address-book 'system'
 org.gnome.Evolution.DefaultSources default-calendar 'system'
 org.gnome.Evolution.DefaultSources default-mail-account 'system'
@@ -380,7 +380,7 @@ org.gnome.Ptyxis toast-on-copy-clipboard true
 org.gnome.Ptyxis use-system-font false
 org.gnome.Ptyxis visual-bell true
 org.gnome.Ptyxis visual-process-leader true
-org.gnome.Ptyxis window-size (uint32 282, uint32 52)
+org.gnome.Ptyxis window-size (uint32 80, uint32 24)
 org.gnome.Ptyxis.Shortcuts close-other-tabs ''
 org.gnome.Ptyxis.Shortcuts close-tab '<ctrl><shift>w'
 org.gnome.Ptyxis.Shortcuts copy-clipboard '<ctrl><shift>c'
@@ -658,7 +658,7 @@ org.gnome.desktop.media-handling autorun-never true
 org.gnome.desktop.media-handling autorun-x-content-ignore @as []
 org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
 org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software', 'x-content/ostree-repository']
-org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash']
+org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf']
 org.gnome.desktop.notifications show-banners false
 org.gnome.desktop.notifications show-in-lock-screen false
 org.gnome.desktop.peripherals.tablet area [0.0, 0.0, 0.0, 0.0]
@@ -1024,7 +1024,7 @@ org.gnome.gnome-system-monitor.proctree col-8-width 71
 org.gnome.gnome-system-monitor.proctree col-9-visible false
 org.gnome.gnome-system-monitor.proctree col-9-width 80
 org.gnome.gnome-system-monitor.proctree columns-order [0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 7]
-org.gnome.gnome-system-monitor.proctree sort-col 8
+org.gnome.gnome-system-monitor.proctree sort-col 15
 org.gnome.gnome-system-monitor.proctree sort-order 0
 org.gnome.login-screen allowed-failures 3
 org.gnome.login-screen banner-message-enable false
@@ -1098,7 +1098,7 @@ org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
 org.gnome.nautilus.preferences show-hidden-files false
 org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
 org.gnome.nautilus.preferences thumbnail-limit uint64 50
-org.gnome.nautilus.window-state initial-size (508, 549)
+org.gnome.nautilus.window-state initial-size (386, 427)
 org.gnome.nautilus.window-state initial-size-file-chooser (918, 768)
 org.gnome.nautilus.window-state maximized true
 org.gnome.nm-applet disable-connected-notifications false

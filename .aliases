@@ -38,8 +38,9 @@ alias ipp='curl ifconfig.me'
 
 # Pacman and yay
 # Removes all orphaned packages and their unnecessary dependencies
-alias pclean='sudo pacman -Rs $(pacman -Qdtq)'
-alias yclean='yay -Rs $(yay -Qdtq)'
+alias ppclean='sudo pacman -Rs $(pacman -Qdtq)'
+alias ypclean='yay -Rs $(yay -Qdtq)'
+alias ycclean='yay -Sc --noconfirm'
 
 # Reflector
 alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
