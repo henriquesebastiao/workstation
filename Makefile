@@ -25,4 +25,11 @@ old:
 config:
 	./scripts/save-config.sh
 
-.PHONY: format update diff old config
+chmod:
+	chmod +x ./bin/*.sh
+
+bin:
+	cp bin/**/result/bin/* ~/.local/bin/
+	chmod +x ~/.local/bin/*
+
+.PHONY: format update diff old config bin
