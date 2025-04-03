@@ -27,11 +27,11 @@
 
 ;; PACOTES
 
-;; Verifica e inicia o package.el
-(require 'package)
+(require 'package) ; Verifica e inicia o package.el
 
 ;; Definição de repositórios
 (setq package-archives '(("melpa" . "https://melpa.org/packages/")
+                         ("melpa-stable" . "https://stable.melpa.org/packages/")
 			 ("elpa"  . "https://elpa.gnu.org/packages/")))
 
 ;; Inicialização do sistemas de pacotes
@@ -57,12 +57,16 @@
   (auto-package-update-at-time "20:00"))
 
 ;; TEMA
+(use-package dracula-theme
+  :ensure t)
+(load-theme 'dracula t)
 
-(unless (package-installed-p 'monokai-theme)
-  (package-install 'monokai-theme))
-(load-theme 'monokai t)
+;; DEMAIS FUNCIONALIDADES
 
-;; FUNCIONALIDADES
+;; EMOJIFY - Possibilita exibição de emojis
+(use-package emojify
+  :ensure t
+  :hook (after-init . global-emojify-mode))
 
 ;; NEOTREE - Barra lateral de navegação em arquivos
 (use-package neotree
@@ -76,6 +80,50 @@
   :ensure t
   :init (global-flycheck-mode t))
 
+;; TELA DE BOAS VINDAS CUSTOMIZADA (ver melhor)
+(use-package dashboard
+  :ensure t
+  :config
+  (dashboard-setup-startup-hook))
+
+(setq dashboard-banner-logo-title "Olá Hick!")
+(setq dashboard-startup-banner 'logo)
+(setq dashboard-center-content t)
+(setq dashboard-vertically-center-content t)
+(setq dashboard-display-icons-p t)     ; display icons on both GUI and terminal
+(setq dashboard-icon-type 'nerd-icons) ; use `nerd-icons' package
+
+;; COMPANY - Pop-up com sugestão de auto-complete
+(use-package company
+  :ensure t
+  :config
+  (setq company-idle-delay 0
+	company-minimum-prefix-length 1)
+  (global-company-mode t))
+
+;; Use `company' everywhere.
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; Para usar Elpy
+;; https://github.com/jorgenschaefer/elpy
+;; ; snippets from autocomplete
+;; (use-package yasnippet
+;;   :ensure t)
+;; (yas-global-mode 1)
+;; (use-package elpy
+;;   :ensure t
+;;   :init
+;;   (elpy-enable))
+
+;; TOML
+;; (use-package toml-mode
+;;   :ensure t)
+
+;; RAINBOW DELIMITERS - Semelhante ao rainbow parentheses
+(use-package rainbow-delimiters
+  :config
+  (rainbow-delimiters-mode))
+
 ;; DOOM MODELINE - Barra inferior customizada
 (use-package nerd-icons
   :ensure t)
@@ -84,13 +132,43 @@
   :ensure t
   :init (doom-modeline-mode 1))
 
-(use-package ghub
-  :ensure t
-  :hook
-  (after-init . doom-modeline-mode)
+;; VERTICO - Sugestão de comandos após M-x
+(use-package vertico
+    :bind (:map vertico-map
+                ("C-j" . vertico-next)
+                ("C-k" . vertico-previous)
+                ("C-f" . vertico-exit)
+                :map minibuffer-local-map
+                ("M-h" . backward-kill-word))
+    :custom
+    (vertico-cycle t)
+    :init
+    (vertico-mode))
+
+;; MARGINALIA - Descrição dos comandos sugeridos por vertico
+(use-package marginalia
+  :after vertico
+  :custom
+  (marginalia-annotators '(marginalia-annotators-heavy marginalia-annotators-ligh nil))
+  :init
+  (marginalia-mode))
+
+;; ORDERLESS - Busca fuzzy com vertico
+(use-package orderless
   :config
-  (setq doom-modeline-github t) ; Whether display the GitHub notifications. It requires `ghub' package.
-  (setq doom-modeline-project-name t))
+  (setq completion-styles '(orderless basic)))
+
+;; WEB MODE
+(use-package web-mode
+  :mode ("\\.phtml\\.tpl\\.html\\.twig\\.html?\\'" . web-mode))
+
+;; MARKDOWN MODE
+(use-package markdown-mode
+  :commands (markdown-mode gfm-mode)
+  :mode (("README\\.md\\'" . gfm-mode)
+         ("\\.md\\'" . gfm-mode)
+         ("\\.markdown\\'" . markdown-mode))
+  :init (setq markdown-command "pandoc"))
 
 ;; VTERM - Emulador de terminal
 (use-package vterm
@@ -98,28 +176,91 @@
 (setq shell-file-name "/bin/zsh"
       vterm-max-scrollback 5000))
 
+;; FUNCTIONS
+
+(defun select-line ()
+  (interactive)
+  (if (region-active-p)
+      (progn
+        (forward-line 1)
+        (end-of-line))
+    (progn
+      (end-of-line)
+      (set-mark (line-beginning-position)))))
+
+
+(defun duplicate-line (arg)
+  (interactive "*p")
+  (setq buffer-undo-list (cons (point) buffer-undo-list))
+  (let ((bol (save-excursion (beginning-of-line) (point)))
+        eol)
+    (save-excursion
+      (end-of-line)
+      (setq eol (point))
+      (let ((line (buffer-substring bol eol))
+            (buffer-undo-list t)
+            (count arg))
+        (while (> count 0)
+          (newline)
+          (insert line)
+          (setq count (1- count)))
+        )
+
+      (setq buffer-undo-list (cons (cons eol (point)) buffer-undo-list)))
+    )
+  (next-line arg))
+
+(defun new-empty-buffer ()
+  (interactive)
+  (let ((-buf (generate-new-buffer "untitled")))
+    (switch-to-buffer -buf)
+    (funcall initial-major-mode)
+    (setq buffer-offer-save t)))
+
+;; WHICH KEY - Sugere complementos de atalhos
+(use-package which-key
+  :ensure t
+  :config (which-key-mode))
+
 ;; ATALHOS
 
 ;; Atalhos para zoom
 (global-set-key (kbd "C-=") 'text-scale-increase) 
 (global-set-key (kbd "C--") 'text-scale-decrease)
+(global-set-key (kbd "C-`") 'vterm)
+(global-set-key (kbd "C-'") 'vterm)
+(global-set-key (kbd "C-<tab>") 'other-window) ; Alterna entre buffers
+;; (global-set-key (kbd "C-S-e") 'eval-buffer)
+;; (global-set-key (kbd "C-y") 'yas-describe-tables)
+;; (global-set-key (kbd "C-<tab>") 'other-window)
+(global-set-key (kbd "C-;") 'comment-line)
+(global-set-key (kbd "C-l") 'select-line)
+(global-set-key (kbd "C-s") 'save-buffer)
+;; (global-set-key (kbd "C-S-s") 'write-file)
+(global-set-key (kbd "C-a") 'mark-whole-buffer)
+;; (global-set-key (kbd "C-n") 'new-empty-buffer)
+;; (global-set-key (kbd "C-k") (lambda () (interactive) (kill-buffer (current-buffer))))
+(global-set-key (kbd "C-c C-v") 'duplicate-line)
+(global-set-key (kbd "C-x C-t") 'projectile-run-vterm)
+;; (global-set-key (kbd "C-e") 'flycheck-list-errors)
+;; (global-set-key (kbd "C-S-f") 'projectile-grep)
 
-;; STUFF
-
-;; Código gerado pelo use-package e auto-package-update
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-safe-themes
-   '("8dbbcb2b7ea7e7466ef575b60a92078359ac260c91fe908685b3983ab8e20e3f"
-     "2b20b4633721cc23869499012a69894293d49e147feeb833663fdc968f240873"
-     default))
  '(package-selected-packages
    '(all-the-icons auto-complete auto-package-update catppuccin-theme
-                   doom-modeline doom-themes flycheck ghub
-                   monokai-theme neotree vterm)))
+                   company corfu dashboard diff-hl doom-modeline
+                   doom-themes dracula-theme elpy emmet-mode emojify
+                   exec-path-from-shell flycheck-inline ghub
+                   gnome-dark-style impatient-mode
+                   jetbrains-darcula-theme keycast lsp-pyright lsp-ui
+                   magit marginalia material-theme monokai-theme
+                   neotree nord-theme orderless projectile
+                   rainbow-delimiters rainbow-mode spacemacs-theme
+                   toml-mode vertico vterm-toggle web-mode yasnippet)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
