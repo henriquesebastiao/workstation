@@ -57,9 +57,11 @@
   (auto-package-update-at-time "20:00"))
 
 ;; TEMA
+;; https://github.com/dracula/emacs
 (use-package dracula-theme
   :ensure t)
 (load-theme 'dracula t)
+(setq dracula-enlarge-headings nil) ; Don't change the font size for some headings and titles (default t)
 
 ;; DEMAIS FUNCIONALIDADES
 
@@ -69,6 +71,7 @@
   :hook (after-init . global-emojify-mode))
 
 ;; NEOTREE - Barra lateral de navegação em arquivos
+;; https://github.com/jaypei/emacs-neotree
 (use-package neotree
   :ensure t)
 (global-set-key [f12] 'neotree-toggle)
@@ -76,11 +79,25 @@
 (setq neo-window-fixed-size nil)  ;; Corrige problema ao tentar redimensionar janela do neotree
 
 ;; FLYCHECK - Checagem de sintaxe
+;; https://github.com/flycheck/flycheck
 (use-package flycheck
   :ensure t
   :init (global-flycheck-mode t))
 
+;; PROJECTILE
+;; https://github.com/bbatsov/projectile
+(use-package projectile
+  :ensure t)
+(projectile-mode +1)
+;; Recommended keymap prefix on Windows/Linux
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+
+;; ALL-THE-ICONS
+(use-package all-the-icons
+  :ensure t)
+
 ;; TELA DE BOAS VINDAS CUSTOMIZADA (ver melhor)
+;; https://github.com/emacs-dashboard/emacs-dashboard
 (use-package dashboard
   :ensure t
   :config
@@ -92,28 +109,53 @@
 (setq dashboard-vertically-center-content t)
 (setq dashboard-display-icons-p t)     ; display icons on both GUI and terminal
 (setq dashboard-icon-type 'nerd-icons) ; use `nerd-icons' package
+(setq dashboard-projects-backend 'projectile) ; Ativa widget que exibe lista de projetos
+(setq dashboard-items '((recents   . 5)
+                        (projects  . 5)))
 
-;; COMPANY - Pop-up com sugestão de auto-complete
+;; eglot (lsp) +  company (autocomplete) + flymake (mostra os erros)
+(use-package exec-path-from-shell
+  :ensure t
+  :config
+  (when (memq window-system '(mac ns x))
+    (exec-path-from-shell-initialize)))
+
+(require 'eglot)
+
+(add-hook 'python-mode-hook 'eglot-ensure)
+(add-to-list 'major-mode-remap-alist '(python-mode . python-ts-mode))
+(add-to-list 'eglot-server-programs
+            '((python-mode python-ts-mode)
+            "basedpyright-langserver" "--stdio")) ; Precisa instalar o basedpyright -> pipx install basedpyright
+(add-hook 'python-ts-mode-hook 'eglot-ensure)
+
+
 (use-package company
   :ensure t
   :config
-  (setq company-idle-delay 0
-	company-minimum-prefix-length 1)
-  (global-company-mode t))
+  (setq company-idle-delay 0)
+  (setq company-minimum-prefix-length 2)
+  (setq company-show-numbers t)
+  (setq company-dabbrev-downcase nil)
+  (setq company-dabbrev-ignore-case nil)
+  (setq company-dabbrev-code-ignore-case nil))
 
-;; Use `company' everywhere.
 (add-hook 'after-init-hook 'global-company-mode)
 
-;; Para usar Elpy
-;; https://github.com/jorgenschaefer/elpy
-;; ; snippets from autocomplete
-;; (use-package yasnippet
-;;   :ensure t)
-;; (yas-global-mode 1)
-;; (use-package elpy
-;;   :ensure t
-;;   :init
-;;   (elpy-enable))
+(require 'flymake)
+
+(defun my/flymake-toggle-diagnostics-buffer ()
+  (interactive)
+  ;; Check if we are in the diagnostics buffer.
+  (if (string-search "*Flymake diagnostics" (buffer-name))
+      (delete-window)
+    (progn
+      (flymake-show-buffer-diagnostics)
+      (let ((name (flymake--diagnostics-buffer-name)))
+        (if (get-buffer name)
+            (switch-to-buffer-other-window name)
+          (error "No Flymake diagnostics buffer found")
+          )))))
 
 ;; TOML
 ;; (use-package toml-mode
@@ -157,6 +199,76 @@
 (use-package orderless
   :config
   (setq completion-styles '(orderless basic)))
+
+;; HL-TODO - highlight TODO/FIXME/NOTE/HACK
+;; https://github.com/tarsius/hl-todo
+(use-package hl-todo
+  :ensure t
+  :init
+  (global-hl-todo-mode))
+(setq hl-todo-keyword-faces
+      '(("TODO"   . "#F8E45C")
+        ("FIXME"  . "#ED333B")
+        ("NOTE"  . "#57E389")
+        ("HACK"   . "#33D17A")))
+
+;; LIGATURES
+;; https://github.com/mickeynp/ligature.el
+(use-package ligature
+  :config
+  ;; Enable the "www" ligature in every possible major mode
+  (ligature-set-ligatures 't '("www"))
+  ;; Enable traditional ligature support in eww-mode, if the
+  ;; `variable-pitch' face supports it
+  (ligature-set-ligatures 'eww-mode '("ff" "fi" "ffi"))
+  ;; Enable all Cascadia Code ligatures in programming modes
+  (ligature-set-ligatures 'prog-mode '("|||>" "<|||" "<==>" "<!--" "####" "~~>" "***" "||=" "||>"
+                                       ":::" "::=" "=:=" "===" "==>" "=!=" "=>>" "=<<" "=/=" "!=="
+                                       "!!." ">=>" ">>=" ">>>" ">>-" ">->" "->>" "-->" "---" "-<<"
+                                       "<~~" "<~>" "<*>" "<||" "<|>" "<$>" "<==" "<=>" "<=<" "<->"
+                                       "<--" "<-<" "<<=" "<<-" "<<<" "<+>" "</>" "###" "#_(" "..<"
+                                       "..." "+++" "/==" "///" "_|_" "www" "&&" "^=" "~~" "~@" "~="
+                                       "~>" "~-" "**" "*>" "*/" "||" "|}" "|]" "|=" "|>" "|-" "{|"
+                                       "[|" "]#" "::" ":=" ":>" ":<" "$>" "==" "=>" "!=" "!!" ">:"
+                                       ">=" ">>" ">-" "-~" "-|" "->" "--" "-<" "<~" "<*" "<|" "<:"
+                                       "<$" "<=" "<>" "<-" "<<" "<+" "</" "#{" "#[" "#:" "#=" "#!"
+                                       "##" "#(" "#?" "#_" "%%" ".=" ".-" ".." ".?" "+>" "++" "?:"
+                                       "?=" "?." "??" ";;" "/*" "/=" "/>" "//" "__" "~~" "(*"
+                                       "\\\\" "://"))
+  ;; Enables ligature checks globally in all buffers. You can also do it
+  ;; per mode with `ligature-mode'.
+  (global-ligature-mode t))
+
+;; MINIMAP
+;; https://github.com/dengste/minimap
+;; (use-package minimap
+;;   :ensure t
+;;   :init
+;;   (minimap-mode))
+
+;; ULTRA SCROLL
+;; https://github.com/jdtsmith/ultra-scroll
+(use-package ultra-scroll
+  ;:load-path "~/code/emacs/ultra-scroll" ; if you git clone'd instead of using vc
+  :vc (:url "https://github.com/jdtsmith/ultra-scroll") ; For Emacs>=30
+  :init
+  (setq scroll-conservatively 101 ; important!
+        scroll-margin 0) 
+  :config
+  (ultra-scroll-mode 1))
+
+;; TABS
+;; https://github.com/ema2159/centaur-tabs
+(use-package centaur-tabs
+  :ensure t
+  :init
+  (centaur-tabs-mode t))
+(setq centaur-tabs-style "bar")
+(setq centaur-tabs-set-icons t)
+(setq centaur-tabs-icon-type 'nerd-icons)  ; or 'all-the-icons
+(setq centaur-tabs-gray-out-icons 'buffer)
+(setq centaur-tabs-set-bar 'under)
+(setq centaur-tabs-set-modified-marker nil)
 
 ;; WEB MODE
 (use-package web-mode
@@ -252,15 +364,20 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(all-the-icons auto-complete auto-package-update catppuccin-theme
-                   company corfu dashboard diff-hl doom-modeline
-                   doom-themes dracula-theme elpy emmet-mode emojify
-                   exec-path-from-shell flycheck-inline ghub
-                   gnome-dark-style impatient-mode
-                   jetbrains-darcula-theme keycast lsp-pyright lsp-ui
-                   magit marginalia material-theme monokai-theme
-                   neotree nord-theme orderless projectile
-                   rainbow-delimiters rainbow-mode spacemacs-theme
-                   toml-mode vertico vterm-toggle web-mode yasnippet)))
+                   centaur-tabs company corfu dashboard diff-hl
+                   doom-modeline doom-themes dracula-theme elpy
+                   emmet-mode emojify exec-path-from-shell
+                   flycheck-inline ghub gnome-dark-style hl-todo
+                   impatient-mode jetbrains-darcula-theme keycast
+                   ligature lsp-pyright lsp-ui magit marginalia
+                   material-theme minimap monokai-theme neotree
+                   nord-theme orderless projectile rainbow-delimiters
+                   rainbow-mode spacemacs-theme straight toml-mode
+                   ultra-scroll vertico vterm-toggle web-mode
+                   yasnippet))
+ '(package-vc-selected-packages
+   '((ultra-scroll :vc-backend Git :url
+                   "https://github.com/jdtsmith/ultra-scroll"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
