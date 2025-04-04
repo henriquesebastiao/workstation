@@ -52,6 +52,10 @@ cp ~/.spotdl/config.json .spotdl/
 cp ~/.aliases .
 cp ~/.zshrc  .
 
+# ~/.emacs.d
+cp ~/.emacs.d/init.el .emacs.d/
+cp -r ~/.emacs.d/config/*.el .emacs.d/config/
+
 # Get GNOME settings
 gsettings list-recursively > gsettings.txt
 
