@@ -2,10 +2,28 @@
 
 ;; TEMA
 ;; https://github.com/dracula/emacs
-(use-package dracula-theme
-  :ensure t)
-(load-theme 'dracula t)
-(setq dracula-enlarge-headings nil) ; Don't change the font size for some headings and titles (default t)
+;; (use-package dracula-theme
+;;   :ensure t)
+;; (load-theme 'dracula t)
+;; (setq dracula-enlarge-headings nil) ; Don't change the font size for some headings and titles (default t)
+
+(use-package vscode-dark-plus-theme
+  :ensure t
+  :config
+  (load-theme 'vscode-dark-plus t))
+(setq vscode-dark-plus-render-line-highlight 'line)
+
+;; Customiza a cor da mode-line
+(set-face-attribute 'mode-line nil
+                    :background "#1D1D1D"
+                    :foreground "#A8A8A8"
+                    :box "#333333")
+
+;; Customiza a cor da mode-line do buffer inativo
+(set-face-attribute 'mode-line-inactive nil
+                    :background "#1D1D1D"
+                    :foreground "#6E6E6E"
+                    :box "#1D1D1D")
 
 ;; EMOJIFY - Possibilita exibição de emojis
 (use-package emojify

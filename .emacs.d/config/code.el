@@ -20,7 +20,6 @@
             "basedpyright-langserver" "--stdio")) ; Precisa instalar o basedpyright -> pipx install basedpyright
 (add-hook 'python-ts-mode-hook 'eglot-ensure)
 
-
 (use-package company
   :ensure t
   :config
