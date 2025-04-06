@@ -9,10 +9,16 @@
 ;; PROJECTILE
 ;; https://github.com/bbatsov/projectile
 (use-package projectile
-  :ensure t)
-(projectile-mode +1)
-;; Recommended keymap prefix on Windows/Linux
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
+  :ensure t
+  :init
+  (setq projectile-project-search-path '("~/git/"))
+  :config
+  ;; I typically use this keymap prefix on macOS
+  (define-key projectile-mode-map (kbd "s-p") 'projectile-command-map)
+  ;; On Linux, however, I usually go with another one
+  (define-key projectile-mode-map (kbd "C-c C-p") 'projectile-command-map)
+  (global-set-key (kbd "C-c p") 'projectile-command-map)
+  (projectile-mode +1))
 
 ;; DOOM MODELINE - Barra inferior customizada
 (use-package nerd-icons
@@ -94,5 +100,17 @@
 (use-package which-key
   :ensure t
   :config (which-key-mode))
+
+;; PDF - Viewer
+(use-package pdf-tools
+  :config
+  (pdf-tools-install))
+
+;; Desabilita numeração de linhas em determinados modos
+(dolist (mode '(org-mode-hook
+                vterm-mode-hook
+                pdf-view-mode-hook
+                neotree-mode-hook))
+  (add-hook mode (lambda() (display-line-numbers-mode 0))))
 
 (provide 'features)

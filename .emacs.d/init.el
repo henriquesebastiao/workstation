@@ -69,17 +69,17 @@
                    centaur-tabs company corfu dashboard diff-hl
                    doom-modeline doom-themes dracula-theme elpy
                    emmet-mode emojify exec-path-from-shell
-                   flycheck-inline ghub gnome-dark-style hl-todo
-                   impatient-mode jetbrains-darcula-theme keycast
-                   ligature lsp-pyright lsp-ui magit marginalia
-                   material-theme minimap monokai-theme neotree
-                   nord-theme orderless projectile pulsing-cursor
-                   rainbow-delimiters rainbow-mode spacemacs-theme
-                   straight toml-mode treemacs treemacs-evil
-                   treemacs-icons-dired treemacs-magit treemacs-persp
-                   treemacs-projectile treemacs-tab-bar ultra-scroll
-                   vertico vscode-dark-plus-theme vterm-toggle
-                   web-mode yasnippet))
+                   flycheck-inline ghub gnome-dark-style gtk-variant
+                   hl-todo impatient-mode jetbrains-darcula-theme
+                   keycast ligature lsp-pyright lsp-ui magit
+                   marginalia material-theme minimap monokai-theme
+                   neotree nord-theme orderless pdf-tools projectile
+                   pulsing-cursor rainbow-delimiters rainbow-mode
+                   spacemacs-theme straight toml-mode treemacs
+                   treemacs-evil treemacs-icons-dired treemacs-magit
+                   treemacs-persp treemacs-projectile treemacs-tab-bar
+                   ultra-scroll vertico vscode-dark-plus-theme
+                   vterm-toggle web-mode yasnippet))
  '(package-vc-selected-packages
    '((ultra-scroll :vc-backend Git :url
                    "https://github.com/jdtsmith/ultra-scroll"))))
