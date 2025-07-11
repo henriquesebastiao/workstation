@@ -59,3 +59,11 @@ alias wgen="wg genkey | tee privatekey | wg pubkey > publickey"
 
 # Git Tools
 alias turtle='turtle_cli'
+
+# My scripts
+
+#alias compress-pdf='~/git/workstation/bin/compress-pdf.sh'
+#alias tex-clean='~/git/workstation/bin/tex-clean.sh'
+
+# Editors
+alias md="apostrophe"

@@ -9,25 +9,19 @@ com.github.finefindus.eyedropper alpha-position 0
 com.github.finefindus.eyedropper cie-illuminants 5
 com.github.finefindus.eyedropper cie-standard-observer 0
 com.github.finefindus.eyedropper format-order ['name', 'hex', 'rgb', 'hsl', 'hsv', 'cmyk', 'xyz', 'cielab', 'hwb', 'hcl', 'lms', 'hunterlab', 'oklab', 'oklch']
-com.github.finefindus.eyedropper is-maximized false
 com.github.finefindus.eyedropper name-sources-flag uint32 15
 com.github.finefindus.eyedropper precision-digits uint32 2
+com.github.finefindus.eyedropper rgb-notation 0
 com.github.finefindus.eyedropper visible-formats ['name', 'hex', 'rgb', 'hsl', 'hsv', 'cmyk']
-com.github.finefindus.eyedropper window-height 500
-com.github.finefindus.eyedropper window-width 360
+com.github.finefindus.eyedropper window-dimension (360, 500, false)
 com.rafaelmardojai.SharePreview dark-theme false
-com.rafaelmardojai.SharePreview social 'Discourse'
+com.rafaelmardojai.SharePreview social 'Twitter'
 dev.geopjr.Collision is-maximized false
 dev.geopjr.Collision window-height 460
 dev.geopjr.Collision window-width 600
-io.bassi.Amberol background-play true
-io.bassi.Amberol enable-recoloring true
-io.bassi.Amberol replay-gain 'off'
-io.bassi.Amberol window-height 660
-io.bassi.Amberol window-width 360
 io.github.nokse22.minitext font-size 11
 io.github.nokse22.minitext window-height 502
-io.github.nokse22.minitext window-width 697
+io.github.nokse22.minitext window-width 672
 it.mijorus.gearlever appimages-default-folder '~/AppImages'
 it.mijorus.gearlever debug-logs false
 it.mijorus.gearlever exec-as-name-for-terminal-apps false
@@ -36,6 +30,9 @@ it.mijorus.gearlever first-run true
 it.mijorus.gearlever is-maximized false
 it.mijorus.gearlever manage-files-outside-default-folder true
 it.mijorus.gearlever move-appimage-on-integration true
+me.iepure.devtoolbox color-converter-angle 0
+me.iepure.devtoolbox color-converter-bits 8
+me.iepure.devtoolbox color-converter-format 0
 me.iepure.devtoolbox favorites @as []
 me.iepure.devtoolbox last-tool 'lorem-generator'
 me.iepure.devtoolbox sidebar-open true
@@ -229,7 +226,7 @@ org.freedesktop.pulseaudio.module-group name7 ''
 org.freedesktop.pulseaudio.module-group name8 ''
 org.freedesktop.pulseaudio.module-group name9 ''
 org.gnome.Characters max-recent-characters uint32 100
-org.gnome.Characters recent-characters ['🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥', '🇧🇷', '⭐', '🦗', '⬆️', '🪧', '🔄', '📸', '🎯', '🔭', '🔍', '📜', '💾', '⛏️', '🌐', '👨🏻\u200d✈️', '🏅', '🏆', '🐋', '🧽', '🔐', '🗄️', '⚖️', '📋', '🪙', '❌', '🏢', '🏖️', '💵', '📥', '🏛️', '🧮', '🔔', '🥃', '🎧', '💸', '🎖️', '🥷🏼', '🐧', '🤖', '⏳', '🔒', '😉', '🪛', '🧪', '🏗️', '📗', '📚', '🧾', '📦', '🗒️', '🛡️', '👉', '🐮', '🗜️', '🔋', '👨🏻\u200d🔧', '🔇', '🔀', '🔌']
+org.gnome.Characters recent-characters ['💊', '🍞', '🧻', '💧', '🔦', '🎒', '💸', '💪🏼', '🛌🏻', '📖', '🍜', '🍝', '🪥', '☕', '⛽', '💳', '💼', '🗜️', '⚡', '⏰', '🗡️', '⛓️\u200d💥', '➕', '📦', '🛡️', '🙈', '👤', '📊', '↕️', '🔀', '▶', '▸', '➥', '🖧', '⟶', '🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥', '🇧🇷', '⭐', '🦗', '⬆️', '🪧', '🔄', '📸', '🎯', '🔭', '🔍', '📜', '💾', '⛏️', '🌐', '👨🏻\u200d✈️', '🏅', '🏆', '🐋', '🧽', '🔐', '🗄️', '⚖️', '📋', '🪙']
 org.gnome.Disks image-dir-uri 'file:///home/hick/Downloads/tails-amd64-6.5-img'
 org.gnome.Disks.benchmark do-write false
 org.gnome.Disks.benchmark num-access-samples 1000
@@ -260,7 +257,7 @@ org.gnome.Epiphany.state download-dir 'Downloads'
 org.gnome.Epiphany.state is-maximized true
 org.gnome.Epiphany.state recent-encodings ['']
 org.gnome.Epiphany.state window-position (-1, -1)
-org.gnome.Epiphany.state window-size (2560, 1048)
+org.gnome.Epiphany.state window-size (1366, 768)
 org.gnome.Epiphany.web ask-on-download false
 org.gnome.Epiphany.web autofill-data false
 org.gnome.Epiphany.web default-encoding 'iso-8859-1'
@@ -340,8 +337,8 @@ org.gnome.Evince.Default show-sidebar true
 org.gnome.Evince.Default sidebar-page 'thumbnails'
 org.gnome.Evince.Default sidebar-size 148
 org.gnome.Evince.Default sizing-mode 'free'
-org.gnome.Evince.Default window-ratio (1.4235613936790554, 0.38805553309863816)
-org.gnome.Evince.Default zoom 0.58414924366987053
+org.gnome.Evince.Default window-ratio (1.184640522875817, 0.71212121212121215)
+org.gnome.Evince.Default zoom 0.94655734844148232
 org.gnome.Evolution.DefaultSources default-address-book 'system'
 org.gnome.Evolution.DefaultSources default-calendar 'system'
 org.gnome.Evolution.DefaultSources default-mail-account 'system'
@@ -359,6 +356,11 @@ org.gnome.GWeather4 temperature-unit 'default'
 org.gnome.Logs ignore-warning false
 org.gnome.Logs sort-order 'descending-time'
 org.gnome.Loupe show-properties false
+org.gnome.Music inhibit-suspend false
+org.gnome.Music repeat 'none'
+org.gnome.Music replaygain 'disabled'
+org.gnome.Music window-maximized true
+org.gnome.Music window-size [768, 600]
 org.gnome.Ptyxis audible-bell true
 org.gnome.Ptyxis cursor-blink-mode 'on'
 org.gnome.Ptyxis cursor-shape 'underline'
@@ -368,9 +370,11 @@ org.gnome.Ptyxis default-rows uint32 24
 org.gnome.Ptyxis disable-padding false
 org.gnome.Ptyxis enable-a11y false
 org.gnome.Ptyxis font-name 'Fira Code weight=450 11'
+org.gnome.Ptyxis ignore-osc-title false
 org.gnome.Ptyxis interface-style 'system'
 org.gnome.Ptyxis new-tab-position 'last'
 org.gnome.Ptyxis profile-uuids ['0ef5d44925ccd38756e018b5673d2a50']
+org.gnome.Ptyxis prompt-on-close true
 org.gnome.Ptyxis restore-session true
 org.gnome.Ptyxis restore-window-size true
 org.gnome.Ptyxis scrollbar-policy 'system'
@@ -380,9 +384,11 @@ org.gnome.Ptyxis toast-on-copy-clipboard true
 org.gnome.Ptyxis use-system-font false
 org.gnome.Ptyxis visual-bell true
 org.gnome.Ptyxis visual-process-leader true
-org.gnome.Ptyxis window-size (uint32 80, uint32 24)
+org.gnome.Ptyxis window-size (uint32 318, uint32 61)
+org.gnome.Ptyxis word-char-exceptions @ms nothing
 org.gnome.Ptyxis.Shortcuts close-other-tabs ''
 org.gnome.Ptyxis.Shortcuts close-tab '<ctrl><shift>w'
+org.gnome.Ptyxis.Shortcuts close-window '<ctrl><shift>q'
 org.gnome.Ptyxis.Shortcuts copy-clipboard '<ctrl><shift>c'
 org.gnome.Ptyxis.Shortcuts detach-tab ''
 org.gnome.Ptyxis.Shortcuts focus-tab-1 '<alt>1'
@@ -410,6 +416,8 @@ org.gnome.Ptyxis.Shortcuts reset-and-clear ''
 org.gnome.Ptyxis.Shortcuts search '<ctrl><shift>f'
 org.gnome.Ptyxis.Shortcuts select-all '<ctrl><shift>a'
 org.gnome.Ptyxis.Shortcuts select-none ''
+org.gnome.Ptyxis.Shortcuts set-title ''
+org.gnome.Ptyxis.Shortcuts tab-menu '<alt>comma'
 org.gnome.Ptyxis.Shortcuts tab-overview '<ctrl><shift>o'
 org.gnome.Ptyxis.Shortcuts toggle-fullscreen 'F11'
 org.gnome.Ptyxis.Shortcuts undo-close-tab '<ctrl><shift><alt>t'
@@ -420,11 +428,11 @@ org.gnome.SessionManager auto-save-session false
 org.gnome.SessionManager auto-save-session-one-shot false
 org.gnome.SessionManager logout-prompt true
 org.gnome.SessionManager show-fallback-warning true
-org.gnome.Settings last-panel 'universal-access'
+org.gnome.Settings last-panel 'applications'
 org.gnome.Settings show-development-warning true
-org.gnome.Settings window-state (858, 518, true)
+org.gnome.Settings window-state (1333, 712, true)
 org.gnome.Showtime.State end-timestamp-type 'Duration'
-org.gnome.Showtime.State is-maximized false
+org.gnome.Showtime.State is-maximized true
 org.gnome.TextEditor auto-indent true
 org.gnome.TextEditor auto-save-delay uint32 3
 org.gnome.TextEditor custom-font 'Monospace 11'
@@ -477,13 +485,13 @@ org.gnome.calendar weather-settings (true, true, '', @mv nothing)
 org.gnome.calendar week-view-zoom-level 1.0
 org.gnome.calendar window-maximized true
 org.gnome.calendar window-size (646, 600)
-org.gnome.clocks alarms [{'name': <'Buscar pessoal'>, 'id': <'d03a021235bc5d3b9b1e997f66ee0cd3'>, 'hour': <10>, 'minute': <50>, 'ring_time': <'2025-03-12T10:50:00-04'>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}]
+org.gnome.clocks alarms [{'name': <'Ligar pra Mila'>, 'id': <'d03a021235bc5d3b9b1e997f66ee0cd3'>, 'hour': <15>, 'minute': <0>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}, {'name': <'Entrar na reunião as 15:45'>, 'id': <'d54f92de5a7a2e7388cb66df67e1a977'>, 'hour': <15>, 'minute': <40>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}, {'name': <''>, 'id': <'9dc9af471d38e8966f5ab94f67f92236'>, 'hour': <10>, 'minute': <20>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}]
 org.gnome.clocks geolocation true
-org.gnome.clocks timers [{'duration': <900>, 'name': <''>}]
+org.gnome.clocks timers [{'duration': <1200>, 'name': <''>}]
 org.gnome.clocks world-clocks [{'location': <(uint32 2, <('Vancouver', 'CYVR', true, [(0.85841109795478021, -2.1496638678574467)], [(0.85957465660720722, -2.1490820798045869)])>)>}, {'location': <(uint32 2, <('Linz', 'LOWL', true, [(0.84183047006083411, 0.24754585975676488)], [(0.84299402871326112, 0.24958208303518914)])>)>}]
-org.gnome.clocks.state.window maximized true
+org.gnome.clocks.state.window maximized false
 org.gnome.clocks.state.window panel-id 'alarm'
-org.gnome.clocks.state.window size (745, 294)
+org.gnome.clocks.state.window size (769, 388)
 org.gnome.crypto.cache gpg-cache-method 'session'
 org.gnome.crypto.cache gpg-cache-ttl 300
 org.gnome.crypto.pgp ascii-armor true
@@ -551,7 +559,7 @@ org.gnome.desktop.a11y.mouse dwell-threshold 10
 org.gnome.desktop.a11y.mouse dwell-time 1.2
 org.gnome.desktop.a11y.mouse secondary-click-enabled false
 org.gnome.desktop.a11y.mouse secondary-click-time 1.2
-org.gnome.desktop.app-folders folder-children ['Utilities', 'YaST', 'Pardus', '089f42f3-55b1-4408-a33d-b6f935a79e21', 'd9c78577-859a-4685-a521-b3662c8b022e', 'bc0f0a1d-69ef-445a-8a73-c6a281660e3e', '94075ec7-fc9d-4190-b06a-0e50e70748f3', '99bc1ae8-ffb8-40d2-8499-10596c403e5d', '6ae231a4-7bd7-4e10-99ce-6ca6be00afb3', '9e2e2e10-9f02-4f5d-a853-79ead5790337', 'b8d2c49e-39e5-4437-b569-c6617c23c084', '5cc84833-0b1d-4a25-b7d8-7964d7a09cf6', 'e753d883-17d6-4f29-8a66-adad783dec3a', '0f21e443-7c48-4bc8-a472-0c326832ca75', '72fc32b4-e040-443a-b166-954dc99f17b8', '9698bde2-76ab-4102-a30b-584d01063b4b', '3e88f3df-24b7-4cbb-aada-a8e58c111a6e', '0dc1e4cd-6791-4419-b46b-d09a19017417', '0c4fd1f0-9287-424b-9071-5fda20703e3e']
+org.gnome.desktop.app-folders folder-children ['Utilities', 'YaST', 'Pardus', '089f42f3-55b1-4408-a33d-b6f935a79e21', 'd9c78577-859a-4685-a521-b3662c8b022e', 'bc0f0a1d-69ef-445a-8a73-c6a281660e3e', '94075ec7-fc9d-4190-b06a-0e50e70748f3', '99bc1ae8-ffb8-40d2-8499-10596c403e5d', '6ae231a4-7bd7-4e10-99ce-6ca6be00afb3', '9e2e2e10-9f02-4f5d-a853-79ead5790337', 'b8d2c49e-39e5-4437-b569-c6617c23c084', '5cc84833-0b1d-4a25-b7d8-7964d7a09cf6', 'e753d883-17d6-4f29-8a66-adad783dec3a', '0f21e443-7c48-4bc8-a472-0c326832ca75', '72fc32b4-e040-443a-b166-954dc99f17b8', '9698bde2-76ab-4102-a30b-584d01063b4b', '3e88f3df-24b7-4cbb-aada-a8e58c111a6e', '0dc1e4cd-6791-4419-b46b-d09a19017417', '0c4fd1f0-9287-424b-9071-5fda20703e3e', '39deae46-5580-47a3-b991-cdb1e62211be']
 org.gnome.desktop.background color-shading-type 'solid'
 org.gnome.desktop.background picture-opacity 100
 org.gnome.desktop.background picture-options 'zoom'
@@ -609,12 +617,12 @@ org.gnome.desktop.interface cursor-blink-time 1200
 org.gnome.desktop.interface cursor-blink-timeout 10
 org.gnome.desktop.interface cursor-size 24
 org.gnome.desktop.interface cursor-theme 'Adwaita'
-org.gnome.desktop.interface document-font-name 'Cantarell 11'
+org.gnome.desktop.interface document-font-name 'Adwaita Sans 11'
 org.gnome.desktop.interface enable-animations true
 org.gnome.desktop.interface enable-hot-corners true
 org.gnome.desktop.interface font-antialiasing 'grayscale'
 org.gnome.desktop.interface font-hinting 'slight'
-org.gnome.desktop.interface font-name 'Cantarell 11'
+org.gnome.desktop.interface font-name 'Adwaita Sans 11'
 org.gnome.desktop.interface font-rendering 'automatic'
 org.gnome.desktop.interface font-rgba-order 'rgb'
 org.gnome.desktop.interface gtk-color-palette 'black:white:gray50:red:purple:blue:light blue:green:yellow:orange:lavender:brown:goldenrod4:dodger blue:pink:light green:gray10:gray30:gray75:gray90'
@@ -632,7 +640,7 @@ org.gnome.desktop.interface locate-pointer true
 org.gnome.desktop.interface menubar-accel 'F10'
 org.gnome.desktop.interface menubar-detachable false
 org.gnome.desktop.interface menus-have-tearoff false
-org.gnome.desktop.interface monospace-font-name 'Source Code Pro 10'
+org.gnome.desktop.interface monospace-font-name 'Adwaita Mono 11'
 org.gnome.desktop.interface overlay-scrolling true
 org.gnome.desktop.interface scaling-factor uint32 0
 org.gnome.desktop.interface show-battery-percentage false
@@ -658,7 +666,7 @@ org.gnome.desktop.media-handling autorun-never true
 org.gnome.desktop.media-handling autorun-x-content-ignore @as []
 org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
 org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software', 'x-content/ostree-repository']
-org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf']
+org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf', 'emacsclient', 'ulauncher', 'balena-etcher', 'org-gnome-rhythmbox3', 'org-strawberrymusicplayer-strawberry']
 org.gnome.desktop.notifications show-banners false
 org.gnome.desktop.notifications show-in-lock-screen false
 org.gnome.desktop.peripherals.tablet area [0.0, 0.0, 0.0, 0.0]
@@ -716,6 +724,10 @@ org.gnome.desktop.privacy send-software-usage-stats false
 org.gnome.desktop.privacy show-full-name-in-top-bar true
 org.gnome.desktop.privacy usb-protection true
 org.gnome.desktop.privacy usb-protection-level 'lockscreen'
+org.gnome.desktop.screen-time-limits daily-limit-enabled false
+org.gnome.desktop.screen-time-limits daily-limit-seconds uint32 28800
+org.gnome.desktop.screen-time-limits grayscale true
+org.gnome.desktop.screen-time-limits history-enabled true
 org.gnome.desktop.screensaver color-shading-type 'solid'
 org.gnome.desktop.screensaver embedded-keyboard-command ''
 org.gnome.desktop.screensaver embedded-keyboard-enabled false
@@ -846,7 +858,7 @@ org.gnome.desktop.wm.preferences num-workspaces 4
 org.gnome.desktop.wm.preferences raise-on-click true
 org.gnome.desktop.wm.preferences resize-with-right-button false
 org.gnome.desktop.wm.preferences theme 'Adwaita'
-org.gnome.desktop.wm.preferences titlebar-font 'Cantarell Bold 11'
+org.gnome.desktop.wm.preferences titlebar-font 'Adwaita Sans Bold 11'
 org.gnome.desktop.wm.preferences titlebar-uses-system-font true
 org.gnome.desktop.wm.preferences visual-bell false
 org.gnome.desktop.wm.preferences visual-bell-type 'fullscreen-flash'
@@ -938,7 +950,11 @@ org.gnome.gnome-system-monitor net-out-color '#e66100'
 org.gnome.gnome-system-monitor network-in-bits false
 org.gnome.gnome-system-monitor network-total-in-bits false
 org.gnome.gnome-system-monitor process-memory-in-iec false
+org.gnome.gnome-system-monitor resources-cpu-expanded true
+org.gnome.gnome-system-monitor resources-disk-expanded true
+org.gnome.gnome-system-monitor resources-mem-expanded true
 org.gnome.gnome-system-monitor resources-memory-in-iec false
+org.gnome.gnome-system-monitor resources-net-expanded true
 org.gnome.gnome-system-monitor show-all-fs false
 org.gnome.gnome-system-monitor show-dependencies false
 org.gnome.gnome-system-monitor show-whose-processes 'user'
@@ -970,7 +986,7 @@ org.gnome.gnome-system-monitor.memmapstree sort-order 0
 org.gnome.gnome-system-monitor.openfilestree sort-col 0
 org.gnome.gnome-system-monitor.openfilestree sort-order 0
 org.gnome.gnome-system-monitor.proctree col-0-visible true
-org.gnome.gnome-system-monitor.proctree col-0-width 225
+org.gnome.gnome-system-monitor.proctree col-0-width 1732
 org.gnome.gnome-system-monitor.proctree col-1-visible false
 org.gnome.gnome-system-monitor.proctree col-1-width 98
 org.gnome.gnome-system-monitor.proctree col-10-visible false
@@ -1006,7 +1022,7 @@ org.gnome.gnome-system-monitor.proctree col-23-width 100
 org.gnome.gnome-system-monitor.proctree col-24-visible true
 org.gnome.gnome-system-monitor.proctree col-24-width 100
 org.gnome.gnome-system-monitor.proctree col-25-visible true
-org.gnome.gnome-system-monitor.proctree col-25-width 100
+org.gnome.gnome-system-monitor.proctree col-25-width 517
 org.gnome.gnome-system-monitor.proctree col-26-visible false
 org.gnome.gnome-system-monitor.proctree col-26-width 0
 org.gnome.gnome-system-monitor.proctree col-3-visible false
@@ -1024,10 +1040,12 @@ org.gnome.gnome-system-monitor.proctree col-8-width 71
 org.gnome.gnome-system-monitor.proctree col-9-visible false
 org.gnome.gnome-system-monitor.proctree col-9-width 80
 org.gnome.gnome-system-monitor.proctree columns-order [0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 7]
-org.gnome.gnome-system-monitor.proctree sort-col 15
+org.gnome.gnome-system-monitor.proctree sort-col 8
 org.gnome.gnome-system-monitor.proctree sort-order 0
 org.gnome.login-screen allowed-failures 3
 org.gnome.login-screen banner-message-enable false
+org.gnome.login-screen banner-message-path ''
+org.gnome.login-screen banner-message-source 'settings'
 org.gnome.login-screen banner-message-text ''
 org.gnome.login-screen disable-restart-buttons false
 org.gnome.login-screen disable-user-list false
@@ -1046,7 +1064,8 @@ org.gnome.mutter edge-tiling true
 org.gnome.mutter experimental-features @as []
 org.gnome.mutter focus-change-on-pointer-rest true
 org.gnome.mutter locate-pointer-key 'Control_L'
-org.gnome.mutter overlay-key 'Super_L'
+org.gnome.mutter output-luminance @a(ssssud) []
+org.gnome.mutter overlay-key 'Super'
 org.gnome.mutter workspaces-only-on-primary true
 org.gnome.mutter.keybindings cancel-input-capture ['<Super><Shift>Escape']
 org.gnome.mutter.keybindings rotate-monitor ['XF86RotateWindows']
@@ -1098,8 +1117,8 @@ org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
 org.gnome.nautilus.preferences show-hidden-files false
 org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
 org.gnome.nautilus.preferences thumbnail-limit uint64 50
-org.gnome.nautilus.window-state initial-size (386, 427)
-org.gnome.nautilus.window-state initial-size-file-chooser (918, 768)
+org.gnome.nautilus.window-state initial-size (360, 380)
+org.gnome.nautilus.window-state initial-size-file-chooser (918, 736)
 org.gnome.nautilus.window-state maximized true
 org.gnome.nm-applet disable-connected-notifications false
 org.gnome.nm-applet disable-disconnected-notifications false
@@ -1111,6 +1130,114 @@ org.gnome.nm-applet suppress-broadband-unlock-prompt false
 org.gnome.nm-applet suppress-wireless-networks-available false
 org.gnome.online-accounts whitelisted-providers ['all']
 org.gnome.portal.filechooser last-folder-path ''
+org.gnome.rhythmbox display-page-tree-height 300
+org.gnome.rhythmbox display-page-tree-visible true
+org.gnome.rhythmbox follow-playing true
+org.gnome.rhythmbox maximized true
+org.gnome.rhythmbox paned-position 269
+org.gnome.rhythmbox position (0, 32)
+org.gnome.rhythmbox queue-as-sidebar false
+org.gnome.rhythmbox right-paned-position 400
+org.gnome.rhythmbox show-album-art true
+org.gnome.rhythmbox show-song-position-slider true
+org.gnome.rhythmbox size (1366, 699)
+org.gnome.rhythmbox time-display true
+org.gnome.rhythmbox.library add-dir ''
+org.gnome.rhythmbox.library layout-filename '%tN - %tt'
+org.gnome.rhythmbox.library layout-path '%aa/%at'
+org.gnome.rhythmbox.library strip-chars false
+org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
+org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
+org.gnome.rhythmbox.encoding-settings transcode-lossless false
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.player play-order 'linear'
+org.gnome.rhythmbox.player transition-time 0.0
+org.gnome.rhythmbox.player use-xfade-backend false
+org.gnome.rhythmbox.player volume 1.0
+org.gnome.rhythmbox.plugins active-plugins ['iradio', 'mtpdevice', 'audiocd', 'notification', 'power-manager', 'android', 'dbus-media-server', 'generic-player', 'mpris', 'audioscrobbler']
+org.gnome.rhythmbox.plugins no-user-plugins false
+org.gnome.rhythmbox.plugins seen-plugins ['grilo', 'pythonconsole', 'cd-recorder', 'mtpdevice', 'notification', 'rblirc', 'dbus-media-server', 'fmradio', 'daap', 'rb', 'lyrics', 'magnatune', 'replaygain', 'artsearch', 'ipod', 'audioscrobbler', 'rbzeitgeist', 'webremote', 'im-status', 'listenbrainz']
+org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
+org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
+org.gnome.rhythmbox.encoding-settings transcode-lossless false
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.plugins.daap.dacp enable-remote false
+org.gnome.rhythmbox.plugins.daap.dacp known-remotes @as []
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
+org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
+org.gnome.rhythmbox.encoding-settings transcode-lossless false
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
+org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
+org.gnome.rhythmbox.encoding-settings transcode-lossless false
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.plugins.iradio initial-stations-loaded true
+org.gnome.rhythmbox.plugins.iradio.source paned-position 200
+org.gnome.rhythmbox.plugins.iradio.source search-type 'search-match'
+org.gnome.rhythmbox.plugins.iradio.source show-browser true
+org.gnome.rhythmbox.plugins.iradio.source sorting ('Title', true)
+org.gnome.rhythmbox.plugins.listenbrainz user-token ''
+org.gnome.rhythmbox.plugins.lyrics folder ''
+org.gnome.rhythmbox.plugins.lyrics sites ['lyrc.com.ar']
+org.gnome.rhythmbox.plugins.magnatune account-type 'none'
+org.gnome.rhythmbox.plugins.magnatune format 'ogg'
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
+org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
+org.gnome.rhythmbox.encoding-settings transcode-lossless false
+org.gnome.rhythmbox.source paned-position 180
+org.gnome.rhythmbox.source search-type 'search-match'
+org.gnome.rhythmbox.source show-browser true
+org.gnome.rhythmbox.source sorting ('Artist', true)
+org.gnome.rhythmbox.plugins.replaygain limiter true
+org.gnome.rhythmbox.plugins.replaygain mode 'radio'
+org.gnome.rhythmbox.plugins.replaygain preamp 0.0
+org.gnome.rhythmbox.plugins.webremote access-key ''
+org.gnome.rhythmbox.plugins.webremote listen-port uint16 0
+org.gnome.rhythmbox.podcast download-interval 'hourly'
+org.gnome.rhythmbox.podcast download-location 'file:///home/hick/M%C3%BAsicas'
+org.gnome.rhythmbox.podcast-source paned-position 180
+org.gnome.rhythmbox.podcast-source search-type 'search-match'
+org.gnome.rhythmbox.podcast-source show-browser true
+org.gnome.rhythmbox.podcast-source sorting ('Feed', true)
+org.gnome.rhythmbox.rhythmdb grace-period 45
+org.gnome.rhythmbox.rhythmdb locations ['file:///home/hick/M%C3%BAsicas']
+org.gnome.rhythmbox.rhythmdb monitor-library false
+org.gnome.rhythmbox.sharing enable-browsing true
+org.gnome.rhythmbox.sharing enable-sharing false
+org.gnome.rhythmbox.sharing require-password false
+org.gnome.rhythmbox.sharing share-name ''
+org.gnome.rhythmbox.sharing share-password ''
+org.gnome.rhythmbox.sources browser-views 'artists-albums'
+org.gnome.rhythmbox.sources visible-columns ['post-time', 'duration', 'track-number', 'album', 'genre', 'artist']
+org.gnome.settings-daemon.global-shortcuts applications @as []
 org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
 org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
 org.gnome.settings-daemon.peripherals.keyboard bell-mode 'on'
@@ -1139,11 +1266,11 @@ org.gnome.settings-daemon.plugins.media-keys calculator ['']
 org.gnome.settings-daemon.plugins.media-keys calculator-static ['XF86Calculator']
 org.gnome.settings-daemon.plugins.media-keys control-center ['']
 org.gnome.settings-daemon.plugins.media-keys control-center-static ['XF86Tools']
-org.gnome.settings-daemon.plugins.media-keys custom-keybindings ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+org.gnome.settings-daemon.plugins.media-keys custom-keybindings ['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/']
 org.gnome.settings-daemon.plugins.media-keys decrease-text-size ['']
 org.gnome.settings-daemon.plugins.media-keys eject ['']
 org.gnome.settings-daemon.plugins.media-keys eject-static ['XF86Eject']
-org.gnome.settings-daemon.plugins.media-keys email ['<Super>m']
+org.gnome.settings-daemon.plugins.media-keys email @as []
 org.gnome.settings-daemon.plugins.media-keys email-static ['XF86Mail']
 org.gnome.settings-daemon.plugins.media-keys help ['', '<Super>F1']
 org.gnome.settings-daemon.plugins.media-keys hibernate ['']
@@ -1184,6 +1311,7 @@ org.gnome.settings-daemon.plugins.media-keys power ['']
 org.gnome.settings-daemon.plugins.media-keys power-static ['XF86PowerOff']
 org.gnome.settings-daemon.plugins.media-keys previous ['']
 org.gnome.settings-daemon.plugins.media-keys previous-static ['XF86AudioPrev', '<Ctrl>XF86AudioPrev']
+org.gnome.settings-daemon.plugins.media-keys reboot ['']
 org.gnome.settings-daemon.plugins.media-keys rfkill ['']
 org.gnome.settings-daemon.plugins.media-keys rfkill-bluetooth ['']
 org.gnome.settings-daemon.plugins.media-keys rfkill-bluetooth-static ['XF86Bluetooth']
@@ -1201,6 +1329,7 @@ org.gnome.settings-daemon.plugins.media-keys screensaver ['<Super>l']
 org.gnome.settings-daemon.plugins.media-keys screensaver-static ['XF86ScreenSaver']
 org.gnome.settings-daemon.plugins.media-keys search ['<Super>s']
 org.gnome.settings-daemon.plugins.media-keys search-static ['XF86Search']
+org.gnome.settings-daemon.plugins.media-keys shutdown ['']
 org.gnome.settings-daemon.plugins.media-keys stop ['']
 org.gnome.settings-daemon.plugins.media-keys stop-static ['XF86AudioStop']
 org.gnome.settings-daemon.plugins.media-keys suspend ['']
@@ -1246,14 +1375,14 @@ org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
 org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
 org.gnome.shell allow-extension-installation true
 org.gnome.shell always-show-log-out false
-org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, 'bc0f0a1d-69ef-445a-8a73-c6a281660e3e': <{'position': <2>}>, '94075ec7-fc9d-4190-b06a-0e50e70748f3': <{'position': <3>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <4>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <5>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <6>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <7>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <8>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <9>}>, '0c4fd1f0-9287-424b-9071-5fda20703e3e': <{'position': <10>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <11>}>, '3e88f3df-24b7-4cbb-aada-a8e58c111a6e': <{'position': <12>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <13>}>, 'github-desktop.desktop': <{'position': <14>}>}]
+org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, '94075ec7-fc9d-4190-b06a-0e50e70748f3': <{'position': <2>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <3>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <4>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <5>}>, 'balena-etcher.desktop': <{'position': <6>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <7>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <8>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <9>}>, '0c4fd1f0-9287-424b-9071-5fda20703e3e': <{'position': <10>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <11>}>, '3e88f3df-24b7-4cbb-aada-a8e58c111a6e': <{'position': <12>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <13>}>, 'httpie.desktop': <{'position': <14>}>, 'emacs.desktop': <{'position': <15>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <16>}>, 'com.github.iwalton3.jellyfin-media-player.desktop': <{'position': <17>}>, 'mpv.desktop': <{'position': <18>}>, '39deae46-5580-47a3-b991-cdb1e62211be': <{'position': <19>}>, 'org.gnome.design.Contrast.desktop': <{'position': <20>}>}]
 org.gnome.shell command-history ['zsh']
 org.gnome.shell development-tools true
 org.gnome.shell disable-extension-version-validation false
 org.gnome.shell disable-user-extensions false
 org.gnome.shell disabled-extensions ['window-list@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'systemd-manager@hardpixel.eu', 'caffeine@patapon.info', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'gTile@vibou', 'syncthing@gnome.2nv2u.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
 org.gnome.shell enabled-extensions ['clipboard-indicator@Dieg0Js.github.io', 'arch-update@RaphaelRochet', 'appindicatorsupport@rgcjonas.gmail.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'app-hider@lynith.dev', 'clipboard-history@alexsaveau.dev', 'just-perfection-desktop@just-perfection', 'workspaceNavigator@smotko.si', 'workspace_wraparound@crister.tk']
-org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'librewolf.desktop', 'org.mozilla.Thunderbird.desktop', 'discord.desktop', 'org.telegram.desktop.desktop', 'codium.desktop', 'io.dbeaver.DBeaver.desktop', 'winbox.desktop', 'org.gnome.gitlab.somas.Apostrophe.desktop', 'io.gitlab.news_flash.NewsFlash.desktop', 'bitwarden.desktop']
+org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'firefox.desktop', 'discord.desktop', 'org.telegram.desktop.desktop', 'codium.desktop', 'io.dbeaver.DBeaver.desktop', 'filezilla.desktop', 'winbox.desktop', 'bitwarden.desktop']
 org.gnome.shell last-selected-power-profile 'power-saver'
 org.gnome.shell looking-glass-history @as []
 org.gnome.shell remember-mount-password false
@@ -1275,9 +1404,9 @@ org.gnome.shell.extensions.native-window-placement use-more-screen true
 org.gnome.shell.extensions.native-window-placement window-captions-on-top true
 org.gnome.shell.extensions.screenshot-window-sizer cycle-screenshot-sizes ['<Alt><Control>s']
 org.gnome.shell.extensions.screenshot-window-sizer cycle-screenshot-sizes-backward ['<Shift><Alt><Control>s']
-org.gnome.shell.extensions.system-monitor show-cpu false
+org.gnome.shell.extensions.system-monitor show-cpu true
 org.gnome.shell.extensions.system-monitor show-download true
-org.gnome.shell.extensions.system-monitor show-memory false
+org.gnome.shell.extensions.system-monitor show-memory true
 org.gnome.shell.extensions.system-monitor show-swap false
 org.gnome.shell.extensions.system-monitor show-upload true
 org.gnome.shell.extensions.user-theme name ''
@@ -1345,7 +1474,7 @@ org.gnome.tweaks show-extensions-notice false
 org.gnome.yelp font-adjustment 0
 org.gnome.yelp show-cursor false
 org.gtk.Settings.ColorChooser custom-colors [(0.16862745098039217, 0.47058823529411764, 0.89411764705882357, 1.0), (1.0, 1.0, 0.0, 0.58823529411764708)]
-org.gtk.Settings.ColorChooser selected-color (true, 0.10980392156862745, 0.44313725490196076, 0.84705882352941175, 1.0)
+org.gtk.Settings.ColorChooser selected-color (true, 0.0, 0.0, 0.0, 1.0)
 org.gtk.Settings.Debug enable-inspector-keybinding false
 org.gtk.Settings.Debug inspector-warning true
 org.gtk.Settings.EmojiChooser recent-emoji @a((auss)u) []
@@ -1357,14 +1486,18 @@ org.gtk.Settings.FileChooser location-mode 'path-bar'
 org.gtk.Settings.FileChooser show-hidden false
 org.gtk.Settings.FileChooser show-size-column true
 org.gtk.Settings.FileChooser show-type-column true
-org.gtk.Settings.FileChooser sidebar-width 193
+org.gtk.Settings.FileChooser sidebar-width 167
 org.gtk.Settings.FileChooser sort-column 'name'
 org.gtk.Settings.FileChooser sort-directories-first false
 org.gtk.Settings.FileChooser sort-order 'ascending'
 org.gtk.Settings.FileChooser startup-mode 'recent'
 org.gtk.Settings.FileChooser type-format 'category'
-org.gtk.Settings.FileChooser window-position (2064, 188)
-org.gtk.Settings.FileChooser window-size (1165, 689)
+org.gtk.Settings.FileChooser window-position (2173, 253)
+org.gtk.Settings.FileChooser window-size (946, 559)
+org.gtk.gtk4.Inspector.Recorder dark false
+org.gtk.gtk4.Inspector.Recorder debug-nodes false
+org.gtk.gtk4.Inspector.Recorder highlight-sequences false
+org.gtk.gtk4.Inspector.Recorder record-events false
 org.gtk.gtk4.Settings.ColorChooser custom-colors @a(dddd) []
 org.gtk.gtk4.Settings.ColorChooser selected-color (true, 0.10980392247438431, 0.44313725829124451, 0.84705883264541626, 1.0)
 org.gtk.gtk4.Settings.Debug enable-inspector-keybinding true
