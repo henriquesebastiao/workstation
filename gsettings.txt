@@ -1507,7 +1507,7 @@ org.gtk.gtk4.Settings.FileChooser clock-format '24h'
 org.gtk.gtk4.Settings.FileChooser date-format 'regular'
 org.gtk.gtk4.Settings.FileChooser expand-folders false
 org.gtk.gtk4.Settings.FileChooser location-mode 'path-bar'
-org.gtk.gtk4.Settings.FileChooser show-hidden false
+org.gtk.gtk4.Settings.FileChooser show-hidden true
 org.gtk.gtk4.Settings.FileChooser show-size-column true
 org.gtk.gtk4.Settings.FileChooser show-type-column true
 org.gtk.gtk4.Settings.FileChooser sidebar-width 218

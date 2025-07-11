@@ -1,6 +1,6 @@
 import base64, zlib
 
-with open('/home/hick/.librewolf/3vz18q2q.default-default/bookmarks.html', mode='rb') as file:
+with open('/home/hick/.mozilla/firefox/z0gjscpl.default-release/bookmarks.html', mode='rb') as file:
     content = file.read()
 
 base64_bytes = base64.b64encode(content)

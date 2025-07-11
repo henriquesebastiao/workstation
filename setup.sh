@@ -152,7 +152,6 @@ AUR=(
 	google-chrome                   # Navegador para testes funcionais com Selenium
 	google-earth-pro                # Google Earth
 	httpie-desktop-bin              # HTTPie para Desktop -> https://github.com/httpie/desktop
-	librewolf-bin                   # Fork do Firefox focado em privacidade -> https://codeberg.org/librewolf/source
 	localsend-bin                   # Ferramenta para compartilhar arquivos pela rede local -> https://github.com/localsend/localsend
 	mini-text                       # Um editor de texto muito simples -> https://github.com/Nokse22/mini-text
 	nautilus-open-in-ptyxis         # Adiciona opção de abrir pasta no terminal ao menu de contexto
