@@ -1,4 +1,5 @@
 basedpyright 1.28.4
+briefcase 0.3.24
 flake8 7.2.0
 ignr 2.2
 mdformat 0.7.22

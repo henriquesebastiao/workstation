@@ -67,3 +67,6 @@ alias turtle='turtle_cli'
 
 # Editors
 alias md="apostrophe"
+
+# Translate
+alias translate="trans -t en"

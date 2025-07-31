@@ -22,6 +22,17 @@ dev.geopjr.Collision window-width 600
 io.github.nokse22.minitext font-size 11
 io.github.nokse22.minitext window-height 502
 io.github.nokse22.minitext window-width 672
+io.github.seadve.Kooha capture-mode 'monitor-window'
+io.github.seadve.Kooha framerate (60, 1)
+io.github.seadve.Kooha profile-id 'mp4'
+io.github.seadve.Kooha record-delay uint32 0
+io.github.seadve.Kooha record-desktop-audio true
+io.github.seadve.Kooha record-microphone false
+io.github.seadve.Kooha saving-location b''
+io.github.seadve.Kooha screencast-restore-token 'c430018a-301e-47f9-9c5a-13bb7ed17f1a'
+io.github.seadve.Kooha selection (-1.0, -1.0, -1.0, -1.0)
+io.github.seadve.Kooha selection-context ((-1.0, -1.0, -1.0, -1.0), (-1, -1))
+io.github.seadve.Kooha show-pointer true
 it.mijorus.gearlever appimages-default-folder '~/AppImages'
 it.mijorus.gearlever debug-logs false
 it.mijorus.gearlever exec-as-name-for-terminal-apps false
@@ -226,7 +237,7 @@ org.freedesktop.pulseaudio.module-group name7 ''
 org.freedesktop.pulseaudio.module-group name8 ''
 org.freedesktop.pulseaudio.module-group name9 ''
 org.gnome.Characters max-recent-characters uint32 100
-org.gnome.Characters recent-characters ['💊', '🍞', '🧻', '💧', '🔦', '🎒', '💸', '💪🏼', '🛌🏻', '📖', '🍜', '🍝', '🪥', '☕', '⛽', '💳', '💼', '🗜️', '⚡', '⏰', '🗡️', '⛓️\u200d💥', '➕', '📦', '🛡️', '🙈', '👤', '📊', '↕️', '🔀', '▶', '▸', '➥', '🖧', '⟶', '🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥', '🇧🇷', '⭐', '🦗', '⬆️', '🪧', '🔄', '📸', '🎯', '🔭', '🔍', '📜', '💾', '⛏️', '🌐', '👨🏻\u200d✈️', '🏅', '🏆', '🐋', '🧽', '🔐', '🗄️', '⚖️', '📋', '🪙']
+org.gnome.Characters recent-characters ['🏦', '👈', '🙂', '🔒', '🔓', '🗃️', '👏', '🫣', '♻️', '🤖', '🧪', '🧭', '💊', '🍞', '🧻', '💧', '🔦', '🎒', '💸', '💪🏼', '🛌🏻', '📖', '🍜', '🍝', '🪥', '☕', '⛽', '💳', '💼', '🗜️', '⚡', '⏰', '🗡️', '⛓️\u200d💥', '➕', '📦', '🛡️', '🙈', '👤', '📊', '↕️', '🔀', '▶', '▸', '➥', '🖧', '⟶', '🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥', '🇧🇷', '⭐', '🦗', '⬆️', '🪧', '🔄', '📸', '🎯', '🔭', '🔍', '📜', '💾']
 org.gnome.Disks image-dir-uri 'file:///home/hick/Downloads/tails-amd64-6.5-img'
 org.gnome.Disks.benchmark do-write false
 org.gnome.Disks.benchmark num-access-samples 1000
@@ -257,7 +268,7 @@ org.gnome.Epiphany.state download-dir 'Downloads'
 org.gnome.Epiphany.state is-maximized true
 org.gnome.Epiphany.state recent-encodings ['']
 org.gnome.Epiphany.state window-position (-1, -1)
-org.gnome.Epiphany.state window-size (1366, 768)
+org.gnome.Epiphany.state window-size (2560, 1048)
 org.gnome.Epiphany.web ask-on-download false
 org.gnome.Epiphany.web autofill-data false
 org.gnome.Epiphany.web default-encoding 'iso-8859-1'
@@ -336,9 +347,9 @@ org.gnome.Evince.Default inverted-colors false
 org.gnome.Evince.Default show-sidebar true
 org.gnome.Evince.Default sidebar-page 'thumbnails'
 org.gnome.Evince.Default sidebar-size 148
-org.gnome.Evince.Default sizing-mode 'free'
-org.gnome.Evince.Default window-ratio (1.184640522875817, 0.71212121212121215)
-org.gnome.Evince.Default zoom 0.94655734844148232
+org.gnome.Evince.Default sizing-mode 'fit-width'
+org.gnome.Evince.Default window-ratio (1.1859965058459883, 0.71030657211749759)
+org.gnome.Evince.Default zoom 0.43606507380258364
 org.gnome.Evolution.DefaultSources default-address-book 'system'
 org.gnome.Evolution.DefaultSources default-calendar 'system'
 org.gnome.Evolution.DefaultSources default-mail-account 'system'
@@ -384,7 +395,7 @@ org.gnome.Ptyxis toast-on-copy-clipboard true
 org.gnome.Ptyxis use-system-font false
 org.gnome.Ptyxis visual-bell true
 org.gnome.Ptyxis visual-process-leader true
-org.gnome.Ptyxis window-size (uint32 318, uint32 61)
+org.gnome.Ptyxis window-size (uint32 80, uint32 24)
 org.gnome.Ptyxis word-char-exceptions @ms nothing
 org.gnome.Ptyxis.Shortcuts close-other-tabs ''
 org.gnome.Ptyxis.Shortcuts close-tab '<ctrl><shift>w'
@@ -428,7 +439,7 @@ org.gnome.SessionManager auto-save-session false
 org.gnome.SessionManager auto-save-session-one-shot false
 org.gnome.SessionManager logout-prompt true
 org.gnome.SessionManager show-fallback-warning true
-org.gnome.Settings last-panel 'applications'
+org.gnome.Settings last-panel 'online-accounts'
 org.gnome.Settings show-development-warning true
 org.gnome.Settings window-state (1333, 712, true)
 org.gnome.Showtime.State end-timestamp-type 'Duration'
@@ -559,7 +570,7 @@ org.gnome.desktop.a11y.mouse dwell-threshold 10
 org.gnome.desktop.a11y.mouse dwell-time 1.2
 org.gnome.desktop.a11y.mouse secondary-click-enabled false
 org.gnome.desktop.a11y.mouse secondary-click-time 1.2
-org.gnome.desktop.app-folders folder-children ['Utilities', 'YaST', 'Pardus', '089f42f3-55b1-4408-a33d-b6f935a79e21', 'd9c78577-859a-4685-a521-b3662c8b022e', 'bc0f0a1d-69ef-445a-8a73-c6a281660e3e', '94075ec7-fc9d-4190-b06a-0e50e70748f3', '99bc1ae8-ffb8-40d2-8499-10596c403e5d', '6ae231a4-7bd7-4e10-99ce-6ca6be00afb3', '9e2e2e10-9f02-4f5d-a853-79ead5790337', 'b8d2c49e-39e5-4437-b569-c6617c23c084', '5cc84833-0b1d-4a25-b7d8-7964d7a09cf6', 'e753d883-17d6-4f29-8a66-adad783dec3a', '0f21e443-7c48-4bc8-a472-0c326832ca75', '72fc32b4-e040-443a-b166-954dc99f17b8', '9698bde2-76ab-4102-a30b-584d01063b4b', '3e88f3df-24b7-4cbb-aada-a8e58c111a6e', '0dc1e4cd-6791-4419-b46b-d09a19017417', '0c4fd1f0-9287-424b-9071-5fda20703e3e', '39deae46-5580-47a3-b991-cdb1e62211be']
+org.gnome.desktop.app-folders folder-children ['Utilities', 'YaST', 'Pardus', '089f42f3-55b1-4408-a33d-b6f935a79e21', 'd9c78577-859a-4685-a521-b3662c8b022e', 'bc0f0a1d-69ef-445a-8a73-c6a281660e3e', '94075ec7-fc9d-4190-b06a-0e50e70748f3', '99bc1ae8-ffb8-40d2-8499-10596c403e5d', '6ae231a4-7bd7-4e10-99ce-6ca6be00afb3', '9e2e2e10-9f02-4f5d-a853-79ead5790337', 'b8d2c49e-39e5-4437-b569-c6617c23c084', '5cc84833-0b1d-4a25-b7d8-7964d7a09cf6', 'e753d883-17d6-4f29-8a66-adad783dec3a', '0f21e443-7c48-4bc8-a472-0c326832ca75', '72fc32b4-e040-443a-b166-954dc99f17b8', '9698bde2-76ab-4102-a30b-584d01063b4b', '3e88f3df-24b7-4cbb-aada-a8e58c111a6e', '0dc1e4cd-6791-4419-b46b-d09a19017417', '0c4fd1f0-9287-424b-9071-5fda20703e3e', '39deae46-5580-47a3-b991-cdb1e62211be', 'a4516ff8-9626-49d8-9276-96b923604dc7']
 org.gnome.desktop.background color-shading-type 'solid'
 org.gnome.desktop.background picture-opacity 100
 org.gnome.desktop.background picture-options 'zoom'
@@ -666,7 +677,7 @@ org.gnome.desktop.media-handling autorun-never true
 org.gnome.desktop.media-handling autorun-x-content-ignore @as []
 org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
 org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software', 'x-content/ostree-repository']
-org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf', 'emacsclient', 'ulauncher', 'balena-etcher', 'org-gnome-rhythmbox3', 'org-strawberrymusicplayer-strawberry']
+org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf', 'emacsclient', 'ulauncher', 'balena-etcher', 'org-gnome-rhythmbox3', 'org-strawberrymusicplayer-strawberry', 'org-gnome-evolution-alarm-notify', 'io-github-seadve-kooha']
 org.gnome.desktop.notifications show-banners false
 org.gnome.desktop.notifications show-in-lock-screen false
 org.gnome.desktop.peripherals.tablet area [0.0, 0.0, 0.0, 0.0]
@@ -894,14 +905,14 @@ org.gnome.evolution-data-server.calendar notify-enable-display true
 org.gnome.evolution-data-server.calendar notify-last-snooze-minutes 5
 org.gnome.evolution-data-server.calendar notify-past-events false
 org.gnome.evolution-data-server.calendar notify-programs @as []
-org.gnome.evolution-data-server.calendar notify-window-height -1
+org.gnome.evolution-data-server.calendar notify-window-height 281
 org.gnome.evolution-data-server.calendar notify-window-on-top true
-org.gnome.evolution-data-server.calendar notify-window-paned-position -1
-org.gnome.evolution-data-server.calendar notify-window-width -1
-org.gnome.evolution-data-server.calendar notify-window-x -1
-org.gnome.evolution-data-server.calendar notify-window-y -1
+org.gnome.evolution-data-server.calendar notify-window-paned-position 48
+org.gnome.evolution-data-server.calendar notify-window-width 283
+org.gnome.evolution-data-server.calendar notify-window-x 0
+org.gnome.evolution-data-server.calendar notify-window-y 0
 org.gnome.evolution-data-server.calendar notify-with-tray true
-org.gnome.evolution-data-server.calendar reminders-past ['']
+org.gnome.evolution-data-server.calendar reminders-past ['b6152cca7e1b74d763677f76a1dfe9643aa650b2\n2bfed8a54fb7344275f1918cb11b61ee5fe0b83a\t20250727T080000\n1753531200\n1753617600\n1753621200\nBEGIN:VEVENT\r\nDTSTART;TZID=America/Manaus:20250727T080000\r\nDTEND;TZID=America/Manaus:20250727T090000\r\nDTSTAMP:20250715T114623Z\r\nUID:\r\n c8rmce9n6lgj2b9k64ojeb9k6dim4b9pccqjibb661i34db470p64p1h6o@google.com\r\nCREATED:20250715T114623Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20250715T114623Z\r\nLOCATION:Paróquia Santíssima Trindade\\, Cotriguaçu - MT\\, 78330-000\\, \r\n Brasil\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Aniversário Claudemir\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63888263183\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-P1D\r\nX-EVOLUTION-ALARM-UID:2bfed8a54fb7344275f1918cb11b61ee5fe0b83a\r\nEND:VALARM\r\nEND:VEVENT\r\n']
 org.gnome.evolution-data-server.calendar reminders-past-days 7
 org.gnome.evolution-data-server.calendar reminders-snoozed ['']
 org.gnome.evolution.eds-shell start-offline false
@@ -919,12 +930,15 @@ org.gnome.evolution.shell.network-config socks-port 0
 org.gnome.evolution.shell.network-config use-authentication false
 org.gnome.evolution.shell.network-config use-http-proxy false
 org.gnome.gitlab.somas.Apostrophe autohide-headerbar true
+org.gnome.gitlab.somas.Apostrophe autosave-period 5
 org.gnome.gitlab.somas.Apostrophe bigger-text false
 org.gnome.gitlab.somas.Apostrophe characters-per-line 66
 org.gnome.gitlab.somas.Apostrophe color-scheme 'dark'
 org.gnome.gitlab.somas.Apostrophe hemingway-mode false
 org.gnome.gitlab.somas.Apostrophe hemingway-toast-count 0
 org.gnome.gitlab.somas.Apostrophe input-format 'markdown'
+org.gnome.gitlab.somas.Apostrophe is-fullscreen false
+org.gnome.gitlab.somas.Apostrophe is-maximized true
 org.gnome.gitlab.somas.Apostrophe preview-active true
 org.gnome.gitlab.somas.Apostrophe preview-mode 'half-width'
 org.gnome.gitlab.somas.Apostrophe preview-security 'ask'
@@ -932,10 +946,12 @@ org.gnome.gitlab.somas.Apostrophe spellcheck true
 org.gnome.gitlab.somas.Apostrophe stat-default 'words'
 org.gnome.gitlab.somas.Apostrophe sync-scroll true
 org.gnome.gitlab.somas.Apostrophe toolbar-active false
+org.gnome.gitlab.somas.Apostrophe window-height 600
+org.gnome.gitlab.somas.Apostrophe window-width 1000
 org.gnome.gnome-system-monitor cpu-colors [(uint32 0, '#e01b24'), (1, '#ff7800'), (2, '#f6d32d'), (3, '#33d17a'), (4, '#26a269'), (5, '#62a0ea'), (6, '#1c71d8'), (7, '#613583'), (8, '#9141ac'), (9, '#c061cb'), (10, '#ffbe6f'), (11, '#f9f06b'), (12, '#8ff0a4'), (13, '#2ec27e'), (14, '#1a5fb4'), (15, '#c061cb')]
 org.gnome.gnome-system-monitor cpu-smooth-graph true
 org.gnome.gnome-system-monitor cpu-stacked-area-chart false
-org.gnome.gnome-system-monitor current-tab 'processes'
+org.gnome.gnome-system-monitor current-tab 'disks'
 org.gnome.gnome-system-monitor disk-read-color '#3584e4'
 org.gnome.gnome-system-monitor disk-write-color '#e66100'
 org.gnome.gnome-system-monitor disks-interval 5000
@@ -1130,113 +1146,6 @@ org.gnome.nm-applet suppress-broadband-unlock-prompt false
 org.gnome.nm-applet suppress-wireless-networks-available false
 org.gnome.online-accounts whitelisted-providers ['all']
 org.gnome.portal.filechooser last-folder-path ''
-org.gnome.rhythmbox display-page-tree-height 300
-org.gnome.rhythmbox display-page-tree-visible true
-org.gnome.rhythmbox follow-playing true
-org.gnome.rhythmbox maximized true
-org.gnome.rhythmbox paned-position 269
-org.gnome.rhythmbox position (0, 32)
-org.gnome.rhythmbox queue-as-sidebar false
-org.gnome.rhythmbox right-paned-position 400
-org.gnome.rhythmbox show-album-art true
-org.gnome.rhythmbox show-song-position-slider true
-org.gnome.rhythmbox size (1366, 699)
-org.gnome.rhythmbox time-display true
-org.gnome.rhythmbox.library add-dir ''
-org.gnome.rhythmbox.library layout-filename '%tN - %tt'
-org.gnome.rhythmbox.library layout-path '%aa/%at'
-org.gnome.rhythmbox.library strip-chars false
-org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
-org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
-org.gnome.rhythmbox.encoding-settings transcode-lossless false
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.player play-order 'linear'
-org.gnome.rhythmbox.player transition-time 0.0
-org.gnome.rhythmbox.player use-xfade-backend false
-org.gnome.rhythmbox.player volume 1.0
-org.gnome.rhythmbox.plugins active-plugins ['iradio', 'mtpdevice', 'audiocd', 'notification', 'power-manager', 'android', 'dbus-media-server', 'generic-player', 'mpris', 'audioscrobbler']
-org.gnome.rhythmbox.plugins no-user-plugins false
-org.gnome.rhythmbox.plugins seen-plugins ['grilo', 'pythonconsole', 'cd-recorder', 'mtpdevice', 'notification', 'rblirc', 'dbus-media-server', 'fmradio', 'daap', 'rb', 'lyrics', 'magnatune', 'replaygain', 'artsearch', 'ipod', 'audioscrobbler', 'rbzeitgeist', 'webremote', 'im-status', 'listenbrainz']
-org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
-org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
-org.gnome.rhythmbox.encoding-settings transcode-lossless false
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.plugins.daap.dacp enable-remote false
-org.gnome.rhythmbox.plugins.daap.dacp known-remotes @as []
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
-org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
-org.gnome.rhythmbox.encoding-settings transcode-lossless false
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
-org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
-org.gnome.rhythmbox.encoding-settings transcode-lossless false
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.plugins.iradio initial-stations-loaded true
-org.gnome.rhythmbox.plugins.iradio.source paned-position 200
-org.gnome.rhythmbox.plugins.iradio.source search-type 'search-match'
-org.gnome.rhythmbox.plugins.iradio.source show-browser true
-org.gnome.rhythmbox.plugins.iradio.source sorting ('Title', true)
-org.gnome.rhythmbox.plugins.listenbrainz user-token ''
-org.gnome.rhythmbox.plugins.lyrics folder ''
-org.gnome.rhythmbox.plugins.lyrics sites ['lyrc.com.ar']
-org.gnome.rhythmbox.plugins.magnatune account-type 'none'
-org.gnome.rhythmbox.plugins.magnatune format 'ogg'
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.encoding-settings media-type 'audio/x-vorbis'
-org.gnome.rhythmbox.encoding-settings media-type-presets @a{ss} {}
-org.gnome.rhythmbox.encoding-settings transcode-lossless false
-org.gnome.rhythmbox.source paned-position 180
-org.gnome.rhythmbox.source search-type 'search-match'
-org.gnome.rhythmbox.source show-browser true
-org.gnome.rhythmbox.source sorting ('Artist', true)
-org.gnome.rhythmbox.plugins.replaygain limiter true
-org.gnome.rhythmbox.plugins.replaygain mode 'radio'
-org.gnome.rhythmbox.plugins.replaygain preamp 0.0
-org.gnome.rhythmbox.plugins.webremote access-key ''
-org.gnome.rhythmbox.plugins.webremote listen-port uint16 0
-org.gnome.rhythmbox.podcast download-interval 'hourly'
-org.gnome.rhythmbox.podcast download-location 'file:///home/hick/M%C3%BAsicas'
-org.gnome.rhythmbox.podcast-source paned-position 180
-org.gnome.rhythmbox.podcast-source search-type 'search-match'
-org.gnome.rhythmbox.podcast-source show-browser true
-org.gnome.rhythmbox.podcast-source sorting ('Feed', true)
-org.gnome.rhythmbox.rhythmdb grace-period 45
-org.gnome.rhythmbox.rhythmdb locations ['file:///home/hick/M%C3%BAsicas']
-org.gnome.rhythmbox.rhythmdb monitor-library false
-org.gnome.rhythmbox.sharing enable-browsing true
-org.gnome.rhythmbox.sharing enable-sharing false
-org.gnome.rhythmbox.sharing require-password false
-org.gnome.rhythmbox.sharing share-name ''
-org.gnome.rhythmbox.sharing share-password ''
-org.gnome.rhythmbox.sources browser-views 'artists-albums'
-org.gnome.rhythmbox.sources visible-columns ['post-time', 'duration', 'track-number', 'album', 'genre', 'artist']
 org.gnome.settings-daemon.global-shortcuts applications @as []
 org.gnome.settings-daemon.peripherals.keyboard bell-custom-file ''
 org.gnome.settings-daemon.peripherals.keyboard bell-duration 100
@@ -1375,14 +1284,14 @@ org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
 org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
 org.gnome.shell allow-extension-installation true
 org.gnome.shell always-show-log-out false
-org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, '94075ec7-fc9d-4190-b06a-0e50e70748f3': <{'position': <2>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <3>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <4>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <5>}>, 'balena-etcher.desktop': <{'position': <6>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <7>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <8>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <9>}>, '0c4fd1f0-9287-424b-9071-5fda20703e3e': <{'position': <10>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <11>}>, '3e88f3df-24b7-4cbb-aada-a8e58c111a6e': <{'position': <12>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <13>}>, 'httpie.desktop': <{'position': <14>}>, 'emacs.desktop': <{'position': <15>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <16>}>, 'com.github.iwalton3.jellyfin-media-player.desktop': <{'position': <17>}>, 'mpv.desktop': <{'position': <18>}>, '39deae46-5580-47a3-b991-cdb1e62211be': <{'position': <19>}>, 'org.gnome.design.Contrast.desktop': <{'position': <20>}>}]
+org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, '94075ec7-fc9d-4190-b06a-0e50e70748f3': <{'position': <2>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <3>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <4>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <5>}>, 'balena-etcher.desktop': <{'position': <6>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <7>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <8>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <9>}>, '0c4fd1f0-9287-424b-9071-5fda20703e3e': <{'position': <10>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <11>}>, '3e88f3df-24b7-4cbb-aada-a8e58c111a6e': <{'position': <12>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <13>}>, 'httpie.desktop': <{'position': <14>}>, 'emacs.desktop': <{'position': <15>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <16>}>, 'com.github.iwalton3.jellyfin-media-player.desktop': <{'position': <17>}>, 'mpv.desktop': <{'position': <18>}>, 'org.gnome.gitlab.somas.Apostrophe.desktop': <{'position': <19>}>, 'org.gnome.design.Contrast.desktop': <{'position': <20>}>, 'a4516ff8-9626-49d8-9276-96b923604dc7': <{'position': <21>}>}, {'eu.nokun.MirrorHall.desktop': <{'position': <0>}>, 'io.gitlab.news_flash.NewsFlash.desktop': <{'position': <1>}>, 'org.gimp.GIMP.desktop': <{'position': <2>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <3>}>, 'org.strawberrymusicplayer.strawberry.desktop': <{'position': <4>}>}]
 org.gnome.shell command-history ['zsh']
 org.gnome.shell development-tools true
 org.gnome.shell disable-extension-version-validation false
 org.gnome.shell disable-user-extensions false
 org.gnome.shell disabled-extensions ['window-list@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'systemd-manager@hardpixel.eu', 'caffeine@patapon.info', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'gTile@vibou', 'syncthing@gnome.2nv2u.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com']
 org.gnome.shell enabled-extensions ['clipboard-indicator@Dieg0Js.github.io', 'arch-update@RaphaelRochet', 'appindicatorsupport@rgcjonas.gmail.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'app-hider@lynith.dev', 'clipboard-history@alexsaveau.dev', 'just-perfection-desktop@just-perfection', 'workspaceNavigator@smotko.si', 'workspace_wraparound@crister.tk']
-org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'firefox.desktop', 'discord.desktop', 'org.telegram.desktop.desktop', 'codium.desktop', 'io.dbeaver.DBeaver.desktop', 'filezilla.desktop', 'winbox.desktop', 'bitwarden.desktop']
+org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'firefox.desktop', 'discord.desktop', 'org.telegram.desktop.desktop', 'code.desktop', 'postman.desktop', 'io.dbeaver.DBeaver.desktop', 'github-desktop.desktop', 'filezilla.desktop', 'winbox.desktop', 'bitwarden.desktop']
 org.gnome.shell last-selected-power-profile 'power-saver'
 org.gnome.shell looking-glass-history @as []
 org.gnome.shell remember-mount-password false
@@ -1483,13 +1392,13 @@ org.gtk.Settings.FileChooser date-format 'regular'
 org.gtk.Settings.FileChooser expand-folders false
 org.gtk.Settings.FileChooser last-folder-uri ''
 org.gtk.Settings.FileChooser location-mode 'path-bar'
-org.gtk.Settings.FileChooser show-hidden false
+org.gtk.Settings.FileChooser show-hidden true
 org.gtk.Settings.FileChooser show-size-column true
 org.gtk.Settings.FileChooser show-type-column true
 org.gtk.Settings.FileChooser sidebar-width 167
 org.gtk.Settings.FileChooser sort-column 'name'
 org.gtk.Settings.FileChooser sort-directories-first false
-org.gtk.Settings.FileChooser sort-order 'ascending'
+org.gtk.Settings.FileChooser sort-order 'descending'
 org.gtk.Settings.FileChooser startup-mode 'recent'
 org.gtk.Settings.FileChooser type-format 'category'
 org.gtk.Settings.FileChooser window-position (2173, 253)
@@ -1507,7 +1416,7 @@ org.gtk.gtk4.Settings.FileChooser clock-format '24h'
 org.gtk.gtk4.Settings.FileChooser date-format 'regular'
 org.gtk.gtk4.Settings.FileChooser expand-folders false
 org.gtk.gtk4.Settings.FileChooser location-mode 'path-bar'
-org.gtk.gtk4.Settings.FileChooser show-hidden true
+org.gtk.gtk4.Settings.FileChooser show-hidden false
 org.gtk.gtk4.Settings.FileChooser show-size-column true
 org.gtk.gtk4.Settings.FileChooser show-type-column true
 org.gtk.gtk4.Settings.FileChooser sidebar-width 218

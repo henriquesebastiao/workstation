@@ -11,7 +11,6 @@
 
 user_pref("browser.bookmarks.autoExportHTML", true);
 user_pref("browser.ctrlTab.sortByRecentlyUsed", true);
-user_pref("browser.toolbars.bookmarks.visibility", "always");
 user_pref("browser.translations.automaticallyPopup", false);
 user_pref("services.sync.prefs.sync-seen.browser.ctrlTab.sortByRecentlyUsed", true);
 user_pref("services.sync.prefs.sync-seen.privacy.clearOnShutdown_v2.cookiesAndStorage", true);

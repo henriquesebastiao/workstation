@@ -5,7 +5,7 @@ format:
 	shfmt -l -w $(SHELL_SCRIPTS)
 
 update:
-	codium --list-extensions > codium-extensions.txt
+	code --list-extensions > code-extensions.txt
 	yay -Qe > yay-qe.txt
 	yay -Q > yay-q.txt
 	gnome-extensions list > gnome-extensions.txt

@@ -27,8 +27,8 @@ cp ~/.config/neofetch/config.conf .config/neofetch/
 # GNOME
 cp -r ~/.config/gtk-3.0 .config/
 
-# VS Codium
-cp ~/.config/VSCodium/User/settings.json .config/VSCodium/User/
+# VS Code
+cp ~/.config/Code/User/settings.json .config/Code/User/
 
 # OBS
 cp ~/.config/obs-studio/global.ini .config/obs-studio/
