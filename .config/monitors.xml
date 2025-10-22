@@ -2,25 +2,6 @@
   <configuration>
     <layoutmode>physical</layoutmode>
     <logicalmonitor>
-      <x>1366</x>
-      <y>0</y>
-      <scale>1</scale>
-      <primary>yes</primary>
-      <monitor>
-        <monitorspec>
-          <connector>HDMI-1</connector>
-          <vendor>GSM</vendor>
-          <product>LG HDR WFHD</product>
-          <serial>0x00007867</serial>
-        </monitorspec>
-        <mode>
-          <width>2560</width>
-          <height>1080</height>
-          <rate>29.972</rate>
-        </mode>
-      </monitor>
-    </logicalmonitor>
-    <logicalmonitor>
       <x>0</x>
       <y>148</y>
       <scale>1</scale>
@@ -35,6 +16,25 @@
           <width>1366</width>
           <height>768</height>
           <rate>60.002</rate>
+        </mode>
+      </monitor>
+    </logicalmonitor>
+    <logicalmonitor>
+      <x>1366</x>
+      <y>0</y>
+      <scale>1</scale>
+      <primary>yes</primary>
+      <monitor>
+        <monitorspec>
+          <connector>HDMI-1</connector>
+          <vendor>GSM</vendor>
+          <product>LG HDR WFHD</product>
+          <serial>0x00007867</serial>
+        </monitorspec>
+        <mode>
+          <width>2560</width>
+          <height>1080</height>
+          <rate>30.003</rate>
         </mode>
       </monitor>
     </logicalmonitor>

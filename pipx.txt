@@ -6,7 +6,9 @@ mdformat 0.7.22
 mkx 0.1.0
 pre-commit 4.1.0
 pylint 3.3.6
+renardo 0.9.13
 skyport 0.1.0
 smokeshow 0.5.0
+spotdl 4.4.2
 twine 5.0.0
 yt-dlp 2025.3.27
