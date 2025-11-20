@@ -1,2 +1,6 @@
 [warnings]
 export = false
+
+[virtualenvs]
+create = true
+in-project = true

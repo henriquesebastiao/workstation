@@ -9,11 +9,6 @@ com.github.finefindus.eyedropper visible-formats ['name', 'hex', 'rgb', 'hsl', '
 com.github.finefindus.eyedropper window-dimension (360, 500, false)
 com.rafaelmardojai.SharePreview dark-theme false
 com.rafaelmardojai.SharePreview social 'Twitter'
-io.bassi.Amberol background-play true
-io.bassi.Amberol enable-recoloring true
-io.bassi.Amberol replay-gain 'off'
-io.bassi.Amberol window-height 660
-io.bassi.Amberol window-width 360
 io.github.nokse22.minitext font-size 13
 io.github.nokse22.minitext window-height 556
 io.github.nokse22.minitext window-width 822
@@ -250,7 +245,7 @@ org.freedesktop.pulseaudio.module-group name7 ''
 org.freedesktop.pulseaudio.module-group name8 ''
 org.freedesktop.pulseaudio.module-group name9 ''
 org.gnome.Characters max-recent-characters uint32 100
-org.gnome.Characters recent-characters ['➡️', '📜', '👋🏻', '😉', '😘', '👇', '👋', '⛏️', '🏦', '👈', '🙂', '🔒', '🔓', '🗃️', '👏', '🫣', '♻️', '🤖', '🧪', '🧭', '💊', '🍞', '🧻', '💧', '🔦', '🎒', '💸', '💪🏼', '🛌🏻', '📖', '🍜', '🍝', '🪥', '☕', '⛽', '💳', '💼', '🗜️', '⚡', '⏰', '🗡️', '⛓️\u200d💥', '➕', '📦', '🛡️', '🙈', '👤', '📊', '↕️', '🔀', '▶', '▸', '➥', '🖧', '⟶', '🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥', '🇧🇷', '⭐', '🦗', '⬆️']
+org.gnome.Characters recent-characters ['⬆️', '🛜', '🦈', '🐳', '➡️', '📜', '👋🏻', '😉', '😘', '👇', '👋', '⛏️', '🏦', '👈', '🙂', '🔒', '🔓', '🗃️', '👏', '🫣', '♻️', '🤖', '🧪', '🧭', '💊', '🍞', '🧻', '💧', '🔦', '🎒', '💸', '💪🏼', '🛌🏻', '📖', '🍜', '🍝', '🪥', '☕', '⛽', '💳', '💼', '🗜️', '⚡', '⏰', '🗡️', '⛓️\u200d💥', '➕', '📦', '🛡️', '🙈', '👤', '📊', '↕️', '🔀', '▶', '▸', '➥', '🖧', '⟶', '🎉', '⛪', '🎓', '🚩', '🚏', '📃', '🗓️', '⚙️', '💽', '🤔', '🍺', '🥲', '🧰', '💻', '🖥️', '📝', '👀', '🔗', '🛠️', '✅', '🔖', '✏️', '🏷️', '❤️', '⬇️', '🤓', '✨', '📁', '🚀', '🔧', '☂️', '😅', '🖼️', '🎨', '💡', '⚠️', '🟢', '📈', '📞', '💬', '🔥']
 org.gnome.Disks image-dir-uri 'file:///home/hick/Downloads/tails-amd64-6.5-img'
 org.gnome.Disks.benchmark do-write false
 org.gnome.Disks.benchmark num-access-samples 1000
@@ -385,10 +380,10 @@ org.gnome.Papers.Default fullscreen false
 org.gnome.Papers.Default show-sidebar true
 org.gnome.Papers.Default sidebar-page 'links'
 org.gnome.Papers.Default sizing-mode 'free'
-org.gnome.Papers.Default window-height 1048
+org.gnome.Papers.Default window-height 600
 org.gnome.Papers.Default window-maximized true
-org.gnome.Papers.Default window-width 1280
-org.gnome.Papers.Default zoom 0.81420930190907503
+org.gnome.Papers.Default window-width 600
+org.gnome.Papers.Default zoom 0.84417220421932937
 org.gnome.Ptyxis audible-bell true
 org.gnome.Ptyxis cursor-blink-mode 'on'
 org.gnome.Ptyxis cursor-shape 'underline'
@@ -454,7 +449,7 @@ org.gnome.Ptyxis.Shortcuts zoom-one '<ctrl>0'
 org.gnome.Ptyxis.Shortcuts zoom-out '<ctrl>minus'
 org.gnome.SessionManager logout-prompt true
 org.gnome.SessionManager show-fallback-warning true
-org.gnome.Settings last-panel 'sound'
+org.gnome.Settings last-panel 'universal-access'
 org.gnome.Settings show-development-warning true
 org.gnome.Settings window-state (1333, 712, true)
 org.gnome.Showtime.State end-timestamp-type 'Duration'
@@ -517,9 +512,9 @@ org.gnome.calendar window-size (646, 600)
 org.gnome.clocks alarms [{'name': <'Ligar pra Mila'>, 'id': <'d03a021235bc5d3b9b1e997f66ee0cd3'>, 'hour': <15>, 'minute': <0>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}, {'name': <'Entrar na reunião as 15:45'>, 'id': <'d54f92de5a7a2e7388cb66df67e1a977'>, 'hour': <15>, 'minute': <40>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}, {'name': <''>, 'id': <'9dc9af471d38e8966f5ab94f67f92236'>, 'hour': <10>, 'minute': <20>, 'days': <@ai []>, 'snooze_minutes': <10>, 'ring_minutes': <5>}]
 org.gnome.clocks geolocation true
 org.gnome.clocks timers [{'duration': <300>, 'name': <''>}]
-org.gnome.clocks world-clocks [{'location': <(uint32 2, <('Vancouver', 'CYVR', true, [(0.85841109795478021, -2.1496638678574467)], [(0.85957465660720722, -2.1490820798045869)])>)>}, {'location': <(uint32 2, <('Linz', 'LOWL', true, [(0.84183047006083411, 0.24754585975676488)], [(0.84299402871326112, 0.24958208303518914)])>)>}]
+org.gnome.clocks world-clocks [{'location': <(uint32 2, <('Brasília', 'SBBR', true, [(-0.27692558046753113, -0.83659448230485101)], [(-0.27547112778867422, -0.83630360573171358)])>)>}]
 org.gnome.clocks.state.window maximized false
-org.gnome.clocks.state.window panel-id 'timer'
+org.gnome.clocks.state.window panel-id 'world'
 org.gnome.clocks.state.window size (769, 388)
 org.gnome.crypto.cache gpg-cache-method 'session'
 org.gnome.crypto.cache gpg-cache-ttl 300
@@ -564,7 +559,7 @@ org.gnome.desktop.a11y.magnifier color-saturation 1.0
 org.gnome.desktop.a11y.magnifier contrast-blue 0.0
 org.gnome.desktop.a11y.magnifier contrast-green 0.0
 org.gnome.desktop.a11y.magnifier contrast-red 0.0
-org.gnome.desktop.a11y.magnifier cross-hairs-clip false
+org.gnome.desktop.a11y.magnifier cross-hairs-clip true
 org.gnome.desktop.a11y.magnifier cross-hairs-color '#ff0000'
 org.gnome.desktop.a11y.magnifier cross-hairs-length 4096
 org.gnome.desktop.a11y.magnifier cross-hairs-opacity 0.66000000000000003
@@ -576,7 +571,7 @@ org.gnome.desktop.a11y.magnifier mag-factor 2.0
 org.gnome.desktop.a11y.magnifier mouse-tracking 'proportional'
 org.gnome.desktop.a11y.magnifier screen-position 'full-screen'
 org.gnome.desktop.a11y.magnifier scroll-at-edges false
-org.gnome.desktop.a11y.magnifier show-cross-hairs false
+org.gnome.desktop.a11y.magnifier show-cross-hairs true
 org.gnome.desktop.a11y.mouse click-type-window-visible true
 org.gnome.desktop.a11y.mouse dwell-click-enabled false
 org.gnome.desktop.a11y.mouse dwell-gesture-double 'up'
@@ -627,7 +622,7 @@ org.gnome.desktop.default-applications.office.tasks needs-term false
 org.gnome.desktop.default-applications.terminal exec 'xdg-terminal-exec'
 org.gnome.desktop.default-applications.terminal exec-arg '-x'
 org.gnome.desktop.input-sources current uint32 0
-org.gnome.desktop.input-sources mru-sources [('xkb', 'us'), ('xkb', 'br')]
+org.gnome.desktop.input-sources mru-sources [('xkb', 'br'), ('xkb', 'us')]
 org.gnome.desktop.input-sources per-window false
 org.gnome.desktop.input-sources show-all-sources false
 org.gnome.desktop.input-sources sources [('xkb', 'br'), ('xkb', 'us')]
@@ -695,7 +690,7 @@ org.gnome.desktop.media-handling autorun-never true
 org.gnome.desktop.media-handling autorun-x-content-ignore @as []
 org.gnome.desktop.media-handling autorun-x-content-open-folder @as []
 org.gnome.desktop.media-handling autorun-x-content-start-app ['x-content/unix-software', 'x-content/ostree-repository']
-org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf', 'emacsclient', 'ulauncher', 'balena-etcher', 'org-gnome-rhythmbox3', 'org-strawberrymusicplayer-strawberry', 'org-gnome-evolution-alarm-notify', 'io-github-seadve-kooha', 'org-gabmus-swatch', 'io-podman-desktop-podmandesktop', 'gnome-about-panel', 'com-obsproject-studio', 'org-gnome-showtime']
+org.gnome.desktop.notifications application-children ['org-gnome-console', 'gnome-power-panel', 'gnome-network-panel', 'org-mozilla-thunderbird', 'org-qbittorrent-qbittorrent', 'de-haeckerfelix-fragments', 'firefox', 'org-gnome-polari', 'discord', 'org-gabmus-gfeeds', 'org-gnome-settings', 'org-gnome-nautilus', 'pycharm', 'audacity', 'pycharm-professional', 'code', 'io-dbeaver-dbeaver', 'spotify-launcher', 'protonvpn', 'org-gnome-extensions', 'org-inkscape-inkscape', 'org-gnome-terminal', 'winbox', 'gimp', 'jetbrains-toolbox', 'jetbrains-pycharm-8035cf1c-ad79-4ab0-9607-c103addb4362', 'jetbrains-rubymine-5abe1179-c66b-4ad5-8054-37b9f25ed287', 'org-gnome-baobab', 'org-gnome-clocks', 'org-flameshot-flameshot', 'arduino-ide-v2', 'jetbrains-clion-3a5ac7c2-6e7e-48da-b901-aa02d1e86f91', 'org-telegram-desktop', 'org-nickvision-tubeconverter', 'virtualbox', 'org-gnome-loupe', 'firefox-developer-edition', 'filezilla', 'putty', 'google-earth-pro', 'org-gnome-calendar', 'libreoffice-calc', 'vlc', 'google-chrome', 'localsend', 'org-gnome-characters', 'chirp', 'org-keepassxc-keepassxc', 'affine', 'org-gnome-ptyxis', 'winbox3', 'com-nextcloud-desktopclient-nextcloud', 'spotify', 'texworks', 'io-gitlab-news-flash-newsflash', 'librewolf', 'emacsclient', 'ulauncher', 'balena-etcher', 'org-gnome-rhythmbox3', 'org-strawberrymusicplayer-strawberry', 'org-gnome-evolution-alarm-notify', 'io-github-seadve-kooha', 'org-gabmus-swatch', 'io-podman-desktop-podmandesktop', 'gnome-about-panel', 'com-obsproject-studio', 'org-gnome-showtime', 'jetbrains-idea']
 org.gnome.desktop.notifications show-banners false
 org.gnome.desktop.notifications show-in-lock-screen false
 org.gnome.desktop.peripherals.tablet area [0.0, 0.0, 0.0, 0.0]
@@ -932,7 +927,7 @@ org.gnome.evolution-data-server.calendar notify-window-width 283
 org.gnome.evolution-data-server.calendar notify-window-x 0
 org.gnome.evolution-data-server.calendar notify-window-y 0
 org.gnome.evolution-data-server.calendar notify-with-tray true
-org.gnome.evolution-data-server.calendar reminders-past ['b6152cca7e1b74d763677f76a1dfe9643aa650b2\nc57d256e2ea9753ccea0b3842697f3e0f77f2685\t20251020\n1760950800\n1760918400\n1761004800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251020\r\nDTEND;VALUE=DATE:20251021\r\nDTSTAMP:20251007T004535Z\r\nUID:1lsovddanl3hl8vjkul9pno286@google.com\r\nCREATED:20251007T004535Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251007T004535Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Início da Disciplina de Estudos Disciplinares\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63895481135\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT9H\r\nX-EVOLUTION-ALARM-UID:c57d256e2ea9753ccea0b3842697f3e0f77f2685\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'b6152cca7e1b74d763677f76a1dfe9643aa650b2\n3a75d3d6815b72ce53507b76c2c145c9dc6a9722\t20251018\n1760778000\n1760745600\n1761004800\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251018\r\nDTEND;VALUE=DATE:20251021\r\nDTSTAMP:20251007T145624Z\r\nUID:\r\n c8sj8dhjcli6abb2c5i32b9k60s66b9p64qj2bb360qm2cj5cdi34d1l68@google.com\r\nCREATED:20251007T145602Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251007T145624Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Informar leitura dos padrões\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63895532184\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT9H\r\nX-EVOLUTION-ALARM-UID:3a75d3d6815b72ce53507b76c2c145c9dc6a9722\r\nEND:VALARM\r\nEND:VEVENT\r\n']
+org.gnome.evolution-data-server.calendar reminders-past ['b6152cca7e1b74d763677f76a1dfe9643aa650b2\nfb1f6b879565152ec74147ef386dad0a345844eb\t20251118\n1763452800\n1763424000\n1763683200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251118\r\nDTEND;VALUE=DATE:20251121\r\nDTSTAMP:20251109T114258Z\r\nUID:2n773dmli2ugt6sm4s3qpltkfc@google.com\r\nCREATED:20251109T114246Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251109T114258Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Informar leitura dos padrões\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63898371778\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT8H\r\nX-EVOLUTION-ALARM-UID:fb1f6b879565152ec74147ef386dad0a345844eb\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT16H\r\nX-EVOLUTION-ALARM-UID:a79643a2d1ff75f2513282f747402f91d45d2b9d\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'b6152cca7e1b74d763677f76a1dfe9643aa650b2\nfca37e85d81fdbdafdc7969b4b079a1081acbd6d\t20251117T200000\n1763420400\n1763424000\n1763431200\nBEGIN:VEVENT\r\nDTSTART;TZID=America/Cuiaba:20251117T200000\r\nDTEND;TZID=America/Cuiaba:20251117T220000\r\nDTSTAMP:20251007T003220Z\r\nUID:2nvhr045ic5jtikqcsm4fk6nnq@google.com\r\nCREATED:20251007T003220Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251007T003220Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Und. 3 - Desenvolvimento de Sistemas Distribuídos\r\nTRANSP:OPAQUE\r\nX-EVOLUTION-CALDAV-ETAG:63895480340\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT1H\r\nX-EVOLUTION-ALARM-UID:fca37e85d81fdbdafdc7969b4b079a1081acbd6d\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'b6152cca7e1b74d763677f76a1dfe9643aa650b2\na79643a2d1ff75f2513282f747402f91d45d2b9d\t20251118\n1763366400\n1763424000\n1763683200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251118\r\nDTEND;VALUE=DATE:20251121\r\nDTSTAMP:20251109T114258Z\r\nUID:2n773dmli2ugt6sm4s3qpltkfc@google.com\r\nCREATED:20251109T114246Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251109T114258Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:0\r\nSTATUS:CONFIRMED\r\nSUMMARY:Informar leitura dos padrões\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63898371778\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT8H\r\nX-EVOLUTION-ALARM-UID:fb1f6b879565152ec74147ef386dad0a345844eb\r\nEND:VALARM\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:-PT16H\r\nX-EVOLUTION-ALARM-UID:a79643a2d1ff75f2513282f747402f91d45d2b9d\r\nEND:VALARM\r\nEND:VEVENT\r\n', 'b6152cca7e1b74d763677f76a1dfe9643aa650b2\n4e587a7ca1ba779987fb48098115eb9d83fc5749\t20251115\n1763193600\n1763164800\n1763251200\nBEGIN:VEVENT\r\nDTSTART;VALUE=DATE:20251115\r\nDTEND;VALUE=DATE:20251116\r\nRRULE:FREQ=MONTHLY;BYMONTHDAY=15\r\nDTSTAMP:20251109T194155Z\r\nUID:4a48di3m37kaaf3on93eg8i63v@google.com\r\nCREATED:20251109T114050Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION \r\n property. Removing entire property:\r\nLAST-MODIFIED:20251109T194155Z\r\nX-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION \r\n property. Removing entire property:\r\nSEQUENCE:1\r\nSTATUS:CONFIRMED\r\nSUMMARY:Pagar aluguel da kitnet\r\nTRANSP:TRANSPARENT\r\nX-EVOLUTION-CALDAV-ETAG:63898400515\r\nRECURRENCE-ID;VALUE=DATE:20251115\r\nBEGIN:VALARM\r\nACTION:DISPLAY\r\nDESCRIPTION:This is an event reminder\r\nTRIGGER:PT8H\r\nX-EVOLUTION-ALARM-UID:4e587a7ca1ba779987fb48098115eb9d83fc5749\r\nEND:VALARM\r\nEND:VEVENT\r\n']
 org.gnome.evolution-data-server.calendar reminders-past-days 7
 org.gnome.evolution-data-server.calendar reminders-snoozed ['']
 org.gnome.evolution.eds-shell start-offline false
@@ -1057,7 +1052,7 @@ org.gnome.gnome-system-monitor.proctree col-8-width 71
 org.gnome.gnome-system-monitor.proctree col-9-visible false
 org.gnome.gnome-system-monitor.proctree col-9-width 80
 org.gnome.gnome-system-monitor.proctree columns-order [0, 1, 2, 3, 4, 6, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 7]
-org.gnome.gnome-system-monitor.proctree sort-col 8
+org.gnome.gnome-system-monitor.proctree sort-col 0
 org.gnome.gnome-system-monitor.proctree sort-order 0
 org.gnome.login-screen allowed-failures 3
 org.gnome.login-screen banner-message-enable false
@@ -1082,7 +1077,7 @@ org.gnome.mutter experimental-features @as []
 org.gnome.mutter focus-change-on-pointer-rest true
 org.gnome.mutter locate-pointer-key 'Control_L'
 org.gnome.mutter output-luminance @a(ssssud) []
-org.gnome.mutter overlay-key 'Super'
+org.gnome.mutter overlay-key 'Super_L'
 org.gnome.mutter workspaces-only-on-primary true
 org.gnome.mutter.devkit launchers [('desktop', 'org.gnome.Ptyxis', 'new-window')]
 org.gnome.mutter.keybindings cancel-input-capture ['<Super><Shift>Escape']
@@ -1117,7 +1112,7 @@ org.gnome.nautilus.list-view use-tree-view false
 org.gnome.nautilus.preferences always-use-location-entry false
 org.gnome.nautilus.preferences click-policy 'double'
 org.gnome.nautilus.preferences date-time-format 'simple'
-org.gnome.nautilus.preferences default-folder-viewer 'icon-view'
+org.gnome.nautilus.preferences default-folder-viewer 'list-view'
 org.gnome.nautilus.preferences default-sort-in-reverse-order false
 org.gnome.nautilus.preferences default-sort-order 'name'
 org.gnome.nautilus.preferences fts-enabled true
@@ -1135,7 +1130,7 @@ org.gnome.nautilus.preferences show-directory-item-counts 'local-only'
 org.gnome.nautilus.preferences show-hidden-files false
 org.gnome.nautilus.preferences show-image-thumbnails 'local-only'
 org.gnome.nautilus.preferences thumbnail-limit uint64 50
-org.gnome.nautilus.window-state initial-size (2560, 1048)
+org.gnome.nautilus.window-state initial-size (907, 637)
 org.gnome.nautilus.window-state initial-size-file-chooser (918, 736)
 org.gnome.nautilus.window-state maximized true
 org.gnome.nm-applet disable-connected-notifications false
@@ -1191,7 +1186,7 @@ org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-toggle-static [
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up ['']
 org.gnome.settings-daemon.plugins.media-keys keyboard-brightness-up-static ['XF86KbdBrightnessUp']
 org.gnome.settings-daemon.plugins.media-keys logout ['<Control><Alt>Delete']
-org.gnome.settings-daemon.plugins.media-keys magnifier ['<Alt><Super>8']
+org.gnome.settings-daemon.plugins.media-keys magnifier ['<Super>a']
 org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-in ['<Alt><Super>equal']
 org.gnome.settings-daemon.plugins.media-keys magnifier-zoom-out ['<Alt><Super>minus']
 org.gnome.settings-daemon.plugins.media-keys media ['']
@@ -1275,14 +1270,14 @@ org.gnome.settings-daemon.plugins.xsettings enabled-gtk-modules @as []
 org.gnome.settings-daemon.plugins.xsettings overrides @a{sv} {}
 org.gnome.shell allow-extension-installation true
 org.gnome.shell always-show-log-out false
-org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <2>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <3>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <4>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <5>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <6>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <7>}>, '0c4fd1f0-9287-424b-9071-5fda20703e3e': <{'position': <8>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <9>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <10>}>, 'org.gnome.gitlab.somas.Apostrophe.desktop': <{'position': <11>}>, 'org.gnome.design.Contrast.desktop': <{'position': <12>}>, 'a4516ff8-9626-49d8-9276-96b923604dc7': <{'position': <13>}>}, {'eu.nokun.MirrorHall.desktop': <{'position': <0>}>, 'electron36.desktop': <{'position': <1>}>, 'org.gimp.GIMP.desktop': <{'position': <2>}>, 'scrcpy.desktop': <{'position': <3>}>, 'scrcpy-console.desktop': <{'position': <4>}>, 'org.gabmus.swatch.desktop': <{'position': <5>}>, 'another-redis-desktop-manager.desktop': <{'position': <6>}>, 'electron37.desktop': <{'position': <7>}>, 'org.gnome.Totem.desktop': <{'position': <8>}>}]
+org.gnome.shell app-picker-layout [{'6ae231a4-7bd7-4e10-99ce-6ca6be00afb3': <{'position': <0>}>, '089f42f3-55b1-4408-a33d-b6f935a79e21': <{'position': <1>}>, '9e2e2e10-9f02-4f5d-a853-79ead5790337': <{'position': <2>}>, '99bc1ae8-ffb8-40d2-8499-10596c403e5d': <{'position': <3>}>, 'b8d2c49e-39e5-4437-b569-c6617c23c084': <{'position': <4>}>, 'd9c78577-859a-4685-a521-b3662c8b022e': <{'position': <5>}>, '0f21e443-7c48-4bc8-a472-0c326832ca75': <{'position': <6>}>, '72fc32b4-e040-443a-b166-954dc99f17b8': <{'position': <7>}>, '9698bde2-76ab-4102-a30b-584d01063b4b': <{'position': <8>}>, '0dc1e4cd-6791-4419-b46b-d09a19017417': <{'position': <9>}>}, {'bc0f0a1d-69ef-445a-8a73-c6a281660e3e': <{'position': <0>}>, 'org.gimp.GIMP.desktop': <{'position': <1>}>, 'org.gnome.Yelp.desktop': <{'position': <2>}>, 'another-redis-desktop-manager.desktop': <{'position': <3>}>, 'electron37.desktop': <{'position': <4>}>, 'org.gnome.Totem.desktop': <{'position': <5>}>, 'org.gnome.Firmware.desktop': <{'position': <6>}>, 'org.keepassxc.KeePassXC.desktop': <{'position': <7>}>, 'bitwarden.desktop': <{'position': <8>}>}, {'org.gnome.Papers.desktop': <{'position': <0>}>, 'zynaddsubfx-alsa.desktop': <{'position': <1>}>, 'zynaddsubfx-jack.desktop': <{'position': <2>}>, 'zynaddsubfx-jack-multi.desktop': <{'position': <3>}>, 'zynaddsubfx-oss.desktop': <{'position': <4>}>, 'jconsole-java21-openjdk.desktop': <{'position': <5>}>, 'jshell-java21-openjdk.desktop': <{'position': <6>}>}]
 org.gnome.shell command-history ['zsh']
 org.gnome.shell development-tools true
 org.gnome.shell disable-extension-version-validation false
 org.gnome.shell disable-user-extensions false
 org.gnome.shell disabled-extensions ['window-list@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'systemd-manager@hardpixel.eu', 'caffeine@patapon.info', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'gTile@vibou', 'syncthing@gnome.2nv2u.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
 org.gnome.shell enabled-extensions ['clipboard-indicator@Dieg0Js.github.io', 'arch-update@RaphaelRochet', 'appindicatorsupport@rgcjonas.gmail.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'app-hider@lynith.dev', 'clipboard-history@alexsaveau.dev', 'just-perfection-desktop@just-perfection', 'workspaceNavigator@smotko.si', 'workspace_wraparound@crister.tk', 'blur-my-shell@aunetx', 'dash-to-dock@micxgx.gmail.com']
-org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'firefox.desktop', 'torbrowser.desktop', 'discord.desktop', 'org.telegram.desktop.desktop', 'spotify.desktop', 'obsidian.desktop', 'code.desktop', 'postman.desktop', 'io.dbeaver.DBeaver.desktop', 'filezilla.desktop', 'winbox.desktop']
+org.gnome.shell favorite-apps ['org.gnome.Ptyxis.desktop', 'firefox.desktop', 'torbrowser.desktop', 'obsidian.desktop', 'code.desktop', 'io.dbeaver.DBeaver.desktop', 'filezilla.desktop', 'winbox.desktop', 'winbox3.desktop']
 org.gnome.shell last-selected-power-profile 'power-saver'
 org.gnome.shell looking-glass-history @as []
 org.gnome.shell remember-mount-password true
@@ -1304,9 +1299,9 @@ org.gnome.shell.extensions.native-window-placement use-more-screen true
 org.gnome.shell.extensions.native-window-placement window-captions-on-top true
 org.gnome.shell.extensions.screenshot-window-sizer cycle-screenshot-sizes ['<Alt><Control>s']
 org.gnome.shell.extensions.screenshot-window-sizer cycle-screenshot-sizes-backward ['<Shift><Alt><Control>s']
-org.gnome.shell.extensions.system-monitor show-cpu false
+org.gnome.shell.extensions.system-monitor show-cpu true
 org.gnome.shell.extensions.system-monitor show-download true
-org.gnome.shell.extensions.system-monitor show-memory false
+org.gnome.shell.extensions.system-monitor show-memory true
 org.gnome.shell.extensions.system-monitor show-swap false
 org.gnome.shell.extensions.system-monitor show-upload true
 org.gnome.shell.extensions.user-theme name ''
@@ -1346,7 +1341,7 @@ org.gnome.shell.keybindings switch-to-application-6 ['<Super>6']
 org.gnome.shell.keybindings switch-to-application-7 ['<Super>7']
 org.gnome.shell.keybindings switch-to-application-8 ['<Super>8']
 org.gnome.shell.keybindings switch-to-application-9 ['<Super>9']
-org.gnome.shell.keybindings toggle-application-view ['<Super>a']
+org.gnome.shell.keybindings toggle-application-view @as []
 org.gnome.shell.keybindings toggle-message-tray @as []
 org.gnome.shell.keybindings toggle-overview @as []
 org.gnome.shell.keybindings toggle-quick-settings @as []
@@ -1354,7 +1349,7 @@ org.gnome.shell.weather automatic-location false
 org.gnome.shell.weather locations @av []
 org.gnome.shell.window-switcher app-icon-mode 'both'
 org.gnome.shell.window-switcher current-workspace-only true
-org.gnome.shell.world-clocks locations [<(uint32 2, <('Vancouver', 'CYVR', true, [(0.85841109795478021, -2.1496638678574467)], [(0.85957465660720722, -2.1490820798045869)])>)>, <(uint32 2, <('Linz', 'LOWL', true, [(0.84183047006083411, 0.24754585975676488)], [(0.84299402871326112, 0.24958208303518914)])>)>]
+org.gnome.shell.world-clocks locations [<(uint32 2, <('Brasília', 'SBBR', true, [(-0.27692558046753113, -0.83659448230485101)], [(-0.27547112778867422, -0.83630360573171358)])>)>]
 org.gnome.system.locale region ''
 org.gnome.system.location enabled false
 org.gnome.system.location max-accuracy-level 'exact'
@@ -1409,7 +1404,7 @@ org.gtk.Settings.FileChooser date-format 'regular'
 org.gtk.Settings.FileChooser expand-folders false
 org.gtk.Settings.FileChooser last-folder-uri ''
 org.gtk.Settings.FileChooser location-mode 'path-bar'
-org.gtk.Settings.FileChooser show-hidden true
+org.gtk.Settings.FileChooser show-hidden false
 org.gtk.Settings.FileChooser show-size-column true
 org.gtk.Settings.FileChooser show-type-column true
 org.gtk.Settings.FileChooser sidebar-width 167
@@ -1433,7 +1428,7 @@ org.gtk.gtk4.Settings.FileChooser clock-format '24h'
 org.gtk.gtk4.Settings.FileChooser date-format 'regular'
 org.gtk.gtk4.Settings.FileChooser expand-folders false
 org.gtk.gtk4.Settings.FileChooser location-mode 'path-bar'
-org.gtk.gtk4.Settings.FileChooser show-hidden false
+org.gtk.gtk4.Settings.FileChooser show-hidden true
 org.gtk.gtk4.Settings.FileChooser show-size-column true
 org.gtk.gtk4.Settings.FileChooser show-type-column true
 org.gtk.gtk4.Settings.FileChooser sidebar-width 218
