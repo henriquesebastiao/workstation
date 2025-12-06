@@ -1,5 +1,4 @@
-# Pip
-alias pip-rm-all="pip freeze | xargs pip uninstall -y"
+# Python
 alias activate="source .venv/bin/activate"
 
 # Poetry
@@ -7,17 +6,9 @@ alias pshell="poetry shell"
 alias pexport="poetry export --with dev --without-hashes --without-urls --output requirements.txt"
 alias pexport-production="poetry export -f requirements.txt --output requirements.txt --without-hashes --without dev"
 
-# Utils
-alias cl="clear"
-alias lt="exa -T"
-alias aliases="cat ~/.aliases"
-
 # Docker
 alias dsclean="docker system prune -a"
 alias diclean="docker image prune -a"
-
-# Espresif
-alias get_idf='. $HOME/esp/esp-idf/export.sh'
 
 # Serial Ports
 # Allow all users to access the serial port
@@ -26,47 +17,16 @@ alias serial='sudo chmod a+rw /dev/ttyACM0'
 # List all serial ports
 alias lss='ls /dev/ttyA*'
 
-# Shared
-# Shred for file
-alias rmm='shred -n 10 -z -u -v'
-# Shred for disk
-alias rmmd='shred -n 2 -z -v'
-
-# Ifconfig.me
-# Show my public IP
-alias ipp='curl ifconfig.me'
-
-# Pacman and yay
-# Removes all orphaned packages and their unnecessary dependencies
-alias ppclean='sudo pacman -Rs $(pacman -Qdtq)'
-alias ypclean='yay -Rs $(yay -Qdtq)'
-alias ycclean='yay -Sc --noconfirm'
-
-# Reflector
-alias reflector-setup='sudo reflector --verbose --latest 10 --sort rate --save /etc/pacman.d/mirrorlist'
-
 # Airmon-ng
 alias disable-wlan0mon="sudo airmon-ng stop wlan0mon"
 
-# Wireguard
-alias lswg="sudo ls /etc/wireguard/"
+# Utils
+alias weather="curl 'https://wttr.in/Aripuana?lang=pt'" # Previsão do tempo
+alias ipp="curl https://api.ipify.org" # IP Público
+alias aliases="cat ~/.aliases"
 
-# Comando para iniciar uma VPN:
-# wg-quick up wg0
+# Obsidian
+alias obcommit="git commit -m 'vault backup: $(date -u +"%Y-%m-%d %H:%M:%S %Z")'"
 
-# Generate Wireguard Key Pair
-alias wgen="wg genkey | tee privatekey | wg pubkey > publickey"
-
-# Git Tools
-alias turtle='turtle_cli'
-
-# My scripts
-
-#alias compress-pdf='~/git/workstation/bin/compress-pdf.sh'
-#alias tex-clean='~/git/workstation/bin/tex-clean.sh'
-
-# Editors
-alias md="apostrophe"
-
-# Translate
-alias translate="trans -t en"
+# Aliases
+alias cl="clear"

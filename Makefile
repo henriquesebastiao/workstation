@@ -6,11 +6,9 @@ format:
 
 update:
 	code --list-extensions > code-extensions.txt
-	yay -Qe > yay-qe.txt
-	yay -Q > yay-q.txt
-	gnome-extensions list > gnome-extensions.txt
-	python scripts/firefox-settings.py
-	python scripts/encode_bookmarks.py
+	./scripts/packages.sh
+# 	python scripts/firefox-settings.py
+# 	python scripts/encode_bookmarks.py
 	pipx list --short > pipx.txt
 	gem list --local > gem.txt
 	./scripts/save-config.sh
