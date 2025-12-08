@@ -6,6 +6,7 @@ apt-listchanges
 apt-transport-https
 apt-utils
 arduino
+atuin
 avahi-daemon
 baobab
 base-files
@@ -234,12 +235,14 @@ linux-image-amd64
 linux-sysctl-defaults
 locales
 locales-all
+locate
 login
 login.defs
 logrotate
 logsave
 loupe
 low-memory-monitor
+lsd
 lsof
 make
 man-db
@@ -305,6 +308,7 @@ task-desktop
 task-laptop
 tasksel
 tecla
+tor
 totem
 totem-plugins
 traceroute

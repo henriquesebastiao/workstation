@@ -111,3 +111,4 @@ export PATH="$PATH:/home/hick/.local/share/gem/ruby/3.3.0/bin"
 
 # Aliases
 source ~/.aliases
+eval "$(atuin init zsh)"

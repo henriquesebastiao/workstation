@@ -8,6 +8,7 @@ ms-python.vscode-python-envs
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.remote-explorer
+natqe.reload
 njpwerner.autodocstring
 tamasfe.even-better-toml
 waderyan.gitblame

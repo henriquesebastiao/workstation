@@ -24,6 +24,8 @@ alias disable-wlan0mon="sudo airmon-ng stop wlan0mon"
 alias weather="curl 'https://wttr.in/Aripuana?lang=pt'" # Previsão do tempo
 alias ipp="curl https://api.ipify.org" # IP Público
 alias aliases="cat ~/.aliases"
+alias ls="lsd"
+alias apts="apt search"
 
 # Obsidian
 alias obcommit="git commit -m 'vault backup: $(date -u +"%Y-%m-%d %H:%M:%S %Z")'"
