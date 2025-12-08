@@ -264,6 +264,7 @@ net-tools
 network-manager
 nftables
 nmap
+npm
 openssh-client
 openssl-provider-legacy
 orca
