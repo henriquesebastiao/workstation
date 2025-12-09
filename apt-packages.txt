@@ -170,6 +170,7 @@ libgsf-bin
 libgssapi-krb5-2
 libhogweed6t64
 libidn2-0
+libimage-exiftool-perl
 libjansson4
 libk5crypto3
 libkeyutils1
