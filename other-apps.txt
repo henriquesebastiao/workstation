@@ -1,0 +1,3 @@
+total 8
+drwxrwxr-x 9 4096 dez  2 18:39 FinalRecon
+drwxrwxr-x 7 4096 dez  9 04:56 Storm-Breaker
